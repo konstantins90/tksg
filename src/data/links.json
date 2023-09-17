@@ -1,0 +1,22 @@
+[
+    {
+        "title": "Aktuelles",
+        "slug": "/aktuelles"
+    },
+    {
+        "title": "Team",
+        "slug": "/team"
+    },
+    {
+        "title": "Leistungen",
+        "slug": "/leistungen"
+    },
+    {
+        "title": "Referenzen",
+        "slug": "/referenzen"
+    },
+    {
+        "title": "Anfrage",
+        "slug": "/anfrage"
+    }
+]
