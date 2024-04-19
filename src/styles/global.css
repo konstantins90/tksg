@@ -2,9 +2,247 @@
 @tailwind components;
 @tailwind utilities;
 
+/* @import url('https://fonts.googleapis.com/css2?family=Bruno+Ace&family=Open+Sans:wght@400;700&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700;900&display=swap');
+@import 'aos/dist/aos.css';
+
 :root {
   --color-yellow: #FEBD2F;
-  --color-orange: #F86D56;
-  --color-black: #353434;
-  --color-white: #F4F3EF;
+  --color-orange: #FF9129;
+  --color-blue: #0C183B;
+  --color-black: #000000;
+  --color-light: #ffffff;
+  --border-radius: 20px;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background: var(--color-light);
+  /* border: 5px solid var(--color-light); */
+  color: var(--color-black);
+}
+
+.font {
+  font-family: 'Bruno Ace', cursive;
+}
+
+header.w-full.fixed {
+  width: calc(100% - 10px);
+  border-radius: var(--border-radius);
+}
+
+header nav {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.img-overlay {
+  background-image: -webkit-linear-gradient(top, rgba(4, 8, 20, 0.2), rgba(4, 8, 20, 0.4));
+}
+
+.img-overlay.dark {
+    background-image: -webkit-linear-gradient(top, rgba(4, 8, 20, 0.5), rgba(4, 8, 20, 0.8));
+}
+
+#start-box .gatsby-image-wrapper {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+#start-box .overlay {
+  position: relative;
+}
+
+#start-box .gatsby-image-wrapper::before {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  position: absolute;
+  /* background: rgb(254,189,47); */
+  background: linear-gradient(268deg, rgba(254,189,47,0) 0%, rgba(254,189,47,1) 100%);
+  z-index: 2;
+}
+
+#start-box .gatsby-image-wrapper::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  position: absolute;
+  /* background: rgb(254,189,47); */
+  background: linear-gradient(357deg, rgba(254,189,47,0) 0%, rgba(254,189,47,1) 90%);
+  z-index: 2;
+}
+
+.border-radius {
+  border-radius: var(--border-radius);
+}
+
+.border-radius-top {
+  border-radius: 0 0 var(--border-radius) var(--border-radius);
+}
+
+header.border-radius {
+  border-radius: var(--border-radius) var(--border-radius) 0 0;
+}
+
+/* .gatsby-image-wrapper img {
+  width: 100%;
+  height: auto;
+} */
+
+#banner {
+  height: calc(100vh + 6rem);
+}
+
+#start-box {
+  overflow: hidden;
+  position: relative;
+}
+
+#start-box::before {
+  content: "";
+  display: block;
+  width: 402px;
+  height: 342px;
+  position: absolute;
+  bottom: -62%;
+  left: -19%;
+  background: var(--color-black);
+  animation: wave 4.0s ease-in-out infinite;
+  z-index: 0;
+}
+
+#start-box::after {
+  content: "";
+  display: block;
+  width: 300px;
+  height: 250px;
+  position: absolute;
+  right: -19%;
+  top: 0%;
+  background: var(--color-orange);
+  animation: wave 7.0s ease-in-out infinite;
+  z-index: 5;
+}
+
+@keyframes wave {
+  0%, 100% {
+      border-radius: 70% 30% 72% 28% / 27% 61% 39% 73%;
+      margin: 0 0 0 0;
+  }
+  50% {
+      border-radius: 77% 23% 54% 46% / 40% 38% 62% 60%;
+      margin: 10px 0 0 20px;
+      height: 300px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  #start-box::before {
+    bottom: -35%;
+    left: -10%;
+  }
+  
+  #start-box::after {
+    right: -10%;
+  }
+}
+
+#highlights .item {
+  position: relative;
+  top: 0px;
+  opacity: 1;
+  transition: top 0.7s ease, opacity 0.7s ease;
+}
+
+#highlights .item:hover {
+  top: -5px;
+  opacity: 0.7;
+}
+
+.projekt {
+    position: relative;
+    padding: 6rem 0 10rem 0;
+}
+
+.projekt .headline {
+    position: relative;
+    top: 5rem;
+    left: 3rem;
+}
+
+.projekt .headline .wrap {
+    display: inline-block;
+    padding: 4rem 2rem;
+
+    background: linear-gradient(-45deg, #D15B38, #0C183B, #EF9E63, #D15B38);
+    background-size: 600% 600%;
+    animation: bgcolorchange 20s ease infinite;
+}
+
+.projekt .bg-image {
+    width: 85%;
+    height: 600px;
+    margin-left: 15%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.projekt .description {
+    position: absolute;
+    bottom: 5rem;
+    right: 5rem;
+    width: 60%;
+}
+
+.projekt .description .wrap {
+    padding: 3rem 5rem;
+}
+
+.headline > .line.w-full {
+    --width: 6rem;
+    width: calc(100% + var(--width)) !important;
+    left: calc(var(--width) / 2 * -1);
+}
+
+.text-animation {
+    animation: colorchange 5s infinite alternate;
+}
+
+.bg.parallax {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.h-screen {
+    height: 100vh;
+}
+
+@keyframes colorchange {
+    0% {
+        color: #D15B38;
+    }
+    50% {
+        color: #FEBD2F;
+    }
+    100% {
+        color: #ffffff;
+    }
+}
+  
+@keyframes bgcolorchange {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
 }

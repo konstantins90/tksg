@@ -1,0 +1,64 @@
+import React from "react"
+import CountUp from 'react-countup'
+
+export default function Counter({ data }) {
+  return (
+    <div class="relative z-10 mx-auto max-w-4xl flex flex-wrap justify-between text-white text-center">
+        <div className="w-full xl:w-1/4 mb-6 xl:mb-0 pb-4 xl:pb-0 border-b xl:border-0 border-orange">
+            <div className="text-xl xl:text-6xl font-bold pb-2 xl:pb-10 mb-0 xl:mb-6 xl:border-b border-orange">
+                <CountUp
+                    end={251}
+                    separator=" "
+                    delay={1}
+                    decimals={0}
+                    decimal=","
+                />
+            </div>
+            <div className="text-md">
+                Anlagen wurden gebaut
+            </div>
+        </div>
+        <div className="w-full xl:w-1/4 mb-6 xl:mb-0 pb-4 xl:pb-0 border-b xl:border-0 border-orange">
+            <div className="text-xl xl:text-6xl font-bold pb-2 xl:pb-10 mb-0 xl:mb-6 xl:border-b border-orange">
+                <CountUp
+                    end={95682}
+                    separator=" "
+                    delay={1}
+                    decimals={0}
+                    decimal=","
+                />
+            </div>
+            <div className="text-md">
+                kWp produziert
+            </div>
+        </div>
+        <div className="w-full xl:w-1/4 mb-6 xl:mb-0 pb-4 xl:pb-0 border-b xl:border-0 border-orange">
+            <div className="text-xl xl:text-6xl font-bold pb-2 xl:pb-10 mb-0 xl:mb-6 xl:border-b border-orange">
+                <CountUp
+                    end={30899}
+                    separator=" "
+                    delay={1}
+                    suffix="€"
+                />
+            </div>
+            <div className="text-md">
+                ersparte Stromkosten
+            </div>
+        </div>
+        <div className="w-full xl:w-1/4 mb-6 xl:mb-0 pb-4 xl:pb-0">
+            <div className="text-xl xl:text-6xl font-bold pb-2 xl:pb-10 mb-0 xl:mb-6 xl:border-b border-orange">
+                <CountUp
+                    end={48}
+                    separator=" "
+                    delay={1}
+                    decimals={0}
+                    decimal=","
+                />
+            </div>
+            <div className="text-md">
+                Zufriedene Kunden
+            </div>
+        </div>
+    </div>
+  )
+}

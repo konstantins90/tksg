@@ -22,14 +22,20 @@ module.exports = {
         '1/2': '50%',
         '3/4': '75%',
     },
-    extend: {},
-    colors: {
-      transparent: 'transparent',
-      current: 'currentColor',
-      'white': '#F4F3EF',
-      'black': '#353434',
-      'yellow': '#FEBD2F',
-      'orange': '#F86D56',
+    extend: {
+      colors: {
+        transparent: 'transparent',
+        current: 'currentColor',
+        'white': '#ffffff',
+        'light': '#F4F3EF',
+        'black': '#000000',
+        'yellow': '#FEBD2F',
+        'orange': '#FF9129',
+        'blue': '#0C183B',
+      },
+      fontSize: {
+        '14xl': ['12rem', '12rem']
+      }
     },
   },
   variants: {
