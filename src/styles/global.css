@@ -101,6 +101,10 @@ header.border-radius {
   height: calc(100vh + 6rem);
 }
 
+#banner .absolut {
+  position: absolute !important;
+}
+
 #start-box {
   overflow: hidden;
   position: relative;
