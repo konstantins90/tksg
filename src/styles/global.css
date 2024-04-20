@@ -101,7 +101,7 @@ header.border-radius {
   height: calc(100vh + 6rem);
 }
 
-#banner .absolut {
+#banner .absolute {
   position: absolute !important;
 }
 
