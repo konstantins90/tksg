@@ -50,6 +50,10 @@ header nav {
   right: 0;
 }
 
+.gatsby-image-wrapper.absolute {
+  position: absolute !important;
+}
+
 #start-box .overlay {
   position: relative;
 }
