@@ -1,6 +1,7 @@
 import React, { useState, useRef, useEffect } from "react"
 import { graphql, useStaticQuery } from "gatsby"
 import { StaticImage } from "gatsby-plugin-image"
+import AOS from "aos"
 
 const Header = () => {
     const [isOpen, setIsOpen] = useState(false)
@@ -33,6 +34,8 @@ const Header = () => {
     `)
 
     useEffect(() => {
+        AOS.init();
+
         if (isOpen) {
             document.addEventListener("mousedown", handleClickOutside)
         } else {

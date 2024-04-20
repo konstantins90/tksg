@@ -47,10 +47,10 @@ const Projects = () => {
     const projects = sourceData.allProjectsJson.nodes
 
     return (
-        <div id="projects" className="flex flex-wrap flex-row px-2 xl:px-4">
+        <div id="projects" className="flex flex-wrap flex-row px-2 lg:px-4">
             {projects.map(function(project, index) {
                 return (
-                    <div className={ "w-full xl:w-1/4 xl:" + project.size + " p-2 xl:p-4" } data-aos="fade-up">
+                    <div className={ "w-full lg:w-1/4 lg:" + project.size + " p-2 lg:p-4" } data-aos="fade-up">
                         <div class="bg-blue text-white p-8 relative h-[20rem]">
                             <div className="absolute z-10 bottom-4 left-4">
                                 <h3 className="text-xl mb-1 font-bold">

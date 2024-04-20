@@ -3,8 +3,8 @@ import { StaticImage } from "gatsby-plugin-image"
 
 export default function Service({ data }) {
   return (
-    <div id="service" className="container flex flex-col xl:flex-row gap-4 xl:gap-8" data-aos="fade-up">
-        <div className="w-full xl:w-1/3 flex flex-col gap-4 xl:gap-8">
+    <div id="service" className="container flex flex-col lg:flex-row gap-4 lg:gap-8" data-aos="fade-up">
+        <div className="w-full lg:w-1/3 flex flex-col gap-4 lg:gap-8">
             <div class="bg-blue text-white p-8 relative h-[19rem]">
                 <div className="absolute z-10 bottom-8">
                     <h3 className="text-xl mb-4 font-bold">
@@ -36,7 +36,7 @@ export default function Service({ data }) {
                 </p>
             </div>
         </div>
-        <div className="w-full xl:w-1/3 flex flex-col gap-4 xl:gap-8">
+        <div className="w-full lg:w-1/3 flex flex-col gap-4 lg:gap-8">
             <div class="bg-blue text-white p-8 h-[10rem]">
                 <h3 className="text-xl mb-4 font-bold">
                     Asbestsanierung
@@ -68,7 +68,7 @@ export default function Service({ data }) {
                 <div class="w-full h-full absolute inset-0 img-overlay dark"></div>
             </div>
         </div>
-        <div className="w-full xl:w-1/3 flex flex-col gap-4 xl:gap-8 relative h-[32rem]">
+        <div className="w-full lg:w-1/3 flex flex-col gap-4 lg:gap-8 relative h-[32rem]">
             <div class="bg-blue text-white p-8">
                 <div className="absolute z-10 bottom-8">
                     <h3 className="text-xl mb-4 font-bold">
