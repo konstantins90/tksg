@@ -150,7 +150,7 @@ export default function Home({ data }) {
             </div>
         </div>
         <div className="hidden">
-            <div className="w-1/4 w-2/4"></div>
+            <div className="w-1/4 w-2/4 lg:w-1/4 lg:w-2/4"></div>
         </div>
     </Layout>
   )
