@@ -233,7 +233,7 @@ header.border-radius {
     background-size: cover;
 }
 
-@media only screen and (max-device-width: 1366px) {
+@media only screen and (max-device-width: 900px) {
   .bg.parallax {
     background-attachment: scroll;
   }
