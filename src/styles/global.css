@@ -102,7 +102,7 @@ header.border-radius {
 } */
 
 #banner {
-  height: calc(100vh + 6rem);
+  min-height: calc(100vh + 6rem);
 }
 
 #banner .absolute {
@@ -231,6 +231,12 @@ header.border-radius {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+@media only screen and (max-device-width: 1366px) {
+  .bg.parallax {
+    background-attachment: scroll;
+  }
 }
 
 .h-screen {
