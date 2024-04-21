@@ -12,8 +12,8 @@ export default function Home({ data }) {
     <Layout>
         <div id="banner" class="-mt-24 relative w-full h-screen py-12 px-12">
             <div class="relative z-10 text-center py-24 md:py-48">
-                <h1 class="text-white text-center text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-display font-bold mb-12">Turn Key Solar GmbH</h1>
-                <h2 class="inline-block text-white font-light text-xl md:text-xl lg:text-2xl xl:text-3xl">Ihr Experte für Photovoltaik-Anlagen<br/>in Paderborn</h2>
+                <h1 class="text-white text-center text-3xl md:text-4xl lg:text-5xl lg:text-6xl font-display font-bold mb-12">Turn Key Solar GmbH</h1>
+                <h2 class="inline-block text-white font-light text-xl md:text-xl lg:text-2xl lg:text-3xl">Ihr Experte für Photovoltaik-Anlagen<br/>in Paderborn</h2>
             </div>
             <div class="container">
                 <Counter/>
@@ -33,16 +33,16 @@ export default function Home({ data }) {
 
         <div className="bg bg-gray-100 pb-40">
             <div id="about" data-aos="fade-up">
-                <div className="container xl:max-w-[60%] py-40 text-center">
-                    <h3 className="text-center inline-block mb-12 text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-display font-bold text-black pb-4 border-b-2 border-orange">Über Turn Key Solar</h3>
-                    <div className="text-lg xl:text-2xl text-center font-light leading-normal">
+                <div className="container lg:max-w-[60%] py-40 text-center">
+                    <h3 className="text-center inline-block mb-12 text-3xl md:text-4xl lg:text-5xl lg:text-6xl font-display font-bold text-black pb-4 border-b-2 border-orange">Über Turn Key Solar</h3>
+                    <div className="text-lg lg:text-2xl text-center font-light leading-normal">
                         Wir sind ein führendes Unternehmen im Bereich erneuerbare Energien und spezialisiert auf die Planung, Installation und Wartung von Photovoltaik-Anlagen. Mit unserer langjährigen Erfahrung und unserem Know-how bieten wir maßgeschneiderte Lösungen für private und gewerbliche Kunden in Paderborn und Umgebung.
                     </div>
                 </div>
             </div>
 
-            <div className="container xl:max-w-[60%] text-center mb-14" data-aos="fade-up">
-                <div className="text-center inline-block text-xl md:text-2xl lg:text-3xl xl:text-4xl font-display text-black pb-2 mb-6">
+            <div className="container lg:max-w-[60%] text-center mb-14" data-aos="fade-up">
+                <div className="text-center inline-block text-xl md:text-2xl lg:text-3xl lg:text-4xl font-display text-black pb-2 mb-6">
                     <div className="wrap relative headline">
                         <div className="line border-b-2 border-orange w-full absolute top-2/4"></div>
                         <div className="text inline bg-gray-100 p-4 relative">Leistungen</div>
@@ -59,17 +59,17 @@ export default function Home({ data }) {
             <div className="bg parallax h-screen relative" style={{ "background-image": "url('https://ik.imagekit.io/smetana/2812.jpg?updatedAt=1713563473046')" }}>
                 <div class="w-full h-full absolute inset-0 img-overlay"></div>
                 <div className="container text-center h-full flex flex-col justify-center relative">
-                    <div className="text-6xl xl:text-14xl font-bold text-animation">Nachhaltig in die Zukunft</div>
-                    <p className="text-lg xl:text-2xl mt-10 text-white">Profitieren Sie von unserer langjährigen Branchenexpertise. Wir bieten effiziente Solaranlagen für Unternehmen und Privathaushalte.</p>
+                    <div className="text-6xl lg:text-14xl font-bold text-animation">Nachhaltig in die Zukunft</div>
+                    <p className="text-lg lg:text-2xl mt-10 text-white">Profitieren Sie von unserer langjährigen Branchenexpertise. Wir bieten effiziente Solaranlagen für Unternehmen und Privathaushalte.</p>
                 </div>
             </div>
         </div>
 
         <div className="bg bh-white pb-20">
             <div id="about" data-aos="fade-up">
-                <div className="container xl:max-w-[60%] py-40 text-center">
-                    <h3 className="text-center inline-block mb-12 text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-display font-bold text-black pb-4 border-b-2 border-orange">Unsere Projekte</h3>
-                    <div className="text-lg xl:text-2xl text-center font-light leading-normal">
+                <div className="container lg:max-w-[60%] py-40 text-center">
+                    <h3 className="text-center inline-block mb-12 text-3xl md:text-4xl lg:text-5xl lg:text-6xl font-display font-bold text-black pb-4 border-b-2 border-orange">Unsere Projekte</h3>
+                    <div className="text-lg lg:text-2xl text-center font-light leading-normal">
                         Tauchen Sie ein in unsere Welt der grünen Innovationen und lassen Sie sich von unseren Erfolgsgeschichten inspirieren. Unsere Projekte sind Ausdruck unserer Expertise und Leidenschaft für eine nachhaltige Zukunft.
                     </div>
                 </div>
@@ -150,7 +150,7 @@ export default function Home({ data }) {
             </div>
         </div>
         <div className="hidden">
-            <div className="w-1/4 w-2/4 lg:w-1/4 lg:w-2/4"></div>
+            <div className="w-1/4 w-2/4 w-1/3 w-2/3 lg:w-1/4 lg:w-2/4 lg:w-1/3 lg:w-2/3 lg:w-1/4 xl:w-2/4 xl:w-1/3 xl:w-2/3"></div>
         </div>
     </Layout>
   )
