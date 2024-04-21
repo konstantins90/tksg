@@ -6,6 +6,9 @@ import Layout from "../components/layout"
 import Counter from "../components/counter"
 import Service from "../components/service"
 import Projects from "../components/projects"
+import Steps from "../components/steps"
+
+import { PhoneIcon } from '@heroicons/react/24/outline'
 
 export default function Home({ data }) {
   return (
@@ -65,7 +68,7 @@ export default function Home({ data }) {
             </div>
         </div>
 
-        <div className="bg bh-white pb-20">
+        <div className="bg bg-white pb-20">
             <div id="about" data-aos="fade-up">
                 <div className="container lg:max-w-[60%] py-40 text-center">
                     <h3 className="text-center inline-block mb-12 text-3xl md:text-4xl lg:text-5xl lg:text-6xl font-display font-bold text-black pb-4 border-b-2 border-orange">Unsere Projekte</h3>
@@ -78,77 +81,50 @@ export default function Home({ data }) {
             <Projects />
         </div>
 
-        <div className="bg">
-            <div className="container h-full">
-                <div className="grid grid-cols-1 lg:grid-cols-2 lg:gap-24">
-                    <div className="-mx-4 pb-6 lg:mx-0 lg:py-24">
-                        <StaticImage
-                            src="../images/anlagen.jpg"
-                            alt="Anlagen"
-                            placeholder="blurred"
-                            layout="constrained"
-                            width={700}
-                            imgStyle={{ 'object-position': 'right center' }}
-                            objectFit="cover"
-                        />
-                    </div>
-                    <div className="py-6 lg:py-24">
-                        <h3 className="text-2xl md:text-4xl uppercase font-medium text-gray-600 animate__animated animate__slideInLeft">Elektroanlagen</h3>
-                        <div className="divider"></div>
-                        <div>
-                            <p className="text-xl text-gray-800">Fachkundige Elektroinstallationsdienstleistungen</p>
-                            <p className="mt-4 text-gray-500">
-                                Unser erfahrenes Team von SSR Elektrotechnik ist auf die reibungslose Installation modernster elektrischer Anlagen spezialisiert.<br/><br/>
-                                Mit einem Fokus auf Sicherheit und Präzision setzen wir Baupläne in voll funktionsfähige Realitäten um. Ob für Wohn-, Gewerbe- oder Industrieprojekte – wir garantieren effiziente und normgerechte Lösungen für all Ihre elektrischen Anforderungen.</p>
-                            <button className="btn bg-white mt-4 hover:bg-gray-50">Anlage planen</button>
+        <div className="bg bg-gray-100">
+            <div id="about" data-aos="fade-up">
+                <div className="container lg:max-w-[60%] pt-40 pb-20">
+                    <div className="text-center inline-block text-xl md:text-2xl lg:text-3xl lg:text-4xl font-display text-black pb-2 mb-6">
+                        <div className="wrap relative headline">
+                            <div className="text inline bg-gray-100 relative">Schritt für Schritt zur Solaranlage</div>
                         </div>
                     </div>
+                    <div className="text-lg lg:text-2xl font-light leading-normal">
+                        Von individueller Beratung bis zur erfolgreichen Inbetriebnahme – wir begleiten Sie auf jedem Schritt. Vertrauen Sie auf unsere Expertise für eine nachhaltige Energiezukunft.
+                    </div>
+
+                    <Steps />
                 </div>
             </div>
         </div>
 
-        <div className="bg-white">
-            <div className="container h-full">
-                <div className="grid grid-cols-1 lg:grid-cols-2 lg:gap-24">
-                    <div className="-mx-4 pb-6 lg:mx-0 lg:py-24 lg:order-2">
-                        <StaticImage
-                            src="../images/anlagen.jpg"
-                            alt="Anlagen"
-                            placeholder="blurred"
-                            layout="constrained"
-                            width={700}
-                            imgStyle={{ 'object-position': 'right center' }}
-                            objectFit="cover"
-                        />
+        <div className="bg bg-white pb-20">
+            <div id="contact" data-aos="fade-up">
+                <div className="container lg:max-w-[60%] py-40 text-center">
+                    <h3 className="text-center inline-block mb-12 text-3xl md:text-4xl lg:text-5xl lg:text-6xl font-display font-bold text-black pb-4 border-b-2 border-orange">
+                        Mit der Sonne Geld sparen
+                    </h3>
+                    <div className="text-lg lg:text-2xl text-center font-light leading-normal">
+                        Erfahren Sie, wie Sie durch unsere Photovoltaik-Angebote Ihre Energiekosten senken können. Haben Sie Fragen oder möchten Sie mehr über unsere Dienstleistungen erfahren? Unser Team steht Ihnen gerne zur Verfügung.
                     </div>
-                    <div className="py-6 lg:py-24 lg:order-1">
-                        <h3 className="text-2xl md:text-4xl uppercase font-medium text-gray-600">Photovoltaikanlagen</h3>
-                        <div className="divider"></div>
-                        <div>
-                            <p className="text-xl text-gray-800">Entdecken Sie die Zukunft der Energieerzeugung mit unseren Photovaltalk-Anlagen</p>
-                            <p className="mt-4 text-gray-500">
-                                Bei SSR Elektrotechnik bieten wir Ihnen innovative Photovoltaik-Lösungen, die die Sonnenenergie einfangen und in sauberen, nachhaltigen Strom umwandeln. Unsere maßgeschneiderten Photovaltalk-Anlagen sind darauf ausgelegt, Ihre Energiekosten zu senken und gleichzeitig einen positiven Beitrag zur Umwelt zu leisten. Vertrauen Sie unserer Expertise, um die Kraft der Sonne optimal zu nutzen.
-                            </p>
-                            <button className="btn bg-white mt-4 hover:bg-gray-50">weitere Details</button>
-                        </div>
+                    <div className="mt-10">
+                            <p className="text-lg font-light leading-normal">Besuchen Sie uns vor Ort</p>
+                            <p className="text-xl">Turn Key Solar GmbH</p>
+                            <p className="text-xl">Zum Strothebach 22 • 33175 Bad Lippspringe</p>
                     </div>
+                    <a href="tel:+4952549386539" className="call-to-action bg-animation mt-10 relative inline-flex items-center justify-center p-0.5 mb-2 me-2 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group">
+                        <span className="relative px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md group-hover:bg-opacity-0 group-hover:text-white">
+                            <p className="text-lg font-light leading-normal">Rufen Sie uns an</p>
+                            <div className="flex items-center justify-center">
+                                <PhoneIcon className="inline h-5 w-5 mr-2" />
+                                <span className="text-xl">+49 5254 938 65 39</span>
+                            </div>
+                        </span>
+                    </a>
                 </div>
             </div>
         </div>
 
-        <div className="multibg">
-            <div className="container h-full py-6">
-                <div className="md:flex items-center">
-                    <div className="flex-1">
-                        <p className="text-2xl md:text-4xl uppercase text-white">Projekt-Referenzen</p>
-                        <p className="text-white mt-3">Lassen Sie sich von unseren Referenzen inspirieren.</p>
-                    </div>
-                    <div>
-                        <Link to="/referenzen" className="btn mt-4 text-white border border-white hover:bg-white hover:text-gray-500 md:mt-0">Zu den Referenzen</Link>
-                    </div>
-                </div>
-            </div>
-        </div>
         <div className="hidden">
             <div className="w-1/4 w-2/4 w-1/3 w-2/3 lg:w-1/4 lg:w-2/4 lg:w-1/3 lg:w-2/3 lg:w-1/4 xl:w-2/4 xl:w-1/3 xl:w-2/3"></div>
         </div>

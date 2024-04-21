@@ -1,0 +1,44 @@
+[
+    {
+      "number": 1,
+      "title": "Individuelle Beratung & Planung",
+      "description": "Profitieren Sie von unserer langjährigen Erfahrung für eine maßgeschneiderte Planung Ihres Photovoltaikprojekts. Unsere Experten entwickeln gemeinsam mit Ihnen eine optimale Strategie, um Ihre Energieziele zu erreichen.",
+      "class": ""
+    },
+    {
+      "number": 2,
+      "title": "Professionelle Bauantragstellung",
+      "description": "Wir übernehmen die reibungslose Abwicklung Ihres Bauantrags für Ihre Photovoltaikanlage. Verlassen Sie sich auf unsere Expertise, um bürokratische Hürden zu überwinden und Ihren Bauantrag schnell und effizient zu bearbeiten.",
+      "class": ""
+    },
+    {
+      "number": 4,
+      "title": "Erfolgreiche Netzeinspeisung",
+      "description": "Wir sorgen für eine zuverlässige Antragstellung beim Energieversorger, damit Ihre Anlage nahtlos ins Netz integriert wird. Verlassen Sie sich auf uns, um den Prozess der Netzeinspeisung effizient und erfolgreich abzuschließen.",
+      "class": ""
+    },
+    {
+      "number": 3,
+      "title": "Qualitäts-Anlagenbau",
+      "description": "Unser Expertenteam errichtet Ihre Photovoltaik-Anlage mit modernster Technologie und höchster Qualität. Von der Montage der PV-Module bis zur Verkabelung garantieren wir eine zuverlässige und effiziente Anlageninstallation.",
+      "class": ""
+    },
+    {
+      "number": 5,
+      "title": "Sorgenfreie Genehmigung",
+      "description": "Wir übernehmen die Anmeldung Ihrer Anlage bei der Bundesnetzagentur, damit Sie sich auf Ihr Projekt konzentrieren können. Verlassen Sie sich auf unsere Experten, um die Genehmigung für Ihren Solarpark problemlos zu erhalten.",
+      "class": ""
+    },
+    {
+      "number": 6,
+      "title": "Effiziente Direktvermarktung",
+      "description": "Profitieren Sie von unserem Netzwerk und lassen Sie uns den optimalen Direktvermarkter für Ihren Solarstrom finden. Wir unterstützen Sie dabei, den besten Preis für Ihren erzeugten Strom zu erzielen und ihn erfolgreich zu vermarkten.",
+      "class": ""
+    },
+    {
+      "number": 7,
+      "title": "Umfassender Service & Monitoring",
+      "description": "Unser Service umfasst regelmäßige Wartung und Monitoring Ihrer Anlage für maximale Effizienz und Leistung. Mit unserem professionellen Service halten wir Ihre Anlage stets in bestem Zustand, um eine kontinuierliche Energieerzeugung zu gewährleisten.",
+      "class": "ml-auto"
+    }
+]

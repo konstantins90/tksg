@@ -254,9 +254,67 @@ header.border-radius {
         color: #ffffff;
     }
 }
+
+@keyframes colorchangeBlack {
+  0% {
+      color: #D15B38;
+  }
+  50% {
+      color: #FEBD2F;
+  }
+  100% {
+      color: #0C183B;
+  }
+}
   
 @keyframes bgcolorchange {
     0%{background-position:0% 50%}
     50%{background-position:100% 50%}
     100%{background-position:0% 50%}
+}
+
+#steps .line {
+  width: 2px;
+  height: 100%;
+  position: relative;
+  margin-left: 1rem;
+  @apply bg-gray-400;
+}
+
+#steps .step {
+  transition: all 0.7s ease;
+}
+
+#steps:hover .step {
+  opacity: 0.5;
+}
+
+#steps .step:hover {
+  opacity: 1;
+}
+
+#steps .step:hover .step-number {
+  animation: colorchangeBlack 5s infinite alternate;
+}
+
+#steps .step:hover .step-line .line, {
+  background: linear-gradient(0deg, #D15B38, #0C183B, #EF9E63, #D15B38);
+  background-size: 100% 100%;
+  animation: bgcolorchange 5s ease infinite;
+}
+
+#steps .step {
+  position: relative;
+}
+
+.bg-animation {
+  background: linear-gradient(-45deg, #D15B38, #EF9E63, #EF9E63, #D15B38);
+  background-size: 600% 600%;
+  animation: bgcolorchange 10s ease infinite;
+}
+
+.call-to-action {
+    background: linear-gradient(-45deg, #D15B38, #0C183B, #EF9E63, #D15B38);
+    background-size: 600% 600%;
+    animation: bgcolorchange 10s ease infinite;
 }
