@@ -83,7 +83,7 @@ export default function Home({ data }) {
 
         <div className="bg bg-gray-100">
             <div id="about" data-aos="fade-up">
-                <div className="container lg:max-w-[60%] pt-40 pb-20">
+                <div className="container lg:max-w-[60%] pt-40 pb-20 overflow-hidden">
                     <div className="text-center inline-block text-xl md:text-2xl lg:text-3xl lg:text-4xl font-display text-black pb-2 mb-6">
                         <div className="wrap relative headline">
                             <div className="text inline bg-gray-100 relative">Schritt für Schritt zur Solaranlage</div>
@@ -113,7 +113,7 @@ export default function Home({ data }) {
                             <p className="text-xl">Zum Strothebach 22 • 33175 Bad Lippspringe</p>
                     </div>
                     <a href="tel:+4952549386539" className="call-to-action bg-animation mt-10 relative inline-flex items-center justify-center p-0.5 mb-2 me-2 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group">
-                        <span className="relative px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md group-hover:bg-opacity-0 group-hover:text-white">
+                        <span className="relative px-5 py-2.5 transition-all ease-in duration-75 bg-white rounded-md group-hover:bg-opacity-0 group-hover:text-white">
                             <p className="text-lg font-light leading-normal">Rufen Sie uns an</p>
                             <div className="flex items-center justify-center">
                                 <PhoneIcon className="inline h-5 w-5 mr-2" />

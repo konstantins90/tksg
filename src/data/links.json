@@ -1,5 +1,9 @@
 [
     {
+        "title": "Home",
+        "slug": "/"
+    },
+    {
         "title": "Leistungen",
         "slug": "/leistungen"
     },
@@ -8,7 +12,11 @@
         "slug": "/referenzen"
     },
     {
-        "title": "Anfrage",
-        "slug": "/anfrage"
+        "title": "Kontakt",
+        "slug": "/kontakt"
+    },
+    {
+        "title": "Impressum",
+        "slug": "/impressum"
     }
 ]

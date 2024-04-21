@@ -50,7 +50,7 @@ const Header = () => {
     return (
         <>
         <header className="h-24 z-50 relative container mx-auto px-6">
-            <nav className="w-full flex items-center justify-start flex-wrap py-4 pin-t">
+            <nav id="main-nav" className="w-full flex items-center justify-start flex-wrap py-4 pin-t">
                 <div className="flex items-center flex-no-shrink text-white mr-6">
                     <a className="no-underline flex" href="/">
                         <span id="logo" className="text-2xl text-3xl font-bold text-black">
@@ -68,20 +68,61 @@ const Header = () => {
                 </div>
 
                 <div className="block md:hidden">
-                    <button id="nav-toggle" ref={activatorRef} onClick={handleClick} className="flex items-center px-3 py-2 border rounded text-grey border-grey-dark">
-                        <svg className="fill-current h-3 w-3" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>Menu</title><path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"/></svg>
+                    <button id="nav-toggle" ref={activatorRef} onClick={handleClick} className={"flex items-center px-3 py-2 border rounded text-grey border-grey-dark " + (isOpen ? 'active' : '')}>
+                        <svg class="ham hamRotate ham1" viewBox="0 0 100 100" width="80" onclick="this.classList.toggle('active')">
+                            <path
+                                    class="line top"
+                                    d="m 30,33 h 40 c 0,0 9.044436,-0.654587 9.044436,-8.508902 0,-7.854315 -8.024349,-11.958003 -14.89975,-10.85914 -6.875401,1.098863 -13.637059,4.171617 -13.637059,16.368042 v 40" />
+                            <path
+                                    class="line middle"
+                                    d="m 30,50 h 40" />
+                            <path
+                                    class="line bottom"
+                                    d="m 30,67 h 40 c 12.796276,0 15.357889,-11.717785 15.357889,-26.851538 0,-15.133752 -4.786586,-27.274118 -16.667516,-27.274118 -11.88093,0 -18.499247,6.994427 -18.435284,17.125656 l 0.252538,40" />
+                        </svg>
                     </button>
                 </div>
 
-                <nav  ref={listRef} className={'w-full flex-grow md:flex md:items-center md:w-auto md:block pt-6 md:pt-0 ' + 
-                (isOpen ? 'block' : 'hidden')} id="nav-content">
+                <nav id="desktop" ref={listRef} className={'w-full flex-grow hidden md:flex md:items-center md:w-auto md:block pt-6 md:pt-0'}>
                     <ul className="list-reset md:flex justify-end flex-1 items-center">
                         {data.allLinksJson.edges.map(({ node }, index) => (
                             <li className="mr-3">
-                                <a className="inline-block text-white no-underline hover:text-grey-lighter hover:text-underline py-2 px-4" href={node.slug}>{node.title}</a> 
+                                <a className="inline-block text-white no-underline hover:text-grey-lighter hover:text-underline py-2 px-4 uppercase font-bold" href={node.slug}>{node.title}</a> 
                             </li>
                         ))}
                     </ul>
+                </nav>
+
+                <nav ref={listRef} className={'w-full flex-grow md:flex md:items-center md:w-auto md:block md:pt-0 block overflow-hidden opacity-1 ' + 
+                (isOpen ? 'show' : '')} id="nav-content">
+                    <div className="wrap px-5 pt-10 pb-20 text-center text-2xl font-light flex flex-col h-full">
+                        <div className="logo">
+                            <StaticImage
+                                src="../images/turn-key-solar-logo.png"
+                                alt="Turn KEy Solar GambH"
+                                placeholder="blurred"
+                                layout="constrained"
+                                height={40}
+                                imgStyle={{ 'object-position': 'right center' }}
+                                objectFit="cover"
+                            />
+                        </div>
+                        <ul className="list-reset md:flex justify-end flex-1 items-center mt-10 pb-8 mb-8">
+                            {data.allLinksJson.edges.map(({ node }, index) => (
+                                <li className="">
+                                    <a className="inline-block text-white no-underline hover:text-grey-lighter hover:text-underline py-4" href={node.slug}>{node.title}</a> 
+                                </li>
+                            ))}
+                        </ul>
+                        <div className="text-white mt-auto">
+                            <div className="py-4">
+                                E-Mail: <a href="mailto:info@turnkeysolar.de">info@turnkeysolar.de</a>
+                            </div>
+                            <div className="py-4">
+                                Fon: <a href="tel: +4952549386539">+49 5254 9386539</a>
+                            </div>
+                        </div>
+                    </div>
                 </nav>
             </nav>
         </header>
