@@ -101,7 +101,7 @@ header.border-radius {
   height: auto;
 } */
 
-#banner {
+#banner.min-h-screen {
   min-height: calc(100vh + 6rem);
 }
 
@@ -410,4 +410,21 @@ header.border-radius {
 #nav-content.show {
   height: 100%;
   opacity: 1;
+}
+
+#svg-logo {
+  width: 180px;
+}
+
+#logo-text * {
+  fill: #ffffff;
+}
+
+.smooth {
+  -webkit-backdrop-filter: blur(100px);
+  backdrop-filter: blur(100px);
+}
+
+.min-height {
+  min-height: calc(100vh - 89px - 88px);
 }

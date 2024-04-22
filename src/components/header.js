@@ -3,6 +3,8 @@ import { graphql, useStaticQuery } from "gatsby"
 import { StaticImage } from "gatsby-plugin-image"
 import AOS from "aos"
 
+import Logo from "../images/turn-key-sola-paderborn.svg"
+
 const Header = () => {
     const [isOpen, setIsOpen] = useState(false)
     const activatorRef = useRef()
@@ -54,15 +56,7 @@ const Header = () => {
                 <div className="flex items-center flex-no-shrink text-white mr-6">
                     <a className="no-underline flex" href="/">
                         <span id="logo" className="text-2xl text-3xl font-bold text-black">
-                        <StaticImage
-                            src="../images/turn-key-solar-logo.png"
-                            alt="SSR"
-                            placeholder="blurred"
-                            layout="constrained"
-                            height={40}
-                            imgStyle={{ 'object-position': 'right center' }}
-                            objectFit="cover"
-                        />
+                        <Logo id="svg-logo" />
                         </span>
                     </a>
                 </div>

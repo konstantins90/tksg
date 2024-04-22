@@ -15,7 +15,7 @@ export default function Layout({ children }) {
                         <p><a href="tel: +4952549386539">+49 5254 9386539</a> • <a href="mailto: info@turnkey-solar.de@">info@turnkey-solar.de</a></p>
                     </div>
                     <div class="mt-6 text-gray-400 text-sm text-center md:text-left md:mt-0">
-                        <Link to="/impressum">Impressum</Link> • <Link to="/datenschutz">Datenschutz</Link>
+                        <Link to="/impressum">Impressum</Link> • <Link to="/privacy-policy">Datenschutz</Link>
                     </div>
                 </div>
             </div>
