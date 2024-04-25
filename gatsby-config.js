@@ -5,6 +5,9 @@
  */
 
 module.exports = {
+  flags: {
+    DEV_SSR: false
+  },
   plugins: [
     `gatsby-plugin-image`,
     `gatsby-plugin-sharp`,
@@ -31,6 +34,12 @@ module.exports = {
         rule: {
           include: /images/
         }
+      }
+    },
+    {
+      resolve: 'gatsby-plugin-react-leaflet',
+      options: {
+        linkStyles: true // (default: true) Enable/disable loading stylesheets via CDN
       }
     }
   ]
