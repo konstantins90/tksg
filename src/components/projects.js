@@ -4,7 +4,15 @@ import { GatsbyImage, getImage, ImageDataLike, StaticImage } from "gatsby-plugin
 
 const dataQuery = graphql`
 query Projects {
-    allProjectsJson {
+    allProjectsJson(
+        limit: 13,
+        filter: {
+            subtitle: {ne: null}
+            image: {
+                absolutePath:{ne: null}
+            }
+        })
+    {
         nodes {
             name
             subtitle
@@ -15,6 +23,8 @@ query Projects {
             year
             description
             image {
+                absolutePath
+                absolutePath
                 childImageSharp {
                     gatsbyImageData(
                         placeholder: BLURRED

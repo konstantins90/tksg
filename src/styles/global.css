@@ -5,6 +5,8 @@
 /* @import url('https://fonts.googleapis.com/css2?family=Bruno+Ace&family=Open+Sans:wght@400;700&display=swap'); */
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700;900&display=swap');
 @import 'aos/dist/aos.css';
+@import url("https://unpkg.com/leaflet@1.0.1/dist/leaflet.css");
+/* @import "leaflet/dist/leaflet.css"; */
 
 :root {
   --color-yellow: #FEBD2F;

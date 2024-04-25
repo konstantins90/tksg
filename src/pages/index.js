@@ -7,6 +7,7 @@ import Counter from "../components/counter"
 import Service from "../components/service"
 import Projects from "../components/projects"
 import Steps from "../components/steps"
+import Map from "../components/map"
 
 import { PhoneIcon } from '@heroicons/react/24/outline'
 
@@ -77,7 +78,9 @@ export default function Home({ data }) {
                     </div>
                 </div>
             </div>
-            
+            <div className="px-8 pb-4" data-aos="fade-up">
+                <Map />
+            </div>
             <Projects />
         </div>
 
