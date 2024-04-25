@@ -78,7 +78,7 @@ export default function Home({ data }) {
                     </div>
                 </div>
             </div>
-            <div className="px-8 pb-4" data-aos="fade-up">
+            <div className="px-4 lg:px-8 pb-2 lg:pb-4" data-aos="fade-up">
                 <Map />
             </div>
             <Projects />
