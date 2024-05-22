@@ -12,7 +12,7 @@
   --color-yellow: #FEBD2F;
   --color-orange: #FF9129;
   --color-blue: #0C183B;
-  --color-black: #000000;
+  --color-black: rgb(55 65 81);
   --color-light: #ffffff;
   --border-radius: 20px;
 }
@@ -429,4 +429,44 @@ header.border-radius {
 
 .min-height {
   min-height: calc(100vh - 89px - 88px);
+}
+
+#service-global {
+    .item:hover,
+    .item.active {
+        .icon {
+            background: var(--color-orange);
+
+            * {
+                color: white;
+            }
+        }
+
+        h3 {
+            color: var(--color-orange);
+        }
+    }
+    .item.disabled {
+      opacity: 0.4;
+    }
+}
+
+.react-tabs__tab--selected {
+    border-color: var(--color-orange) !important;
+}
+
+ul > li {
+    @apply py-2;
+}
+
+.teaser {
+    img {
+        transition: all 0.3s ease-in !important;
+    }
+
+    &:hover {
+        img {
+            transform: scale(1.1);
+        }
+    }
 }

@@ -1,14 +1,15 @@
 import React from "react"
 import { StaticImage } from "gatsby-plugin-image"
+import { Link } from "gatsby"
 
 export default function Service({ data }) {
   return (
     <div id="service" className="container flex flex-col lg:flex-row gap-4 lg:gap-8" data-aos="fade-up">
         <div className="w-full lg:w-1/3 flex flex-col gap-4 lg:gap-8">
-            <div class="bg-blue text-white p-8 relative h-[19rem]">
+            <Link to="/dachanlagen" className="teaser bg-blue text-white p-8 relative h-[19rem]">
                 <div className="absolute z-10 bottom-8">
                     <h3 className="text-xl mb-4 font-bold">
-                        Aufdachanlagen
+                        Dachanlagen
                     </h3>
                     <p className="text-sm">
                         Für Privat und Gewerbe Gebäude
@@ -22,30 +23,30 @@ export default function Service({ data }) {
                     width={700}
                     imgStyle={{ 'object-position': 'right center' }}
                     objectFit="cover"
-                    class="w-full h-full absolute inset-0 object-cover"
+                    className="w-full h-full absolute inset-0 object-cover"
                     imgClassName="w-full h-full"
                 />
-                <div class="w-full h-full absolute inset-0 img-overlay dark"></div>
-            </div>
-            <div class="bg-blue text-white p-8 h-[11rem]">                    
+                <div className="w-full h-full absolute inset-0 img-overlay dark"></div>
+            </Link>
+            <Link to="/eigenverbrauch" className="bg-blue text-white p-8 h-[11rem]">                    
                 <h3 className="text-xl mb-4 font-bold">
                     Eigenverbrauch- und Speicherlösungen
                 </h3>
                 <p className="text-sm">
                     Effiziente Eigenverbrauch- und Speicherlösungen für maximale Unabhängigkeit und Kostenersparnis.
                 </p>
-            </div>
+            </Link>
         </div>
         <div className="w-full lg:w-1/3 flex flex-col gap-4 lg:gap-8">
-            <div class="bg-blue text-white p-8 h-[10rem]">
+            <Link to="/fachsanierung" className="bg-blue text-white p-8 h-[10rem]">
                 <h3 className="text-xl mb-4 font-bold">
-                    Asbestsanierung
+                    Dachsanierung
                 </h3>
                 <p className="text-sm">
                     Sichere Entfernung und fachgerechte Entsorgung von asbesthaltigem Material
                 </p>
-            </div>
-            <div class="bg-blue text-white p-8 relative h-[20rem]">
+            </Link>
+            <Link to="/freilandanlagen" className="teaser bg-blue text-white p-8 relative h-[20rem]">
                 <div className="absolute z-10 bottom-8">
                     <h3 className="text-xl mb-4 font-bold">
                         Freiflächenanlagen
@@ -62,14 +63,14 @@ export default function Service({ data }) {
                     width={700}
                     imgStyle={{ 'object-position': 'right center' }}
                     objectFit="cover"
-                    class="w-full h-full absolute inset-0 object-cover"
+                    className="w-full h-full absolute inset-0 object-cover"
                     imgClassName="w-full h-full"
                 />
-                <div class="w-full h-full absolute inset-0 img-overlay dark"></div>
-            </div>
+                <div className="w-full h-full absolute inset-0 img-overlay dark"></div>
+            </Link>
         </div>
         <div className="w-full lg:w-1/3 flex flex-col gap-4 lg:gap-8 relative h-[32rem]">
-            <div class="bg-blue text-white p-8">
+            <Link to="/projektentwicklung" className="teaser bg-blue text-white p-8">
                 <div className="absolute z-10 bottom-8">
                     <h3 className="text-xl mb-4 font-bold">
                         Technische Betriebsführung
@@ -86,11 +87,11 @@ export default function Service({ data }) {
                     width={700}
                     imgStyle={{ 'object-position': 'right center' }}
                     objectFit="cover"
-                    class="w-full h-full absolute inset-0 object-cover"
+                    className="w-full h-full absolute inset-0 object-cover"
                     imgClassName="w-full h-full"
                 />
-                <div class="w-full h-full absolute inset-0 img-overlay dark"></div>
-            </div>
+                <div className="w-full h-full absolute inset-0 img-overlay dark"></div>
+            </Link>
         </div>
     </div>
   )

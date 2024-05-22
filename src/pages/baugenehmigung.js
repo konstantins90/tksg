@@ -1,0 +1,146 @@
+import React from "react"
+import { Link } from "gatsby"
+import { StaticImage } from "gatsby-plugin-image"
+
+import Layout from "../components/layout"
+import Projects from "../components/projects"
+
+import { CheckCircleIcon, ArrowTrendingUpIcon, WrenchScrewdriverIcon, RocketLaunchIcon } from '@heroicons/react/24/outline'
+
+export default function Projektentwicklung({ data }) {
+  return (
+    <Layout>
+        <div id="banner" class="-mt-24 relative w-full py-12 px-12">
+            <StaticImage
+                src="../images/turnkey-solar-banner-photovoltaik-analge.webp"
+                alt="Photovoltaik Analge gebaut von Turn Key Solar GmbH"
+                placeholder="blurred"
+                layout="constrained"
+                width={1980}
+                imgStyle={{ 'object-position': 'right center' }}
+                objectFit="cover"
+                class="w-full h-24 absolute inset-0 object-cover"
+            />
+            <div class="w-full h-full absolute inset-0 img-overlay dark"></div>
+        </div>
+
+        <div className="bg bg-white pb-40" data-aos="fade-up">
+            <div id="about">
+                <div className="container xl:max-w-[60%] pt-40 pb-20 text-center">
+                    <h1 className="text-center inline-block mb-12 text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-display font-bold pb-4 border-b-2 border-orange">Baugenehmigung</h1>
+                    <div className="text-lg xl:text-2xl text-center font-light leading-normal">
+                        Optimieren Sie die Effizienz Ihrer Photovoltaik-Anlage mit einer detaillierten Standortanalyse von Turn Key Solar. Nutzen Sie unsere Expertise, um optimale Standorte zu identifizieren und die Leistung Ihrer Anlage zu maximieren.
+                    </div>
+                </div>
+            </div>
+
+            <div className="container">
+                <div id="steps" className="flex flex-wrap mt-16 flex-row -mx-8">
+                    <div className="step w-full lg:w-1/2 px-8 py-4">
+                        <div className="flex items-center">
+                            <div className="flex-none w-16 step-number text-6xl font-light text-gray-400">
+                                1
+                            </div>
+                            <div className="step-title text-xl font-bold">
+                                Planung und Vorbereitung
+                            </div>
+                        </div>
+                        <div className="flex">
+                            <div className="step-line flex-none w-16 py-4">
+                                <div className="line"></div>
+                            </div>
+                            <div className="step-description text-xl pb-10">
+                                Wir überprüfen sorgfältig die örtlichen Bauvorschriften, Verordnungen und Planungsbestimmungen, um sicherzustellen, dass Ihr Bauprojekt alle notwendigen Anforderungen erfüllt. Im Nachgang erstellen wir eine umfassende Bauplanung, die alle relevanten Faktoren berücksichtigt. Dabei legen wir großen Wert auf eine detaillierte Dokumentation, die neben Gutachten und Nachweisen auch Datenblätter beinhaltet.
+                            </div>
+                        </div>
+                    </div>
+                    <div className="step w-full lg:w-1/2 px-8 py-4">
+                        <div className="flex items-center">
+                            <div className="flex-none w-16 step-number text-6xl font-light text-gray-400">
+                                2
+                            </div>
+                            <div className="step-title text-xl font-bold">
+                                Antragstellung
+                            </div>
+                        </div>
+                        <div className="flex">
+                            <div className="step-line flex-none w-16 py-4">
+                                <div className="line"></div>
+                            </div>
+                            <div className="step-description text-xl pb-10">
+                                Wir stellen den Antrag auf Erteilung der Baugenehmigung bei der zuständigen Baubehörde und sorgen für eine problemlose und fachgerechte Abwicklung des Genehmigungsverfahrens. Wenn erforderlich, initiieren wir die Modifikation des Flächennutzungsplans.
+                            </div>
+                        </div>
+                    </div>
+                    <div className="step w-full lg:w-1/2 px-8 py-4">
+                        <div className="flex items-center">
+                            <div className="flex-none w-16 step-number text-6xl font-light text-gray-400">
+                                3
+                            </div>
+                            <div className="step-title text-xl font-bold">
+                                Überprüfung und Genehmigung
+                            </div>
+                        </div>
+                        <div className="flex">
+                            <div className="step-line flex-none w-16 py-4">
+                                <div className="line"></div>
+                            </div>
+                            <div className="step-description text-xl pb-10">
+                                Nach der Prüfung der zuständige Behörde überprüft den Antrag auf Konformität und Vollständigkeit, stellt diese die Baugenehmigung aus und die Bauphase kann beginnen.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="service-global" className="container mt-24" data-aos="fade-up">
+                <h2 className="text-6xl font-bold mb-14 text-center">Von der Planung bis zum Betrieb</h2>
+                <div className="flex flex-row ">
+                    <div className="flex-1">
+                        <Link to="/projektentwicklung" className="item flex flex-row items-center gap-5 mb-10 cursor-pointer">
+                            <div className="flex-none">
+                                <div className="icon shadow-xl p-4">
+                                    <ArrowTrendingUpIcon className="inline h-5 w-5 text-orange" />
+                                </div>
+                            </div>
+                            <div className="flex-1">
+                                <h3 className="text-lg font-bold">Projektentwicklung</h3>
+                            </div>
+                        </Link>
+                    </div>
+
+                    <div className="flex-1">
+                        <Link to="/anlagenerrichtung" className="item flex flex-row items-center gap-5 mb-10 cursor-pointer">
+                            <div className="flex-none">
+                                <div className="icon shadow-xl p-4">
+                                    <WrenchScrewdriverIcon className="inline h-5 w-5 text-orange" />
+                                </div>
+                            </div>
+                            <div className="flex-1">
+                                <h3 className="text-lg font-bold">Anlagenerrichtung</h3>
+                            </div>
+                        </Link>
+                    </div>
+
+                    <div className="flex-1">
+                        <Link to="/anlagenbetrieb" className="item flex flex-row items-center gap-5 mb-10 cursor-pointer">
+                            <div className="flex-none">
+                                <div className="icon shadow-xl p-4">
+                                    <RocketLaunchIcon className="inline h-5 w-5 text-orange" />
+                                </div>
+                            </div>
+                            <div className="flex-1">
+                                <h3 className="text-lg font-bold">Anlagenbetrieb</h3>
+                            </div>
+                        </Link>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div className="hidden">
+            <div className="w-1/4 w-2/4"></div>
+        </div>
+    </Layout>
+  )
+}

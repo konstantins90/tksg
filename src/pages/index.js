@@ -9,7 +9,7 @@ import Projects from "../components/projects"
 import Steps from "../components/steps"
 import Map from "../components/map"
 
-import { PhoneIcon } from '@heroicons/react/24/outline'
+import { PhoneIcon, ArrowRightCircleIcon } from '@heroicons/react/24/outline'
 
 export default function Home({ data }) {
   return (
@@ -23,8 +23,8 @@ export default function Home({ data }) {
                 <Counter/>
             </div>
             <StaticImage
-                src="../images/home-3.jpg"
-                alt="SSR"
+                src="../images/turnkey-solar-banner-photovoltaik-analge.webp"
+                alt="Photovoltaik Analge gebaut von Turn Key Solar GmbH"
                 placeholder="blurred"
                 layout="constrained"
                 width={1980}
@@ -38,7 +38,7 @@ export default function Home({ data }) {
         <div className="bg bg-gray-100 pb-40">
             <div id="about" data-aos="fade-up">
                 <div className="container lg:max-w-[60%] py-40 text-center">
-                    <h3 className="text-center inline-block mb-12 text-3xl md:text-4xl lg:text-5xl lg:text-6xl font-display font-bold text-black pb-4 border-b-2 border-orange">Über Turn Key Solar</h3>
+                    <h3 className="text-center inline-block mb-12 text-3xl md:text-4xl lg:text-5xl lg:text-6xl font-display font-bold pb-4 border-b-2 border-orange">Über Turn Key Solar</h3>
                     <div className="text-lg lg:text-2xl text-center font-light leading-normal">
                         Wir sind ein führendes Unternehmen im Bereich erneuerbare Energien und spezialisiert auf die Planung, Installation und Wartung von Photovoltaik-Anlagen. Mit unserer langjährigen Erfahrung und unserem Know-how bieten wir maßgeschneiderte Lösungen für private und gewerbliche Kunden in Paderborn und Umgebung.
                     </div>
@@ -46,7 +46,7 @@ export default function Home({ data }) {
             </div>
 
             <div className="container lg:max-w-[60%] text-center mb-14" data-aos="fade-up">
-                <div className="text-center inline-block text-xl md:text-2xl lg:text-3xl lg:text-4xl font-display text-black pb-2 mb-6">
+                <div className="text-center inline-block text-xl md:text-2xl lg:text-3xl lg:text-4xl font-display pb-2 mb-6">
                     <div className="wrap relative headline">
                         <div className="line border-b-2 border-orange w-full absolute top-2/4"></div>
                         <div className="text inline bg-gray-100 p-4 relative">Leistungen</div>
@@ -57,6 +57,9 @@ export default function Home({ data }) {
                 </div>
             </div>
             <Service />
+            <div className="container py-5">
+                <Link to="/leistungen" className="text-2xl">Alle Leistungen <ArrowRightCircleIcon className="inline h-8 w-8 ml-2" /></Link> 
+            </div>
         </div>
 
         <div className="bg">
@@ -72,7 +75,7 @@ export default function Home({ data }) {
         <div className="bg bg-white pb-20">
             <div id="about" data-aos="fade-up">
                 <div className="container lg:max-w-[60%] py-40 text-center">
-                    <h3 className="text-center inline-block mb-12 text-3xl md:text-4xl lg:text-5xl lg:text-6xl font-display font-bold text-black pb-4 border-b-2 border-orange">Unsere Projekte</h3>
+                    <h3 className="text-center inline-block mb-12 text-3xl md:text-4xl lg:text-5xl lg:text-6xl font-display font-bold pb-4 border-b-2 border-orange">Unsere Projekte</h3>
                     <div className="text-lg lg:text-2xl text-center font-light leading-normal">
                         Tauchen Sie ein in unsere Welt der grünen Innovationen und lassen Sie sich von unseren Erfolgsgeschichten inspirieren. Unsere Projekte sind Ausdruck unserer Expertise und Leidenschaft für eine nachhaltige Zukunft.
                     </div>
@@ -87,7 +90,7 @@ export default function Home({ data }) {
         <div className="bg bg-gray-100">
             <div id="about" data-aos="fade-up">
                 <div className="container lg:max-w-[60%] pt-40 pb-20 overflow-hidden">
-                    <div className="text-center inline-block text-xl md:text-2xl lg:text-3xl lg:text-4xl font-display text-black pb-2 mb-6">
+                    <div className="text-center inline-block text-xl md:text-2xl lg:text-3xl lg:text-4xl font-display pb-2 mb-6">
                         <div className="wrap relative headline">
                             <div className="text inline bg-gray-100 relative">Schritt für Schritt zur Solaranlage</div>
                         </div>
@@ -104,8 +107,8 @@ export default function Home({ data }) {
         <div className="bg bg-white pb-20">
             <div id="contact" data-aos="fade-up">
                 <div className="container lg:max-w-[60%] py-40 text-center">
-                    <h3 className="text-center inline-block mb-12 text-3xl md:text-4xl lg:text-5xl lg:text-6xl font-display font-bold text-black pb-4 border-b-2 border-orange">
-                        Mit der Sonne Geld sparen
+                    <h3 className="text-center inline-block mb-12 text-3xl md:text-4xl lg:text-5xl lg:text-6xl font-display font-bold pb-4 border-b-2 border-orange">
+                        Experten für Photovoltaik-Anlagen
                     </h3>
                     <div className="text-lg lg:text-2xl text-center font-light leading-normal">
                         Erfahren Sie, wie Sie durch unsere Photovoltaik-Angebote Ihre Energiekosten senken können. Haben Sie Fragen oder möchten Sie mehr über unsere Dienstleistungen erfahren? Unser Team steht Ihnen gerne zur Verfügung.

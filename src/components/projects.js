@@ -61,7 +61,7 @@ const Projects = () => {
             {projects.map(function(project, index) {
                 return (
                     <div className={ "w-full lg:w-1/3 xl:w-1/4 " + project.size + " p-2 lg:p-4" } data-aos="fade-up">
-                        <div class="bg-blue text-white p-8 relative h-[20rem]">
+                        <div class="teaser bg-blue text-white p-8 relative h-[20rem]">
                             <div className="absolute z-10 bottom-4 left-4">
                                 <h3 className="text-xl mb-1 font-bold">
                                     {project.name}

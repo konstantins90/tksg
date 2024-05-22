@@ -32,19 +32,6 @@ export default function Counter({ data }) {
                 kWp produziert
             </div>
         </div>
-        <div className="w-full lg:w-1/4 mb-6 lg:mb-0 pb-4 lg:pb-0 border-b lg:border-0 border-orange">
-            <div className="text-xl lg:text-6xl font-bold pb-2 lg:pb-10 mb-0 lg:mb-6 lg:border-b border-orange">
-                <CountUp
-                    end={30899}
-                    separator=" "
-                    delay={1}
-                    suffix="€"
-                />
-            </div>
-            <div className="text-md">
-                ersparte Stromkosten
-            </div>
-        </div>
         <div className="w-full lg:w-1/4 mb-6 lg:mb-0 pb-4 lg:pb-0">
             <div className="text-xl lg:text-6xl font-bold pb-2 lg:pb-10 mb-0 lg:mb-6 lg:border-b border-orange">
                 <CountUp
