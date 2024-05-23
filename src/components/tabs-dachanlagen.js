@@ -9,7 +9,7 @@ export default function ServiceTabs({ data }) {
     let tabClassName = "text-center flex-1 border-b-4 border-gray-200 p-4 text-xl font-bold text-gray-500 cursor-pointer";
     return (
         <Tabs>
-            <TabList className="mb-10 flex gap-4 justify-between">
+            <TabList className="mb-10 flex flex-wrap gap-4 justify-between">
                 <Tab className={tabClassName}>
                     Machbarkeitsstudie
                 </Tab>
@@ -25,8 +25,8 @@ export default function ServiceTabs({ data }) {
             </TabList>
         
             <TabPanel>
-                <div class="flex flex-row gap-20 items-center">
-                    <div class="basis-1/2 py-10">
+                <div class="flex flex-col xl:flex-row gap-20 items-center">
+                    <div class="basis-full xl:basis-1/2 py-10">
                         <h2 className="text-3xl font-bold mb-4">Ihr erster Schritt zum erfolgreichen Dachprojekt</h2>
                         <p className="mb-10"> Erfahren Sie die Realisierbarkeit Ihres Dachprojekts mit unserer präzisen Machbarkeitsstudie. Wir analysieren technische und wirtschaftliche Aspekte, um optimale Ergebnisse zu gewährleisten.</p>
                         <ul>
@@ -36,7 +36,7 @@ export default function ServiceTabs({ data }) {
                         </ul>
                         <Link to="/machbarkeitsstudie" className="mt-10 py-2 px-5 inline-block border-2 border-orange rounded-full hover:bg-orange hover:text-white">mehr erfahren</Link>
                     </div>
-                    <div class="basis-1/2 relative">
+                    <div class="basis-full xl:basis-1/2 relative">
                         <StaticImage
                             src="../images/13000103.jpg"
                             alt="Photovoltaik Analge gebaut von Turn Key Solar GmbH"
@@ -52,8 +52,8 @@ export default function ServiceTabs({ data }) {
                 </div>
             </TabPanel>
             <TabPanel>
-                <div class="flex flex-row gap-20 items-center">
-                    <div class="basis-1/2 py-10">
+                <div class="flex flex-col xl:flex-row gap-20 items-center">
+                    <div class="basis-full xl:basis-1/2 py-10">
                         <h2 className="text-3xl font-bold mb-4">Für ein langlebiges und effizientes Dach</h2>
                         <p className="mb-10">Verlängern Sie die Lebensdauer Ihres Daches und steigern Sie die Energieeffizienz mit unserer professionellen Dachsanierung. Wir bieten maßgeschneiderte Lösungen zur Instandsetzung und Modernisierung.</p>
                         <ul>
@@ -63,7 +63,7 @@ export default function ServiceTabs({ data }) {
                         </ul>
                         <Link to="/dachsanierung" className="mt-10 py-2 px-5 inline-block border-2 border-orange rounded-full hover:bg-orange hover:text-white">mehr erfahren</Link>
                     </div>
-                    <div class="basis-1/2 relative">
+                    <div class="basis-full xl:basis-1/2 relative">
                         <StaticImage
                             src="../images/992.jpg"
                             alt="Photovoltaik Analge gebaut von Turn Key Solar GmbH"
@@ -79,8 +79,8 @@ export default function ServiceTabs({ data }) {
                 </div>
             </TabPanel>
             <TabPanel>
-                <div class="flex flex-row gap-20 items-center">
-                    <div class="basis-1/2 py-10">
+                <div class="flex flex-col xl:flex-row gap-20 items-center">
+                    <div class="basis-full xl:basis-1/2 py-10">
                         <h2 className="text-3xl font-bold mb-4">Eigenverbrauch optimieren: Sparen Sie mit Ihrer eigenen Energie</h2>
                         <p className="mb-10">Nutzen Sie Ihre eigene Energie effizienter und sparen Sie Kosten mit unseren Lösungen für den Eigenverbrauch. Wir bieten intelligente Energiemanagementsysteme, um Ihre Energiequellen optimal zu nutzen.</p>
                         <ul>
@@ -90,7 +90,7 @@ export default function ServiceTabs({ data }) {
                         </ul>
                         <Link to="/eigenverbrauch" className="mt-10 py-2 px-5 inline-block border-2 border-orange rounded-full hover:bg-orange hover:text-white">mehr erfahren</Link>
                     </div>
-                    <div class="basis-1/2 relative">
+                    <div class="basis-full xl:basis-1/2 relative">
                         <StaticImage
                             src="../images/6656.jpg"
                             alt="Photovoltaik Analge gebaut von Turn Key Solar GmbH"
@@ -106,8 +106,8 @@ export default function ServiceTabs({ data }) {
                 </div>
             </TabPanel>
             <TabPanel>
-                <div class="flex flex-row gap-20 items-center">
-                    <div class="basis-1/2 py-10">
+                <div class="flex flex-col xl:flex-row gap-20 items-center">
+                    <div class="basis-full xl:basis-1/2 py-10">
                         <h2 className="text-3xl font-bold mb-4">Realisieren Sie Ihr Dachprojekt ohne finanzielle Hürden</h2>
                         <p className="mb-10">Realisieren Sie Ihre Dachprojekte ohne finanzielle Belastung durch unser Contracting-Angebot. Wir bieten flexible Vertragsmodelle und übernehmen die Finanzierung und Umsetzung Ihrer Projekte.</p>
                         <ul>
@@ -117,7 +117,7 @@ export default function ServiceTabs({ data }) {
                         </ul>
                         <Link to="/contracting" className="mt-10 py-2 px-5 inline-block border-2 border-orange rounded-full hover:bg-orange hover:text-white">mehr erfahren</Link>
                     </div>
-                    <div class="basis-1/2 relative">
+                    <div class="basis-full xl:basis-1/2 relative">
                         <StaticImage
                             src="../images/447.jpg"
                             alt="Photovoltaik Analge gebaut von Turn Key Solar GmbH"

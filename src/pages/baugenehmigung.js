@@ -3,7 +3,7 @@ import { Link } from "gatsby"
 import { StaticImage } from "gatsby-plugin-image"
 
 import Layout from "../components/layout"
-import Projects from "../components/projects"
+import Kontakt from "../components/kontakt"
 
 import { CheckCircleIcon, ArrowTrendingUpIcon, WrenchScrewdriverIcon, RocketLaunchIcon } from '@heroicons/react/24/outline'
 
@@ -24,7 +24,7 @@ export default function Projektentwicklung({ data }) {
             <div class="w-full h-full absolute inset-0 img-overlay dark"></div>
         </div>
 
-        <div className="bg bg-white pb-40" data-aos="fade-up">
+        <div className="bg bg-white" data-aos="fade-up">
             <div id="about">
                 <div className="container xl:max-w-[60%] pt-40 pb-20 text-center">
                     <h1 className="text-center inline-block mb-12 text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-display font-bold pb-4 border-b-2 border-orange">Baugenehmigung</h1>
@@ -94,8 +94,8 @@ export default function Projektentwicklung({ data }) {
             </div>
 
             <div id="service-global" className="container mt-24" data-aos="fade-up">
-                <h2 className="text-6xl font-bold mb-14 text-center">Von der Planung bis zum Betrieb</h2>
-                <div className="flex flex-row ">
+                <h2 className="text-3xl xl:text-6xl font-bold mb-14 text-center">Von der Planung bis zum Betrieb</h2>
+                <div className="flex flex-col xl:flex-row">
                     <div className="flex-1">
                         <Link to="/projektentwicklung" className="item flex flex-row items-center gap-5 mb-10 cursor-pointer">
                             <div className="flex-none">
@@ -137,6 +137,8 @@ export default function Projektentwicklung({ data }) {
                 </div>
             </div>
         </div>
+
+        <Kontakt />
 
         <div className="hidden">
             <div className="w-1/4 w-2/4"></div>

@@ -3,7 +3,7 @@ import { Link } from "gatsby"
 import { StaticImage } from "gatsby-plugin-image"
 
 import Layout from "../components/layout"
-import Projects from "../components/projects"
+import Kontakt from "../components/kontakt"
 
 import { CheckCircleIcon, ArrowTrendingUpIcon, WrenchScrewdriverIcon, RocketLaunchIcon } from '@heroicons/react/24/outline'
 
@@ -35,10 +35,10 @@ export default function Projektentwicklung({ data }) {
             </div>
 
             <div className="container">
-                <div className="flex flex-nowrap">
-                    <div className="basis-5/12" data-aos="fade-right">
-                        <h3 className="text-5xl font-bold mb-20 pr-10 text-gray-600">Technische Betriebsführung</h3>
-                        <div className="block bg-gray-100 p-10 pr-[40%] -mr-[35%]">
+                <div className="flex flex-col xl:flex-row flex-nowrap">
+                    <div className="basis-full xl:basis-5/12" data-aos="fade-right">
+                        <h3 className="text-3xl xl:text-5xl font-bold mb-5 xl:mb-20 pr-10 text-gray-600">Technische Betriebsführung</h3>
+                        <div className="block bg-gray-100 p-10 xlpr-[40%] xl:-mr-[35%]">
                             <p className="mb-10">Unsere umfassende technische Betriebsführung sorgt für den optimalen Betrieb Ihrer Anlage. Wir integrieren Ihre Anlage in unser Monitoring-Programm, führen notwendige Schalthandlungen durch und reagieren schnell bei Störfällen.</p>
 
                             <p className="font-bold text-lg">Unsere Leistungen umfassen:</p>
@@ -52,7 +52,7 @@ export default function Projektentwicklung({ data }) {
                             <p className="mt-10">Vertrauen Sie auf unsere Expertise für eine effiziente und zuverlässige Betriebsführung.</p>
                         </div>
                     </div>
-                    <div className="basis-8/12" data-aos="fade-left">
+                    <div className="basis-full xl:basis-8/12" data-aos="fade-left">
                         <StaticImage
                             src="../images/technische-betriebsfuehrung.jpg"
                             alt="Photovoltaik Analge gebaut von Turn Key Solar GmbH"
@@ -70,8 +70,8 @@ export default function Projektentwicklung({ data }) {
             </div>
 
             <div className="container mt-20">
-                <div className="flex flex-nowrap">
-                    <div className="basis-8/12" data-aos="fade-right">
+                <div className="flex flex-col xl:flex-row flex-nowrap">
+                    <div className="basis-full xl:basis-8/12 order-1 xl:order-0" data-aos="fade-right">
                         <StaticImage
                             src="../images/kaufmaenische-betriebsfuerung.jpg"
                             alt="Photovoltaik Analge gebaut von Turn Key Solar GmbH"
@@ -85,9 +85,9 @@ export default function Projektentwicklung({ data }) {
                             class="w-full object-cover"
                         />
                     </div>
-                    <div className="basis-5/12" data-aos="fade-left">
-                        <h3 className="text-5xl font-bold mb-20 pl-10 text-gray-600">Kaufmännische Betriebsführung</h3>
-                        <div className="block bg-gray-100 p-10 pl-[45%] -ml-[35%]">
+                    <div className="basis-full xl:basis-5/12" data-aos="fade-left">
+                        <h3 className="text-3xl xl:text-5xl font-bold mb-5 xl:mb-20 xl:pl-10 text-gray-600">Kaufmännische Betriebsführung</h3>
+                        <div className="block bg-gray-100 p-10 xl:pl-[45%] xl:-ml-[35%]">
                             <p className="mb-10">Unsere umfassende kaufmännische Betriebsführung sorgt für eine effiziente Verwaltung Ihrer Anlage. Wir übernehmen das Finanzmanagement, erstellen Berichte und kümmern uns um die Vertragsverwaltung.</p>
 
                             <p className="font-bold text-lg">Unsere Leistungen umfassen:</p>
@@ -105,8 +105,8 @@ export default function Projektentwicklung({ data }) {
             </div>
 
             <div id="service-global" className="container mt-24" data-aos="fade-up">
-                <h2 className="text-6xl font-bold mb-14">Von der Planung bis zum Betrieb</h2>
-                <div className="flex flex-row ">
+                <h2 className="text-3xl xl:text-6xl font-bold mb-14">Von der Planung bis zum Betrieb</h2>
+                <div className="flex flex-col xl:flex-row">
                     <div className="flex-1">
                         <Link to="/projektentwicklung" className="item flex flex-row items-center gap-5 mb-10 cursor-pointer active">
                             <div className="flex-none">
@@ -148,6 +148,8 @@ export default function Projektentwicklung({ data }) {
                 </div>
             </div>
         </div>
+
+        <Kontakt />
 
         <div className="hidden">
             <div className="w-1/4 w-2/4"></div>

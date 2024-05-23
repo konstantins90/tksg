@@ -8,6 +8,7 @@ import Service from "../components/service"
 import Projects from "../components/projects"
 import Steps from "../components/steps"
 import Map from "../components/map"
+import Kontakt from "../components/kontakt"
 
 import { PhoneIcon, ArrowRightCircleIcon } from '@heroicons/react/24/outline'
 
@@ -104,7 +105,7 @@ export default function Home({ data }) {
             </div>
         </div>
 
-        <div className="bg bg-white pb-20">
+        {/* <div className="bg bg-white">
             <div id="contact" data-aos="fade-up">
                 <div className="container lg:max-w-[60%] py-40 text-center">
                     <h3 className="text-center inline-block mb-12 text-3xl md:text-4xl lg:text-5xl lg:text-6xl font-display font-bold pb-4 border-b-2 border-orange">
@@ -129,7 +130,9 @@ export default function Home({ data }) {
                     </a>
                 </div>
             </div>
-        </div>
+        </div> */}
+
+        <Kontakt />
 
         <div className="hidden">
             <div className="w-1/4 w-2/4 w-1/3 w-2/3 lg:w-1/4 lg:w-2/4 lg:w-1/3 lg:w-2/3 lg:w-1/4 xl:w-2/4 xl:w-1/3 xl:w-2/3"></div>

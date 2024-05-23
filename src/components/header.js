@@ -91,15 +91,7 @@ const Header = () => {
                 (isOpen ? 'show' : '')} id="nav-content">
                     <div className="wrap px-5 pt-10 pb-20 text-center text-2xl font-light flex flex-col h-full">
                         <div className="logo">
-                            <StaticImage
-                                src="../images/turn-key-solar-logo.png"
-                                alt="Turn KEy Solar GambH"
-                                placeholder="blurred"
-                                layout="constrained"
-                                height={40}
-                                imgStyle={{ 'object-position': 'right center' }}
-                                objectFit="cover"
-                            />
+                            <Logo id="svg-logo" className="h-[40px] mx-auto" />
                         </div>
                         <ul className="list-reset md:flex justify-end flex-1 items-center mt-10 pb-8 mb-8">
                             {data.allLinksJson.edges.map(({ node }, index) => (

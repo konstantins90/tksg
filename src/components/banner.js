@@ -11,7 +11,7 @@ export default function Banner() {
             layout="constrained"
             width={1980}
             height={80}
-            quality={10}
+            quality={90}
             imgStyle={{ 'object-position': 'right center' }}
             objectFit="cover"
             class="w-full h-full absolute inset-0 object-cover"

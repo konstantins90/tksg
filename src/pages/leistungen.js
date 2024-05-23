@@ -5,6 +5,7 @@ import { StaticImage } from "gatsby-plugin-image"
 import Layout from "../components/layout"
 import TabsDachanlagen from "../components/tabs-dachanlagen"
 import TabsLandanlagen from "../components/tabs-landanlagen"
+import Kontakt from "../components/kontakt"
 
 import { ArrowTrendingUpIcon, WrenchScrewdriverIcon, RocketLaunchIcon } from '@heroicons/react/24/outline'
 
@@ -70,8 +71,8 @@ export default function Home({ data }) {
             </div>
 
             <div id="service-global" className="container xl:max-w-[60%] mb-14">
-                <div class="flex flex-row gap-20">
-                    <div class="basis-1/2 relative">
+                <div class="flex flex-col xl:flex-row gap-20">
+                    <div class="basis-full xl:basis-1/2 relative">
                     <StaticImage
                         src="../images/1888.jpg"
                         alt="Photovoltaik Analge gebaut von Turn Key Solar GmbH"
@@ -79,10 +80,10 @@ export default function Home({ data }) {
                         layout="constrained"
                         width={800}
                         objectFit="cover"
-                        class="w-full h-full absolute inset-0 object-cover"
+                        class="w-full h-full xl:absolute inset-0 object-cover"
                     />
                     </div>
-                    <div class="basis-1/2">
+                    <div class="basis-full xl:basis-1/2">
                         <h2 className="text-3xl font-bold mb-4">Von der Planung bis zum Betrieb</h2>
                         <p className="mb-10">Turn Key Solar ist Ihr Spezialist für Photovoltaik für die Projektentwicklung, die Anlagenerrichtung und den Anlagenbetrieb. Wir bieten einen ganzheitlichen Service Ihres Photovoltaikprojektes.</p>
 
@@ -135,7 +136,7 @@ export default function Home({ data }) {
 
         <div className="bg bg-white pb-40" data-aos="fade-up">
             <div className="container xl:max-w-[80%] mb-14">
-                <h2 className="text-4xl xl:text-9xl font-bold mb-20">Leistungen für <span className="text-orange text-6xl xl:text-14xl">Freilandanlagen</span></h2>
+                <h2 className="text-4xl xl:text-9xl font-bold mb-20">Leistungen für <span className="text-orange text-5xl xl:text-14xl">Freilandanlagen</span></h2>
                 <TabsLandanlagen />
             </div>
         </div>
@@ -198,6 +199,8 @@ export default function Home({ data }) {
                 </div>
             </div>
         </div>
+
+        <Kontakt />
 
         <div className="hidden">
             <div className="w-1/4 w-2/4"></div>
