@@ -3,7 +3,7 @@ import { StaticImage } from "gatsby-plugin-image"
 
 const Kontakt = () => {
     return (
-        <div id="contact" className="container py-40" data-aos="fade-up">
+        <div id="contact" className="container py-40 lg:max-w-[60%]" data-aos="fade-up">
             <div className="headline text-center pb-20">
                 <h3 className="text-center inline-block mb-12 text-3xl md:text-4xl lg:text-5xl lg:text-6xl font-display font-bold pb-4 border-b-2 border-orange">Ihre Ansprechpartner</h3>
                 <div className="text-lg lg:text-2xl text-center font-light leading-normal">
