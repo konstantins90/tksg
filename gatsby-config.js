@@ -5,6 +5,12 @@
  */
 
 module.exports = {
+  siteMetadata: {
+    title: `Turn Key Solar GmbH – Ihr Experte für Photovoltaik-Anlagen in Paderborn`,
+    description: `Turn Key Solar GmbH - Ihr Experte für Photovoltaik-Anlagen in Paderborn. Mit über 251 installierten Anlagen und 95.682 kWp produzierter Leistung bieten wir maßgeschneiderte Lösungen für private und gewerbliche Kunden. Vertrauen Sie auf unsere langjährige Erfahrung und unseren umfassenden Service für erneuerbare Energien`,
+    image: `/android-chrome-512x512.png`,
+    siteUrl: `https://turnkey-solar.de/`,
+  },
   flags: {
     DEV_SSR: false
   },

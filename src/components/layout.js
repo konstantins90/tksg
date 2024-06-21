@@ -61,7 +61,7 @@ const Layout = ({ children }) => {
                         <p>Zum Strothebach 22 • 33175 Bad Lippspringe</p>
                         <p><a href="tel: +4952549386539">+49 5254 9386539</a> • <a href="mailto: info@turnkey-solar.de@">info@turnkey-solar.de</a></p>
                     </div>
-                    <div className="grid grid-cols-1 lg:grid-cols-4 text-center mt-5 xl:mt-0 xl:text-left gap-y-2 gap-x-4 text-sm text-gray-400">
+                    <div className="grid grid-cols-1 lg:grid-cols-4 text-center mt-5 lg:mt-0 lg:text-left gap-y-2 gap-x-4 text-sm text-gray-400">
                         {serviceLinks.map(function(link, index) {
                             return (
                                 <div>

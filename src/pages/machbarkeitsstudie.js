@@ -2,33 +2,23 @@ import React from "react"
 import { Link } from "gatsby"
 import { StaticImage } from "gatsby-plugin-image"
 
-import Layout from "../components/layout"
+import { StaticImage } from "gatsby-plugin-image"
+import { SEO } from "../components/seo"
 import Kontakt from "../components/kontakt"
+import Banner from "../components/banner"
 
 import { CheckCircleIcon, ArrowTrendingUpIcon, WrenchScrewdriverIcon, RocketLaunchIcon } from '@heroicons/react/24/outline'
 
 export default function Projektentwicklung({ data }) {
   return (
     <Layout>
-        <div id="banner" class="-mt-24 relative w-full py-12 px-12">
-            <StaticImage
-                src="../images/turnkey-solar-banner-photovoltaik-analge.webp"
-                alt="Photovoltaik Analge gebaut von Turn Key Solar GmbH"
-                placeholder="blurred"
-                layout="constrained"
-                width={1980}
-                imgStyle={{ 'object-position': 'right center' }}
-                objectFit="cover"
-                class="w-full h-24 absolute inset-0 object-cover"
-            />
-            <div class="w-full h-full absolute inset-0 img-overlay dark"></div>
-        </div>
+        <Banner />
 
-        <div className="bg bg-white" data-aos="fade-up">
+        <div className="bg bg-white overflow-hidden" data-aos="fade-up">
             <div id="about">
-                <div className="container xl:max-w-[60%] pt-40 pb-20 text-center">
+                <div className="container lg:max-w-[60%] pt-40 pb-20 text-center">
                     <h1 className="text-center inline-block mb-12 text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-display font-bold pb-4 border-b-2 border-orange">Machbarkeitsstudie</h1>
-                    <div className="text-lg xl:text-2xl text-center font-light leading-normal">
+                    <div className="text-lg lg:text-2xl text-center font-light leading-normal">
                         Wir bietet Ihnen eine individuelle Machbarkeitsstudie für Ihren Wunschstandort. Dabei werden alle Aspekte wie technische Machbarkeit, rechtlicher Rahmen und Wirtschaftlichkeit transparent für Sie dargestellt. Die Studie enthält eine detaillierte technische Planung sowie eine ausführliche Wirtschaftlichkeitsanalyse. Wenn Sie sich anschließend für eine Photovoltaikanlage der Turnkey Solar GmbH entscheiden, fallen keine Planungskosten bei der Projektumsetzung an. Mit Turn Key Solar setzen Sie auf eine zuverlässige und erfahrene Partner, um in eine nachhaltige Zukunft zu investieren.
                     </div>
                 </div>
@@ -112,8 +102,8 @@ export default function Projektentwicklung({ data }) {
             </div>
 
             <div id="service-global" className="container mt-24" data-aos="fade-up">
-                <h2 className="text-3xl xl:text-6xl font-bold mb-14 text-center">Von der Planung bis zum Betrieb</h2>
-                <div className="flex flex-col xl:flex-row">
+                <h2 className="text-3xl lg:text-6xl font-bold mb-14 text-center">Von der Planung bis zum Betrieb</h2>
+                <div className="flex flex-col lg:flex-row">
                     <div className="flex-1">
                         <Link to="/projektentwicklung" className="item flex flex-row items-center gap-5 mb-10 cursor-pointer">
                             <div className="flex-none">

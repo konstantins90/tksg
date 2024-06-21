@@ -2,25 +2,15 @@ import React from "react"
 import { Link } from "gatsby"
 import { StaticImage } from "gatsby-plugin-image"
 
-import Layout from "../components/layout"
+import { StaticImage } from "gatsby-plugin-image"
+import { SEO } from "../components/seo"
 import Projects from "../components/projectsAll"
+import Banner from "../components/banner"
 
 export default function Projektentwicklung({ data }) {
   return (
     <Layout>
-        <div id="banner" class="-mt-24 relative w-full py-12 px-12">
-            <StaticImage
-                src="../images/turnkey-solar-banner-photovoltaik-analge.webp"
-                alt="Photovoltaik Analge gebaut von Turn Key Solar GmbH"
-                placeholder="blurred"
-                layout="constrained"
-                width={1980}
-                imgStyle={{ 'object-position': 'right center' }}
-                objectFit="cover"
-                class="w-full h-24 absolute inset-0 object-cover"
-            />
-            <div class="w-full h-full absolute inset-0 img-overlay dark"></div>
-        </div>
+        <Banner />
 
         <div className="bg bg-white pb-5" data-aos="fade-up">
             <div id="about" data-aos="fade-up">

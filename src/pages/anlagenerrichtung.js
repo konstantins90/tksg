@@ -2,43 +2,33 @@ import React from "react"
 import { Link } from "gatsby"
 import { StaticImage } from "gatsby-plugin-image"
 
-import Layout from "../components/layout"
+import { StaticImage } from "gatsby-plugin-image"
+import { SEO } from "../components/seo"
 import Kontakt from "../components/kontakt"
+import Banner from "../components/banner"
 
 import { CheckCircleIcon, ArrowTrendingUpIcon, WrenchScrewdriverIcon, RocketLaunchIcon } from '@heroicons/react/24/outline'
 
 export default function Projektentwicklung({ data }) {
   return (
     <Layout>
-        <div id="banner" class="-mt-24 relative w-full py-12 px-12">
-            <StaticImage
-                src="../images/turnkey-solar-banner-photovoltaik-analge.webp"
-                alt="Photovoltaik Analge gebaut von Turn Key Solar GmbH"
-                placeholder="blurred"
-                layout="constrained"
-                width={1980}
-                imgStyle={{ 'object-position': 'right center' }}
-                objectFit="cover"
-                class="w-full h-24 absolute inset-0 object-cover"
-            />
-            <div class="w-full h-full absolute inset-0 img-overlay dark"></div>
-        </div>
+        <Banner />
 
-        <div className="bg bg-white" data-aos="fade-up">
+        <div className="bg bg-white overflow-hidden" data-aos="fade-up">
             <div id="about">
-                <div className="container xl:max-w-[60%] py-40 text-center">
-                    <h1 className="text-center inline-block mb-12 text-3xl md:text-4xl lg:text-3xl xl:text-5xl xl:text-6xl font-display font-bold pb-4 border-b-2 border-orange">Anlagenbau</h1>
-                    <div className="text-lg xl:text-2xl text-center font-light leading-normal">
+                <div className="container lg:max-w-[60%] py-40 text-center">
+                    <h1 className="text-center inline-block mb-12 text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-display font-bold pb-4 border-b-2 border-orange">Anlagenbau</h1>
+                    <div className="text-lg lg:text-2xl text-center font-light leading-normal">
                         Turn Key Solar ist Ihr Partner für den Bau und die Errichtung von Photovoltaikanlagen. Von der Planung über die Materialbeschaffung bis zur Montage – wir realisieren Ihr Projekt effizient und zuverlässig.
                     </div>
                 </div>
             </div>
 
             <div className="container">
-                <div className="flex flex-col xl:flex-row flex-nowrap">
-                    <div className="basis-full xl:basis-5/12" data-aos="fade-right">
-                        <h3 className="text-3xl xl:text-5xl font-bold mb-5 xl:mb-20 pr-10 text-gray-600">Dachsanierung</h3>
-                        <div className="block bg-gray-100 p-10 xl:pr-[40%] xl:-mr-[35%]">
+                <div className="flex flex-col lg:flex-row flex-nowrap">
+                    <div className="basis-full lg:basis-5/12" data-aos="fade-right">
+                        <h3 className="text-3xl lg:text-5xl font-bold mb-5 lg:mb-20 pr-10 text-gray-600">Dachsanierung</h3>
+                        <div className="block bg-gray-100 p-10 lg:pr-[40%] lg:-mr-[35%]">
                             <p className="mb-10">Gemeinsam mit unseren regionalen Partnerunternehmen bieten wir eine fachmännische Dachsanierung gemäß den gültigen Vorschriften an. Wenn Sie Ihr Dach pachten, werden die Sanierungskosten verrechnet und der Überschuss wird Ihnen als Barzahlung ausgezahlt. Unsere Expertise umfasst dabei:</p>
 
                             <p className="font-bold text-lg">Unsere Leistungen:</p>
@@ -51,7 +41,7 @@ export default function Projektentwicklung({ data }) {
                             </ul>
                         </div>
                     </div>
-                    <div className="basis-full xl:basis-8/12" data-aos="fade-left">
+                    <div className="basis-full lg:basis-8/12" data-aos="fade-left">
                         <StaticImage
                             src="../images/dachsanierung.jpg"
                             alt="Photovoltaik Analge gebaut von Turn Key Solar GmbH"
@@ -69,8 +59,8 @@ export default function Projektentwicklung({ data }) {
             </div>
 
             <div className="container mt-20">
-                <div className="flex flex-col xl:flex-row flex-nowrap">
-                    <div className="basis-full xl:basis-8/12 order-1 xl:order-0" data-aos="fade-right">
+                <div className="flex flex-col lg:flex-row flex-nowrap">
+                    <div className="basis-full lg:basis-8/12 order-1 lg:order-none" data-aos="fade-right">
                         <StaticImage
                             src="../images/einrichten.jpg"
                             alt="Photovoltaik Analge gebaut von Turn Key Solar GmbH"
@@ -84,8 +74,8 @@ export default function Projektentwicklung({ data }) {
                             class="w-full object-cover"
                         />
                     </div>
-                    <div className="basis-full xl:basis-5/12" data-aos="fade-left">
-                        <h3 className="text-3xl xl:text-5xl font-bold mb-5 xl:mb-20 xl:pl-10 text-gray-600">Anlagenerrichtung</h3>
+                    <div className="basis-full lg:basis-5/12" data-aos="fade-left">
+                        <h3 className="text-3xl lg:text-5xl font-bold mb-5 lg:mb-20 lg:pl-10 text-gray-600">Anlagenerrichtung</h3>
                         <div className="block bg-gray-100 p-10 pl-[45%] -ml-[35%]">
                             <p className="mb-10">Mit unserer herausragenden Bauleitung gewährleisten wir eine mühelose Anlagenerrichtung durch zuverlässige Vertragspartner und unsere eigenen erfahrenen Montageteams. Auf Wunsch bieten wir auch eine Speicherlösung an.</p>
 
@@ -106,8 +96,8 @@ export default function Projektentwicklung({ data }) {
             </div>
 
             <div id="service-global" className="container mt-24" data-aos="fade-up">
-                <h2 className="text-3xl xl:text-6xl font-bold mb-14">Von der Planung bis zum Betrieb</h2>
-                <div className="flex flex-col xl:flex-row">
+                <h2 className="text-3xl lg:text-6xl font-bold mb-14">Von der Planung bis zum Betrieb</h2>
+                <div className="flex flex-col lg:flex-row">
                     <div className="flex-1">
                         <Link to="/projektentwicklung" className="item flex flex-row items-center gap-5 mb-10 cursor-pointer active">
                             <div className="flex-none">

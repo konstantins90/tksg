@@ -22,8 +22,8 @@ export default function ServiceTabs({ data }) {
             </TabList>
         
             <TabPanel>
-                <div class="flex flex-col xl:flex-row gap-20 items-center">
-                    <div class="basis-full xl:basis-1/2 py-10">
+                <div class="flex flex-col lg:flex-row gap-20 items-center">
+                    <div class="basis-full lg:basis-1/2 py-10">
                         <h2 className="text-3xl font-bold mb-4">Der Schlüssel zu Ihrer erfolgreichen Freilandanlage</h2>
                         <p className="mb-10">Optimieren Sie den Standort Ihrer Freilandanlage mit unserer detaillierten Standortanalyse. Wir evaluieren alle relevanten Faktoren, um den idealen Platz für Ihre Investition zu bestimmen.</p>
                         <ul>
@@ -33,7 +33,7 @@ export default function ServiceTabs({ data }) {
                         </ul>
                         <Link to="/standortanalyse" className="mt-10 py-2 px-5 inline-block border-2 border-orange rounded-full hover:bg-orange hover:text-white">mehr erfahren</Link>
                     </div>
-                    <div class="basis-full xl:basis-1/2 relative -order-1">
+                    <div class="basis-full lg:basis-1/2 relative -order-1">
                         <StaticImage
                             src="../images/42559.jpg"
                             alt="Photovoltaik Analge gebaut von Turn Key Solar GmbH"
@@ -49,8 +49,8 @@ export default function ServiceTabs({ data }) {
                 </div>
             </TabPanel>
             <TabPanel>
-                <div class="flex flex-col xl:flex-row gap-20 items-center">
-                    <div class="basis-full xl:basis-1/2 py-10">
+                <div class="flex flex-col lg:flex-row gap-20 items-center">
+                    <div class="basis-full lg:basis-1/2 py-10">
                         <h2 className="text-3xl font-bold mb-4">Sichere Genehmigungen für Ihr Freilandprojekt</h2>
                         <p className="mb-10">Sichern Sie sich eine reibungslose Baugenehmigung für Ihre Freilandanlage mit unserer Unterstützung. Wir führen Sie durch alle behördlichen Anforderungen und sorgen für eine zügige Genehmigung.</p>
                         <ul>
@@ -60,7 +60,7 @@ export default function ServiceTabs({ data }) {
                         </ul>
                         <Link to="/baugenehmigung" className="mt-10 py-2 px-5 inline-block border-2 border-orange rounded-full hover:bg-orange hover:text-white">mehr erfahren</Link>
                     </div>
-                    <div class="basis-full xl:basis-1/2 relative -order-1">
+                    <div class="basis-full lg:basis-1/2 relative -order-1">
                         <StaticImage
                             src="../images/62114.jpg"
                             alt="Photovoltaik Analge gebaut von Turn Key Solar GmbH"
@@ -76,8 +76,8 @@ export default function ServiceTabs({ data }) {
                 </div>
             </TabPanel>
             <TabPanel>
-                <div class="flex flex-col xl:flex-row gap-20 items-center">
-                    <div class="basis-full xl:basis-1/2 py-10">
+                <div class="flex flex-col lg:flex-row gap-20 items-center">
+                    <div class="basis-full lg:basis-1/2 py-10">
                         <h2 className="text-3xl font-bold mb-4">Nachhaltigkeit und Compliance für Ihre Freilandanlage</h2>
                         <p className="mb-10">Gewährleisten Sie die Umweltverträglichkeit Ihrer Freilandanlage durch unsere umfassende Umweltprüfung. Wir prüfen alle relevanten Umweltaspekte und stellen sicher, dass Ihr Projekt den gesetzlichen Vorgaben entspricht.</p>
                         <ul>
@@ -87,7 +87,7 @@ export default function ServiceTabs({ data }) {
                         </ul>
                         <Link to="/umweltpruefung" className="mt-10 py-2 px-5 inline-block border-2 border-orange rounded-full hover:bg-orange hover:text-white">mehr erfahren</Link>
                     </div>
-                    <div class="basis-full xl:basis-1/2 relative -order-1">
+                    <div class="basis-full lg:basis-1/2 relative -order-1">
                         <StaticImage
                             src="../images/65370.jpg"
                             alt="Photovoltaik Analge gebaut von Turn Key Solar GmbH"

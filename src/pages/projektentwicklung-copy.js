@@ -2,7 +2,8 @@ import React from "react"
 import { Link } from "gatsby"
 import { StaticImage } from "gatsby-plugin-image"
 
-import Layout from "../components/layout"
+import { StaticImage } from "gatsby-plugin-image"
+import { SEO } from "../components/seo"
 import Projects from "../components/projects"
 
 import { CheckCircleIcon, ArrowTrendingUpIcon, WrenchScrewdriverIcon, RocketLaunchIcon } from '@heroicons/react/24/outline'

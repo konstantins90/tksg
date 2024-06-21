@@ -2,10 +2,12 @@ import React from "react"
 import { Link, graphql, useStaticQuery } from "gatsby"
 import { StaticImage } from "gatsby-plugin-image"
 
-import Layout from "../components/layout"
+import { StaticImage } from "gatsby-plugin-image"
+import { SEO } from "../components/seo"
 import TabsDachanlagen from "../components/tabs-dachanlagen"
 import TabsLandanlagen from "../components/tabs-landanlagen"
 import Kontakt from "../components/kontakt"
+import Banner from "../components/banner"
 
 import { ArrowTrendingUpIcon, WrenchScrewdriverIcon, RocketLaunchIcon } from '@heroicons/react/24/outline'
 
@@ -46,33 +48,21 @@ export default function Home({ data }) {
     const imageBg = sourceData.allImageSharp.nodes
   return (
     <Layout>
-        <div id="banner" class="-mt-24 relative w-full py-12 px-12">
-            <StaticImage
-                src="../images/turnkey-solar-banner-photovoltaik-analge.webp"
-                alt="Photovoltaik Analge gebaut von Turn Key Solar GmbH"
-                placeholder="blurred"
-                layout="constrained"
-                width={1980}
-                imgStyle={{ 'object-position': 'right center' }}
-                objectFit="cover"
-                class="w-full h-24 absolute inset-0 object-cover"
-            />
-            <div class="w-full h-full absolute inset-0 img-overlay dark"></div>
-        </div>
+        <Banner />
 
         <div className="bg bg-white pb-40" data-aos="fade-up">
             <div id="about">
-                <div className="container xl:max-w-[60%] py-40 text-center">
-                    <h1 className="text-center inline-block mb-12 text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-display font-bold pb-4 border-b-2 border-orange">Leistungen</h1>
-                    <div className="text-lg xl:text-2xl text-center font-light leading-normal">
+                <div className="container lg:max-w-[60%] py-40 text-center">
+                    <h1 className="text-center inline-block mb-12 text-3xl md:text-4xl lg:text-6xl font-display font-bold pb-4 border-b-2 border-orange">Leistungen</h1>
+                    <div className="text-lg lg:text-2xl text-center font-light leading-normal">
                         Turn Key Solar ist Ihr Spezialist für Photovoltaik für die Projektentwicklung, die Anlagenerrichtung und den Anlagenbetrieb. Wir bieten einen ganzheitlichen Service Ihres Photovoltaikprojektes.
                     </div>
                 </div>
             </div>
 
             <div id="service-global" className="container xl:max-w-[60%] mb-14">
-                <div class="flex flex-col xl:flex-row gap-20">
-                    <div class="basis-full xl:basis-1/2 relative">
+                <div class="flex flex-col lg:flex-row gap-20">
+                    <div class="basis-full lg:basis-1/2 relative">
                     <StaticImage
                         src="../images/1888.jpg"
                         alt="Photovoltaik Analge gebaut von Turn Key Solar GmbH"
@@ -80,10 +70,10 @@ export default function Home({ data }) {
                         layout="constrained"
                         width={800}
                         objectFit="cover"
-                        class="w-full h-full xl:absolute inset-0 object-cover"
+                        class="w-full h-full lg:absolute inset-0 object-cover"
                     />
                     </div>
-                    <div class="basis-full xl:basis-1/2">
+                    <div class="basis-full lg:basis-1/2">
                         <h2 className="text-3xl font-bold mb-4">Von der Planung bis zum Betrieb</h2>
                         <p className="mb-10">Turn Key Solar ist Ihr Spezialist für Photovoltaik für die Projektentwicklung, die Anlagenerrichtung und den Anlagenbetrieb. Wir bieten einen ganzheitlichen Service Ihres Photovoltaikprojektes.</p>
 
@@ -128,15 +118,15 @@ export default function Home({ data }) {
         </div>
 
         <div className="bg bg-white pb-40" data-aos="fade-up">
-            <div className="container xl:max-w-[80%] mb-14">
-                <h2 className="text-4xl xl:text-9xl font-bold mb-20">Leistungen für <span className="text-orange text-6xl xl:text-14xl">Dachanlagen</span></h2>
+            <div className="container lg:max-w-[80%] mb-14">
+                <h2 className="text-4xl lg:text-9xl font-bold mb-20">Leistungen für <span className="text-orange text-6xl lg:text-9xl xl:text-14xl">Dachanlagen</span></h2>
                 <TabsDachanlagen />
             </div>
         </div>
 
         <div className="bg bg-white pb-40" data-aos="fade-up">
-            <div className="container xl:max-w-[80%] mb-14">
-                <h2 className="text-4xl xl:text-9xl font-bold mb-20">Leistungen für <span className="text-orange text-5xl xl:text-14xl">Freilandanlagen</span></h2>
+            <div className="container lg:max-w-[80%] mb-14">
+                <h2 className="text-4xl lg:text-9xl font-bold mb-20">Leistungen für <span className="text-orange text-5xl lg:text-9xl xl:text-14xl">Freilandanlagen</span></h2>
                 <TabsLandanlagen />
             </div>
         </div>
@@ -145,17 +135,17 @@ export default function Home({ data }) {
             <div className="bg parallax h-screen relative" style={{ "background-image": "url('"+ imageBg[0].fluid.srcWebp +"')" }}>
                 <div class="w-full h-full absolute inset-0 img-overlay"></div>
                 <div className="px-20 text-center h-full flex flex-col justify-center relative">
-                    <div className="text-6xl xl:text-14xl font-bold text-animation">Von der Planung bis zum Betrieb</div>
-                    <p className="text-lg xl:text-2xl mt-10 text-white">Profitieren Sie von unserer langjährigen Branchenexpertise. Wir bieten effiziente Solaranlagen für Unternehmen und Privathaushalte.</p>
+                    <div className="text-6xl lg:text-9xl xl:text-14xl font-bold text-animation">Von der Planung bis zum Betrieb</div>
+                    <p className="text-lg lg:text-2xl mt-10 text-white">Profitieren Sie von unserer langjährigen Branchenexpertise. Wir bieten effiziente Solaranlagen für Unternehmen und Privathaushalte.</p>
                 </div>
             </div>
         </div>
 
         <div className="bg bg-gray-100">
             <div id="about" data-aos="fade-up">
-                <div className="container xl:max-w-[60%] py-40 text-center">
-                    <h3 className="text-center inline-block mb-12 text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-display font-bold pb-4 border-b-2 border-orange">Unsere Partner</h3>
-                    <div className="text-lg xl:text-2xl text-center font-light leading-normal">
+                <div className="container lg:max-w-[60%] py-40 text-center">
+                    <h3 className="text-center inline-block mb-12 text-3xl md:text-4xl lg:text-6xl font-display font-bold pb-4 border-b-2 border-orange">Unsere Partner</h3>
+                    <div className="text-lg lg:text-2xl text-center font-light leading-normal">
                         Unsere Partner sind führende Unternehmen in der Branche, die uns mit ihrer Expertise und innovativen Technologien unterstützen. Durch diese starken Partnerschaften können wir Ihnen erstklassige Lösungen und Dienstleistungen für Ihre Projekte bieten. Vertrauen Sie auf die Stärke unseres Netzwerks und profitieren Sie von unseren gemeinsamen Synergien.
                     </div>
                     <div className="flex gap-10 items-center justify-center pt-20">
@@ -203,7 +193,8 @@ export default function Home({ data }) {
         <Kontakt />
 
         <div className="hidden">
-            <div className="w-1/4 w-2/4"></div>
+            <div className="w-1/4"></div>
+            <div className="w-2/4"></div>
         </div>
     </Layout>
   )
