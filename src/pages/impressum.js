@@ -1,5 +1,5 @@
 import React from "react"
-import { StaticImage } from "gatsby-plugin-image"
+import Layout from "../components/layout"
 
 import { StaticImage } from "gatsby-plugin-image"
 import { SEO } from "../components/seo"

@@ -1,6 +1,6 @@
 import React from "react"
 import { Link } from "gatsby"
-import { StaticImage } from "gatsby-plugin-image"
+import Layout from "../components/layout"
 
 import { StaticImage } from "gatsby-plugin-image"
 import { SEO } from "../components/seo"
@@ -141,3 +141,7 @@ export default function Home({ data }) {
     </Layout>
   )
 }
+
+export const Head = () => (
+    <SEO />
+  )
