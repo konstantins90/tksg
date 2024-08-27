@@ -136,3 +136,8 @@ export default function Projektentwicklung({ data }) {
     </Layout>
   )
 }
+
+<SEO
+    title = "Baugenehmigung & Standortanalyse für Photovoltaikanlagen | Turn Key Solar GmbH"
+    description = "Turn Key Solar unterstützt Sie bei der Baugenehmigung und Standortanalyse Ihrer Photovoltaikanlage in Paderborn. Optimieren Sie die Effizienz Ihrer Solaranlage mit unserer Expertise und profitieren Sie von maximaler Leistung."
+/>

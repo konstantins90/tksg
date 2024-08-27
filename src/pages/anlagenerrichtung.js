@@ -148,3 +148,8 @@ export default function Projektentwicklung({ data }) {
     </Layout>
   )
 }
+
+<SEO
+    title = "Anlagenbau für Photovoltaikanlagen in Paderborn | Turn Key Solar GmbH"
+    description = "Turn Key Solar ist Ihr Experte für den Bau und die Errichtung von Photovoltaikanlagen in Paderborn. Von der Planung bis zur Montage bieten wir maßgeschneiderte Lösungen für private und gewerbliche Projekte. Effizient und zuverlässig."
+/>

@@ -179,3 +179,8 @@ export default function Projektentwicklung({ data }) {
     </Layout>
   )
 }
+
+<SEO
+    title = "Projektentwicklung für Photovoltaikanlagen | Turn Key Solar GmbH"
+    description = "Turn Key Solar bietet umfassende Unterstützung bei der Projektentwicklung Ihrer Photovoltaikanlage. Wir begleiten Sie von der Standortanalyse über die Planung bis zur Umsetzung. Vertrauen Sie auf unsere Expertise für eine erfolgreiche Realisierung Ihres Projekts."
+/>

@@ -35,3 +35,8 @@ export default function Impressum({ data }) {
     </Layout>
   )
 }
+
+
+<SEO
+    title = "Impressum | Turn Key Solar GmbH - Photovoltaik-Experte in Paderborn"
+/>

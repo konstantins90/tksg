@@ -395,3 +395,7 @@ export default function Datenschutz({ data }) {
     </Layout>
   )
 }
+
+<SEO
+    title = "Datenschutzerklärung | Turn Key Solar GmbH - Photovoltaik Paderborn"
+/>
