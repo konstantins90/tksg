@@ -114,7 +114,9 @@ export default function Projektentwicklung({ data }) {
   )
 }
 
-<SEO
-    title = "Eigenverbrauch Optimieren mit Photovoltaik | Turn Key Solar GmbH"
-    description = "Sparen Sie Kosten und maximieren Sie Ihren Eigenverbrauch mit einer maßgeschneiderten Solaranlage von Turn Key Solar in Paderborn. Nutzen Sie EEG-Vergütungen für zusätzliche Einnahmen. Kontaktieren Sie uns für ein individuelles Angebot und weitere Informationen."
-/>
+export const Head = () => (
+    <SEO
+        title = "Eigenverbrauch Optimieren mit Photovoltaik | Turn Key Solar GmbH"
+        description = "Sparen Sie Kosten und maximieren Sie Ihren Eigenverbrauch mit einer maßgeschneiderten Solaranlage von Turn Key Solar in Paderborn. Nutzen Sie EEG-Vergütungen für zusätzliche Einnahmen. Kontaktieren Sie uns für ein individuelles Angebot und weitere Informationen."
+    />
+)

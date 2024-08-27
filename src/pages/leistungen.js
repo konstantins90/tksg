@@ -200,8 +200,9 @@ export default function Home({ data }) {
   )
 }
 
-
-<SEO
-    title = "Leistungen: Photovoltaik-Projektentwicklung, Errichtung & Betrieb | Turn Key Solar GmbH"
-    description = "Turn Key Solar bietet umfassende Leistungen für Ihre Photovoltaikprojekte in Paderborn. Von der Projektentwicklung über die Anlagenerrichtung bis zum Anlagenbetrieb – wir bieten Ihnen einen ganzheitlichen Service. Erfahren Sie mehr über unsere Expertise!"
-/>
+export const Head = () => (
+    <SEO
+        title = "Leistungen: Photovoltaik-Projektentwicklung, Errichtung & Betrieb | Turn Key Solar GmbH"
+        description = "Turn Key Solar bietet umfassende Leistungen für Ihre Photovoltaikprojekte in Paderborn. Von der Projektentwicklung über die Anlagenerrichtung bis zum Anlagenbetrieb – wir bieten Ihnen einen ganzheitlichen Service. Erfahren Sie mehr über unsere Expertise!"
+    />
+)

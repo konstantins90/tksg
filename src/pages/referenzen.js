@@ -31,7 +31,9 @@ export default function Projektentwicklung({ data }) {
   )
 }
 
-<SEO
-    title = "Unsere Projekte: Erfolgreiche Photovoltaik-Lösungen | Turn Key Solar GmbH"
-    description = "Entdecken Sie die Erfolgsgeschichten von Turn Key Solar und lassen Sie sich von unseren Projekten im Bereich Photovoltaik inspirieren. Erfahren Sie mehr über unsere grünen Innovationen und unsere Leidenschaft für eine nachhaltige Zukunft."
-/>
+export const Head = () => (
+    <SEO
+        title = "Unsere Projekte: Erfolgreiche Photovoltaik-Lösungen | Turn Key Solar GmbH"
+        description = "Entdecken Sie die Erfolgsgeschichten von Turn Key Solar und lassen Sie sich von unseren Projekten im Bereich Photovoltaik inspirieren. Erfahren Sie mehr über unsere grünen Innovationen und unsere Leidenschaft für eine nachhaltige Zukunft."
+    />
+)

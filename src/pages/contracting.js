@@ -111,7 +111,9 @@ export default function Projektentwicklung({ data }) {
   )
 }
 
-<SEO
-    title = "Contracting für Photovoltaikanlagen in Paderborn | Turn Key Solar GmbH"
-    description = "Realisierten Sie Ihre Photovoltaik-Dachprojekte ohne finanzielle Belastung mit unserem Contracting-Angebot. Flexible Vertragsmodelle und Expertise von Turn Key Solar für maßgeschneiderte Lösungen. Kontaktieren Sie uns für Details und ein individuelles Angebot."
-/>
+export const Head = () => (
+    <SEO
+        title = "Contracting für Photovoltaikanlagen in Paderborn | Turn Key Solar GmbH"
+        description = "Realisierten Sie Ihre Photovoltaik-Dachprojekte ohne finanzielle Belastung mit unserem Contracting-Angebot. Flexible Vertragsmodelle und Expertise von Turn Key Solar für maßgeschneiderte Lösungen. Kontaktieren Sie uns für Details und ein individuelles Angebot."
+    />
+)

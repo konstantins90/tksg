@@ -116,7 +116,9 @@ export default function Projektentwicklung({ data }) {
   )
 }
 
-<SEO
-    title = "Standortanalyse für Photovoltaikanlagen | Turn Key Solar GmbH"
-    description = "Nutzen Sie unsere Expertise in der Standortanalyse für Ihre Photovoltaikanlagen. Wir bieten detaillierte Analysen, um die besten Standorte für Ihre Solaranlage zu sichern. Kontaktieren Sie uns für ein maßgeschneidertes Angebot und profitieren Sie von optimalen Ergebnissen."
-/>
+export const Head = () => (
+    <SEO
+        title = "Standortanalyse für Photovoltaikanlagen | Turn Key Solar GmbH"
+        description = "Nutzen Sie unsere Expertise in der Standortanalyse für Ihre Photovoltaikanlagen. Wir bieten detaillierte Analysen, um die besten Standorte für Ihre Solaranlage zu sichern. Kontaktieren Sie uns für ein maßgeschneidertes Angebot und profitieren Sie von optimalen Ergebnissen."
+    />
+)

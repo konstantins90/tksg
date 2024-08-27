@@ -113,7 +113,9 @@ export default function Projektentwicklung({ data }) {
   )
 }
 
-<SEO
-    title = "Umweltprüfung für Photovoltaikanlagen | Turn Key Solar GmbH"
-    description = "Setzen Sie auf umweltverträgliche Photovoltaikanlagen von Turn Key Solar. Durch unsere Zusammenarbeit mit regionalen Partnern garantieren wir, dass Ihre Anlage erneuerbare Energie liefert und die Umwelt schützt. Kontaktieren Sie uns für nachhaltige Lösungen."
-/>
+export const Head = () => (
+    <SEO
+        title = "Umweltprüfung für Photovoltaikanlagen | Turn Key Solar GmbH"
+        description = "Setzen Sie auf umweltverträgliche Photovoltaikanlagen von Turn Key Solar. Durch unsere Zusammenarbeit mit regionalen Partnern garantieren wir, dass Ihre Anlage erneuerbare Energie liefert und die Umwelt schützt. Kontaktieren Sie uns für nachhaltige Lösungen."
+    />
+)

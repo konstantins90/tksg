@@ -155,7 +155,9 @@ export default function Projektentwicklung({ data }) {
   )
 }
 
-<SEO
-    title = "Machbarkeitsstudie für Photovoltaikanlagen | Turn Key Solar GmbH"
-    description = "Turn Key Solar bietet individuelle Machbarkeitsstudien für Ihren Wunschstandort. Wir analysieren technische Machbarkeit, rechtlichen Rahmen und Wirtschaftlichkeit detailliert. Bei Projektumsetzung entfallen die Planungskosten. Vertrauen Sie auf unsere Expertise für eine nachhaltige Zukunft."
-/>
+export const Head = () => (
+    <SEO
+        title = "Machbarkeitsstudie für Photovoltaikanlagen | Turn Key Solar GmbH"
+        description = "Turn Key Solar bietet individuelle Machbarkeitsstudien für Ihren Wunschstandort. Wir analysieren technische Machbarkeit, rechtlichen Rahmen und Wirtschaftlichkeit detailliert. Bei Projektumsetzung entfallen die Planungskosten. Vertrauen Sie auf unsere Expertise für eine nachhaltige Zukunft."
+    />
+)
