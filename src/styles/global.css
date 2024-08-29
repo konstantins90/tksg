@@ -470,3 +470,17 @@ ul > li {
         }
     }
 }
+
+.leaflet-popup-content p {
+  margin: 0;
+}
+
+nav .dropdown {
+  background: rgba(255, 255, 255, 0.85);
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+nav .dropdown .wrap {
+  display: flex;
+}

@@ -1,534 +1,535 @@
 [
-  {
-  "name": "BALI",
-  "street": "Zum Strothebach",
-  "housenumber": "22",
-  "postcode": "33175",
-  "city": "Bad Lippspringe",
-  "geo": {
-      "lat": 51.764834,
-      "lng": 8.829053
-  }
-  },
-  {
-  "name": "HÖRDEN AM HARZ",
-  "street": "Gänsewinkel",
-  "housenumber": "1",
-  "postcode": "37412",
-  "city": "Hörden am Harz",
-  "geo": {
-      "lat": 51.856192,
-      "lng": 10.399095
-  }
-  },
-  {
-  "name": "HATTORF AM HARZ",
-  "street": "Otto Escher Str.",
-  "housenumber": "15",
-  "postcode": "37197",
-  "city": "Hattorf am Harz",
-  "geo": {
-      "lat": 51.629167,
-      "lng": 9.994884
-  }
-  },
-  {
-  "name": "WEILAND",
-  "street": "Rudolf-Diesel Str.",
-  "housenumber": "8",
-  "city": "Hattorf am Harz",
-  "geo": {
-      "lat": 51.630292,
-      "lng": 9.998839
-  }
-  },
-  {
-  "name": "BONNEBERG",
-  "street": "Am Bonneberg",
-  "housenumber": "30a",
-  "postcode": "32545",
-  "city": "Bad Oeynhausen",
-  "geo": {
-      "lat": 52.235137,
-      "lng": 8.791283
-  }
-  },
-  {
-  "name": "ERBSMÜHLE",
-  "street": "Bei der Erbsmühle",
-  "housenumber": "1",
-  "postcode": "37247",
-  "city": "Großalmerode",
-  "geo": {
-      "lat": 51.265399,
-      "lng": 9.806277
-  }
-  },
-  {
-  "name": "SCHLOSS HOLTE",
-  "street": "Görlitzer Str.",
-  "housenumber": "18",
-  "postcode": "33758",
-  "city": "Schloß Holte Stukenbrock",
-  "geo": {
-      "lat": 51.897532,
-      "lng": 8.700049
-  }
-  },
-  {
-  "name": "LICHTENAU",
-  "street": "Glasebachstr.",
-  "housenumber": "302",
-  "postcode": "33165",
-  "city": "Lichtenau",
-  "geo": {
-      "lat": 51.772946,
-      "lng": 8.701375
-  }
-  },
-  {
-  "name": "GREIFSWALDER STR.",
-  "street": "Greifswalder Str.",
-  "housenumber": "8",
-  "postcode": "33106",
-  "city": "Paderborn",
-  "geo": {
-      "lat": 51.746549,
-      "lng": 8.799073
-  }
-  },
-  {
-  "name": "HUMFELD",
-  "street": "Fermke",
-  "housenumber": "998",
-  "postcode": "32694",
-  "city": "Dörentrup",
-  "geo": {
-      "lat": 52.046086,
-      "lng": 9.015814
-  }
-  },
-  {
-  "name": "SALZKOTTEN",
-  "geo": {
-      "lat": 51.703604,
-      "lng": 8.704893
-  }
-  },
-  {
-  "name": "GROSSRUDESTÄDT",
-  "geo": {
-      "lat": 52.717898,
-      "lng": 11.452288
-  }
-  },
-  {
-  "name": "KATHARIENBERG",
-  "street": "Im Gut",
-  "housenumber": "27",
-  "postcode": "99988",
-  "city": "Diedorf OT Katharinenberg",
-  "geo": {
-      "lat": 51.162927,
-      "lng": 10.981112
-  }
-  },
-  {
-  "name": "Dachanlage Krevese",
-  "size": "lg:w-1/3 xl:w-1/4",
-  "image": "../images/projects/Krevese_4.webp",
-  "modules": 7096,
-  "capacity": 2199.76,
-  "annual": 2034768.75,
-  "year": 2018,
-  "subtitle": "Erneuerbare Energien im Herzen von Krevese.",
-  "description": "Die Solardachanlage in Krevese bietet umweltfreundliche, effiziente Energiegewinnung. Mit modernster Technologie nutzen die Anlage Sonnenenergie, um Ihr Zuhause nachhaltig mit Strom zu versorgen.",
-  "street": "Hauptstraße",
-  "housenumber": "51",
-  "postcode": "39606",
-  "city": "Osterburg",
-  "geo": {
-      "lat": 52.821385,
-      "lng": 11.819638
-  }
-  },
-  {
-  "name": "Dachanlage Drüsedau",
-  "size": "lg:w-1/3 xl:w-1/4",
-  "image": "../images/projects/Druesedau29_7.webp",
-  "modules": 1949,
-  "capacity": 604.19,
-  "annual": 563000,
-  "year": 2018,
-  "subtitle": "Solarenergie im Kern von Drüsedau.",
-  "description": "In Drüsedau erstrahlt unsere Dachanlage als Symbol für erneuerbare Energie. Zentral gelegen, nutzt sie effizient Solarkraft zur umweltfreundlichen Stromerzeugung – ein leuchtendes Beispiel für nachhaltige Energie im Kern des Ortes.",
-  "street": "Drüsedau",
-  "housenumber": "29",
-  "postcode": "39606",
-  "city": "Altmärkische Höhe",
-  "geo": {
-      "lat": 52.822129,
-      "lng": 11.781092
-  }
-  },
-  {
-  "name": "Dachanlage Krumke",
-  "size": "lg:w-1/3 xl:w-2/4",
-  "image": "../images/projects/Krumke_6.webp",
-  "modules": 921,
-  "capacity": 349.8,
-  "annual": 330381.12,
-  "year": 2021,
-  "subtitle": "Aufdachanlage beim Reiterhof in Krumke.",
-  "description": "Die Aufdachanlage beim Reiterhof in Krumke liefert ca. 330.380 kwH Solarenergie. Unsere Photovoltaik-Lösung bringt nachhaltige Energie direkt aufs Dach – effizient und umweltschonend.",
-  "street": "Lutherallee",
-  "housenumber": "5",
-  "postcode": "39606",
-  "city": "Osterburg",
-  "geo": {
-      "lat": 52.825841,
-      "lng": 11.815929
-  }
-  },
-  {
-  "name": "Dachanlage Kossebau",
-  "size": "lg:w-1/3 xl:w-1/4",
-  "image": "../images/projects/Kossebau7_5.webp",
-  "modules": 1444,
-  "capacity": 512.62,
-  "annual": 482888.04,
-  "year": 2019,
-  "subtitle": "Energiegewinnung auf Dächern in Kossebau.",
-  "description": "Die Dachanlage in Kossebau verkörpert modernste Photovoltaik-Technologie. Auf Hausdächern installiert, wandelt sie Sonnenstrahlen effizient in umweltfreundliche Energie um – ein leuchtendes Beispiel für nachhaltiges Wohnen und Arbeiten.",
-  "street": "Kastanienallee 7",
-  "housenumber": "7",
-  "postcode": "39606",
-  "city": "Osterburg",
-  "geo": {
-      "lat": 52.823539,
-      "lng": 11.812256
-  }
-  },
-
-  {
-  "name": "Dachanlage Lückstedt 77",
-  "size": "lg:w-1/3 xl:w-1/4",
-  "image": "../images/projects/Kossebau77_4.webp",
-  "modules": 554,
-  "capacity": 196.67,
-  "annual": 181723.08,
-  "year": 2019,
-  "subtitle": "Dachanlage der Zukunft.",
-  "description": "Auf einem Bauernhofdach in Kossebau präsentiert unsere Dachanlage die Zukunft der Energie: Nachhaltige Photovoltaik-Technologie, die effizient Sonnenkraft in umweltfreundlichen Strom umwandelt.",
-  "street": "Lückstedt",
-  "housenumber": "77",
-  "postcode": "39606",
-  "city": "Altmärkische Höhe",
-  "geo": {
-      "lat": 52.828302,
-      "lng": 11.781413
-  }
-  },
-  {
-  "name": "Dachanlage Lückstedt 94",
-  "size": "lg:w-1/3 xl:w-1/4",
-  "image": "../images/projects/Kossebau94_2.webp",
-  "modules": 1980,
-  "capacity": 702.9,
-  "annual": 658617.3,
-  "year": 2019,
-  "subtitle": "Energiegewinnung auf Dächern in Lückstedt.",
-  "description": "Unsere Dachanlage in Kossebau setzt neue Maßstäbe in der Solarenergie. Durch modernste Photovoltaik-Technik wird Sonnenlicht effizient in sauberen, grünen Strom umgewandelt.",
-  "street": "Lückstedt",
-  "housenumber": "94",
-  "postcode": "39606",
-  "city": "Altmärkische Höhe",
-  "geo": {
-      "lat": 52.829402,
-      "lng": 11.779183
-  }
-  },
-  {
-  "name": "LUCKSTEDT EA",
-  "street": "Lückstedt",
-  "housenumber": "94",
-  "postcode": "39606",
-  "city": "Altmärkische Höhe",
-  "geo": {
-      "lat": 52.829402,
-      "lng": 11.779183
-  }
-  },
-  {
-  "name": "Freilandanlage Ostingersleben",
-  "size": "lg:w-2/3 xl:w-1/4",
-  "image": "../images/projects/Ostingersleben_2_2-scaled.webp",
-  "modules": 12000,
-  "capacity": 4200,
-  "annual": 4011000,
-  "year": 2020,
-  "subtitle": "Zukunftssichere Solarenergie in Ostingersleben.",
-  "description": "In Ostingersleben steht die zukunftsweisende Freilandanlage, welche mit modernster Photovoltaik-Technologie effizient Sonnenenergie in sauberen Strom umwandelt. Ein Vorreiterprojekt für nachhaltige Energie und Umweltschutz.",
-  "street": "Alleringerslebener Weg",
-  "postcode": "39343",
-  "city": "Ostingersleben",
-  "geo": {
-      "lat": 52.071363,
-      "lng": 11.186264
-  }
-  },
-  {
-  "name": "Freilandanlage Alleringersleben",
-  "size": "lg:w-1/3 xl:w-1/4",
-  "image": "../images/projects/Alleringersleben_9-scaled.webp",
-  "modules": 4582,
-  "capacity": 1499.75,
-  "annual": 1537243.75,
-  "year": 2020,
-  "subtitle": "Energie der Zukunft in Alleringersleben.",
-  "description": "Unsere Freilandanlage in Alleringersleben ist ein Meilenstein in der erneuerbaren Energiegewinnung. Mit fortschrittlicher Photovoltaik-Technik erzeugen wir umweltfreundlichen Strom, der nachhaltig und effizient ist – Energie der Zukunft, heute.",
-  "street": "Am Schacht",
-  "housenumber": "1",
-  "postcode": "39343",
-  "city": "Ingersleben",
-  "geo": {
-      "lat": 52.12849,
-      "lng": 11.148036
-  }
-  },
-  {
-  "name": "Dachanlage Erxleben",
-  "size": "lg:w-1/3 xl:w-2/4",
-  "image": "../images/projects/Erxleben_2.webp",
-  "modules": 2631,
-  "capacity": 749.835,
-  "annual": 700345.89,
-  "year": 2019,
-  "subtitle": "Solarenergie auf dem Bauernhof in Erxleben.",
-  "description": "Entdecken Sie die Dachsolaranlage auf unserem Bauernhof in Erxleben: Eine innovative Photovoltaik-Lösung, die umweltfreundliche Energie erzeugt und die Landwirtschaft nachhaltig unterstützt. Grüne Energie, effizient genutzt.",
-  "street": "Möckern",
-  "housenumber": "30",
-  "postcode": "39606",
-  "city": "Erxleben",
-  "geo": {
-      "lat": 52.268553,
-      "lng": 11.393553
-  }
-  },
-  {
-  "name": "Freilandanlage Oschersleben",
-  "size": "lg:w-2/3 xl:w-1/4",
-  "image": "../images/projects/Oschersleben_4.webp",
-  "modules": 5625,
-  "capacity": 1743.75,
-  "annual": 1830937.5,
-  "year": 2017,
-  "subtitle": "Große Photovoltaikanlage im Zentrum von Oschersleben.",
-  "description": "Die Freilandanlage in Oschersleben revolutioniert die Energiegewinnung mit hochmoderner Photovoltaik-Technologie. Effizient, umweltfreundlich und zukunftsorientiert – für eine nachhaltige Energiezukunft.",
-  "street": "Deponie Hornhäuser Str.",
-  "postcode": "39387",
-  "city": "Oschersleben OT Bode",
-  "geo": {
-      "lat": 52.048394,
-      "lng": 11.285294
-  }
-  },
-  {
-  "name": "DORF MECKLENBURG",
-  "street": "Kletziner Strasse",
-  "housenumber": "1",
-  "postcode": "23972",
-  "city": "Dorf Mecklenburg",
-  "geo": {
-      "lat": 53.949903,
-      "lng": 11.471532
-  }
-  },
-  {
-  "name": "LUBESSE",
-  "street": "Schweriner Str.",
-  "housenumber": "1",
-  "postcode": "19077",
-  "city": "Lübesse",
-  "geo": {
-      "lat": 53.494528,
-      "lng": 11.372962
-  }
-  },
-  {
-  "name": "FRIEDLAND",
-  "street": "Pleetzer Weg",
-  "housenumber": "8a",
-  "postcode": "17098",
-  "city": "Friedland",
-  "geo": {
-      "lat": 53.668375,
-      "lng": 13.124052
-  }
-  },
-  {
-  "name": "FRIEDLAND FL",
-  "street": "Pleetzer Weg",
-  "postcode": "17098",
-  "city": "Friedland",
-  "geo": {
-      "lat": 53.668375,
-      "lng": 13.124052
-  }
-  },
-  {
-  "name": "ANGERMÜNDE",
-  "street": "Südring",
-  "housenumber": "11",
-  "postcode": "16278",
-  "city": "Angermünde",
-  "geo": {
-      "lat": 53.033777,
-      "lng": 14.009245
-  }
-  },
-  {
-  "name": "GADEBUSCH",
-  "street": "Wakenstädt",
-  "housenumber": "51",
-  "postcode": "19205",
-  "city": "Gadebusch",
-  "geo": {
-      "lat": 53.831982,
-      "lng": 11.179366
-  }
-  },
-  {
-  "name": "GADEBUSCH",
-  "street": "Rosa Luxemburg Str.",
-  "housenumber": "41",
-  "postcode": "19205",
-  "city": "Gadebusch",
-  "geo": {
-      "lat": 53.833142,
-      "lng": 11.17443
-  }
-  },
-  {
-  "name": "ANKLAM",
-  "street": "Pasewalker Allee",
-  "housenumber": "23",
-  "postcode": "17389",
-  "city": "Anklam",
-  "geo": {
-      "lat": 53.850361,
-      "lng": 13.688532
-  }
-  },
-  {
-  "name": "BARNIN",
-  "street": "Crivitzer Str.",
-  "housenumber": "14a",
-  "postcode": "19089",
-  "city": "Barnin",
-  "geo": {
-      "lat": 53.766055,
-      "lng": 11.337502
-  }
-  },
-  {
-  "name": "BARUTH",
-  "street": "An der Düne",
-  "housenumber": "15",
-  "postcode": "15837",
-  "city": "Baruth",
-  "geo": {
-      "lat": 52.014791,
-      "lng": 13.52109
-  }
-  },
-  {
-  "name": "Dachanlage Rambow",
-  "size": "lg:w-1/3 xl:w-1/4",
-  "image": "../images/projects/Rambow_1.webp",
-  "modules": 701,
-  "capacity": 199.785,
-  "annual": 190195.32,
-  "year": 2017,
-  "subtitle": "Effiziente Energiegewinnung in Rambow.",
-  "description": "Die Photovoltaik-Dachanlage auf einem Bauernhof in Rambow kombiniert Landwirtschaft mit grüner Energie. Durch modernste Technologie erzeugt sie effizient und umweltfreundlich Strom – ein Schritt in eine nachhaltigere Zukunft.",
-  "street": "Rambower Hauptstraße",
-  "housenumber": "41",
-  "postcode": "19339",
-  "city": "Plattenburg",
-  "geo": {
-      "lat": 53.082556,
-      "lng": 11.966854
-  }
-  },
-  {
-  "name": "Dachanlage Werben",
-  "size": "lg:w-1/3 xl:w-1/4",
-  "image": "../images/projects/Werben_7.webp",
-  "modules": 1122,
-  "capacity": 319.77,
-  "annual": 297066.33,
-  "year": 2016,
-  "subtitle": "Kraftwerke der Zukunft auf einem Landwirtschaftsbetrieb in Werben.",
-  "description": "In Werben verwandeln wir mit unserer Dachanlage auf einem großen Landwirtschaftsbetrieb mehrere Dächer in Kraftwerke der Zukunft. Durch die Nutzung fortschrittlicher Photovoltaik-Technik erzeugen wir nachhaltig und effizient Energie – ein Leuchtturmprojekt in der grünen Landwirtschaft.",
-  "street": "Akazienweg",
-  "housenumber": "1",
-  "postcode": "39615",
-  "city": "Werben OT Berge",
-  "geo": {
-      "lat": 53.101996,
-      "lng": 11.998898
-  }
-  },
-  {
-  "name": "Dachanlage Schloss Grube",
-  "size": "lg:w-1/3 xl:w-2/4",
-  "image": "../images/projects/SchlossGrube_1-scaled.jpg",
-  "modules": 2630,
-  "capacity": 749.84,
-  "annual": 698101.04,
-  "year": 2017,
-  "subtitle": "Zukunftsweisende Solartechnologie in Schloss Grube.",
-  "description": "Die Photovoltaik-Dachanlage auf einem alten Stall bei Schloss Grube beeindruckt mit 2630 modulesn. Sie besteht aus zukunftsweisender Solartechnologie, um nachhaltig und effizient Energie zu erzeugen – ein Beispiel für gelungene Energieinnovation.",
-  "street": "Alter Viesäcker Weg",
-  "postcode": "19336",
-  "city": "Bad Wilsnack OT Grube",
-  "geo": {
-      "lat": 52.994768,
-      "lng": 11.998007
-  }
-  },
-  {
-  "name": "BREDOW",
-  "street": "Nauener Landweg",
-  "housenumber": "1a",
-  "postcode": "14656",
-  "city": "Brieselang Bredow",
-  "geo": {
-      "lat": 52.57213,
-      "lng": 13.034845
-  }
-  },
-  {
-  "name": "NEURUPPIN",
-  "street": "Nymurk-Ring",
-  "housenumber": "2",
-  "postcode": "16816",
-  "city": "Neuruppin",
-  "geo": {
-      "lat": 52.923788,
-      "lng": 12.804333
-  }
-  },
-  {
-  "name": "NEURUPPIN",
-  "street": "Zur Mesche",
-  "housenumber": "18",
-  "postcode": "16816",
-  "city": "Neuruppin",
-  "geo": {
-      "lat": 52.932265,
-      "lng": 12.785547
-  }
-  }
-]
+    {
+    "name": "BALI",
+    "street": "Zum Strothebach",
+    "housenumber": "22",
+    "postcode": "33175",
+    "city": "Bad Lippspringe",
+    "geo": {
+        "lat": 51.764834,
+        "lng": 8.829053
+    }
+    },
+    {
+    "name": "HÖRDEN AM HARZ",
+    "street": "Gänsewinkel",
+    "housenumber": "1",
+    "postcode": "37412",
+    "city": "Hörden am Harz",
+    "geo": {
+        "lat": 51.856192,
+        "lng": 10.399095
+    }
+    },
+    {
+    "name": "HATTORF AM HARZ",
+    "street": "Otto Escher Str.",
+    "housenumber": "15",
+    "postcode": "37197",
+    "city": "Hattorf am Harz",
+    "geo": {
+        "lat": 51.629167,
+        "lng": 9.994884
+    }
+    },
+    {
+    "name": "WEILAND",
+    "street": "Rudolf-Diesel Str.",
+    "housenumber": "8",
+    "city": "Hattorf am Harz",
+    "geo": {
+        "lat": 51.630292,
+        "lng": 9.998839
+    }
+    },
+    {
+    "name": "BONNEBERG",
+    "street": "Am Bonneberg",
+    "housenumber": "30a",
+    "postcode": "32545",
+    "city": "Bad Oeynhausen",
+    "geo": {
+        "lat": 52.235137,
+        "lng": 8.791283
+    }
+    },
+    {
+    "name": "ERBSMÜHLE",
+    "street": "Bei der Erbsmühle",
+    "housenumber": "1",
+    "postcode": "37247",
+    "city": "Großalmerode",
+    "geo": {
+        "lat": 51.265399,
+        "lng": 9.806277
+    }
+    },
+    {
+    "name": "SCHLOSS HOLTE",
+    "street": "Görlitzer Str.",
+    "housenumber": "18",
+    "postcode": "33758",
+    "city": "Schloß Holte Stukenbrock",
+    "geo": {
+        "lat": 51.897532,
+        "lng": 8.700049
+    }
+    },
+    {
+    "name": "LICHTENAU",
+    "street": "Glasebachstr.",
+    "housenumber": "302",
+    "postcode": "33165",
+    "city": "Lichtenau",
+    "geo": {
+        "lat": 51.772946,
+        "lng": 8.701375
+    }
+    },
+    {
+    "name": "GREIFSWALDER STR.",
+    "street": "Greifswalder Str.",
+    "housenumber": "8",
+    "postcode": "33106",
+    "city": "Paderborn",
+    "geo": {
+        "lat": 51.746549,
+        "lng": 8.799073
+    }
+    },
+    {
+    "name": "HUMFELD",
+    "street": "Fermke",
+    "housenumber": "998",
+    "postcode": "32694",
+    "city": "Dörentrup",
+    "geo": {
+        "lat": 52.046086,
+        "lng": 9.015814
+    }
+    },
+    {
+    "name": "SALZKOTTEN",
+    "geo": {
+        "lat": 51.703604,
+        "lng": 8.704893
+    }
+    },
+    {
+    "name": "GROSSRUDESTÄDT",
+    "geo": {
+        "lat": 52.717898,
+        "lng": 11.452288
+    }
+    },
+    {
+    "name": "KATHARIENBERG",
+    "street": "Im Gut",
+    "housenumber": "27",
+    "postcode": "99988",
+    "city": "Diedorf OT Katharinenberg",
+    "geo": {
+        "lat": 51.162927,
+        "lng": 10.981112
+    }
+    },
+    {
+    "name": "Dachanlage Krevese",
+    "size": "lg:w-1/3 xl:w-1/4",
+    "image": "../images/projects/Krevese_4.webp",
+    "modules": 7096,
+    "capacity": 2199.76,
+    "annual": 2034768.75,
+    "year": 2018,
+    "subtitle": "Erneuerbare Energien im Herzen von Krevese",
+    "description": "Die Solardachanlage in Krevese bietet umweltfreundliche, effiziente Energiegewinnung. Mit modernster Technologie nutzen die Anlage Sonnenenergie, um Ihr Zuhause nachhaltig mit Strom zu versorgen.",
+    "street": "Hauptstraße",
+    "housenumber": "51",
+    "postcode": "39606",
+    "city": "Osterburg",
+    "geo": {
+        "lat": 52.821385,
+        "lng": 11.819638
+    }
+    },
+    {
+    "name": "Dachanlage Drüsedau",
+    "size": "lg:w-1/3 xl:w-1/4",
+    "image": "../images/projects/Druesedau29_7.webp",
+    "modules": 1949,
+    "capacity": 604.19,
+    "annual": 563000,
+    "year": 2018,
+    "subtitle": "Solarenergie im Kern von Drüsedau",
+    "description": "In Drüsedau erstrahlt unsere Dachanlage als Symbol für erneuerbare Energie. Zentral gelegen, nutzt sie effizient Solarkraft zur umweltfreundlichen Stromerzeugung – ein leuchtendes Beispiel für nachhaltige Energie im Kern des Ortes.",
+    "street": "Drüsedau",
+    "housenumber": "29",
+    "postcode": "39606",
+    "city": "Altmärkische Höhe",
+    "geo": {
+        "lat": 52.822129,
+        "lng": 11.781092
+    }
+    },
+    {
+    "name": "Dachanlage Krumke",
+    "size": "lg:w-1/3 xl:w-2/4",
+    "image": "../images/projects/Krumke_6.webp",
+    "modules": 921,
+    "capacity": 349.8,
+    "annual": 330381.12,
+    "year": 2021,
+    "subtitle": "Aufdachanlage beim Reiterhof in Krumke",
+    "description": "Die Aufdachanlage beim Reiterhof in Krumke liefert ca. 330.380 kwH Solarenergie. Unsere Photovoltaik-Lösung bringt nachhaltige Energie direkt aufs Dach – effizient und umweltschonend.",
+    "street": "Lutherallee",
+    "housenumber": "5",
+    "postcode": "39606",
+    "city": "Osterburg",
+    "geo": {
+        "lat": 52.825841,
+        "lng": 11.815929
+    }
+    },
+    {
+    "name": "Dachanlage Kossebau",
+    "size": "lg:w-1/3 xl:w-1/4",
+    "image": "../images/projects/Kossebau7_5.webp",
+    "modules": 1444,
+    "capacity": 512.62,
+    "annual": 482888.04,
+    "year": 2019,
+    "subtitle": "Energiegewinnung auf Dächern in Kossebau",
+    "description": "Die Dachanlage in Kossebau verkörpert modernste Photovoltaik-Technologie. Auf Hausdächern installiert, wandelt sie Sonnenstrahlen effizient in umweltfreundliche Energie um – ein leuchtendes Beispiel für nachhaltiges Wohnen und Arbeiten.",
+    "street": "Kastanienallee 7",
+    "housenumber": "7",
+    "postcode": "39606",
+    "city": "Osterburg",
+    "geo": {
+        "lat": 52.823539,
+        "lng": 11.812256
+    }
+    },
+  
+    {
+    "name": "Dachanlage Lückstedt 77",
+    "size": "lg:w-1/3 xl:w-1/4",
+    "image": "../images/projects/Kossebau77_4.webp",
+    "modules": 554,
+    "capacity": 196.67,
+    "annual": 181723.08,
+    "year": 2019,
+    "subtitle": "Dachanlage der Zukunft",
+    "description": "Auf einem Bauernhofdach in Kossebau präsentiert unsere Dachanlage die Zukunft der Energie: Nachhaltige Photovoltaik-Technologie, die effizient Sonnenkraft in umweltfreundlichen Strom umwandelt.",
+    "street": "Lückstedt",
+    "housenumber": "77",
+    "postcode": "39606",
+    "city": "Altmärkische Höhe",
+    "geo": {
+        "lat": 52.828302,
+        "lng": 11.781413
+    }
+    },
+    {
+    "name": "Dachanlage Lückstedt 94",
+    "size": "lg:w-1/3 xl:w-1/4",
+    "image": "../images/projects/Kossebau94_2.webp",
+    "modules": 1980,
+    "capacity": 702.9,
+    "annual": 658617.3,
+    "year": 2019,
+    "subtitle": "Energiegewinnung auf Dächern in Lückstedt",
+    "description": "Unsere Dachanlage in Kossebau setzt neue Maßstäbe in der Solarenergie. Durch modernste Photovoltaik-Technik wird Sonnenlicht effizient in sauberen, grünen Strom umgewandelt.",
+    "street": "Lückstedt",
+    "housenumber": "94",
+    "postcode": "39606",
+    "city": "Altmärkische Höhe",
+    "geo": {
+        "lat": 52.829402,
+        "lng": 11.779183
+    }
+    },
+    {
+    "name": "LUCKSTEDT EA",
+    "street": "Lückstedt",
+    "housenumber": "94",
+    "postcode": "39606",
+    "city": "Altmärkische Höhe",
+    "geo": {
+        "lat": 52.829402,
+        "lng": 11.779183
+    }
+    },
+    {
+    "name": "Freilandanlage Ostingersleben",
+    "size": "lg:w-2/3 xl:w-1/4",
+    "image": "../images/projects/Ostingersleben_2_2-scaled.webp",
+    "modules": 12000,
+    "capacity": 4200,
+    "annual": 4011000,
+    "year": 2020,
+    "subtitle": "Zukunftssichere Solarenergie in Ostingersleben",
+    "description": "In Ostingersleben steht die zukunftsweisende Freilandanlage, welche mit modernster Photovoltaik-Technologie effizient Sonnenenergie in sauberen Strom umwandelt. Ein Vorreiterprojekt für nachhaltige Energie und Umweltschutz.",
+    "street": "Alleringerslebener Weg",
+    "postcode": "39343",
+    "city": "Ostingersleben",
+    "geo": {
+        "lat": 52.071363,
+        "lng": 11.186264
+    }
+    },
+    {
+    "name": "Freilandanlage Alleringersleben",
+    "size": "lg:w-1/3 xl:w-1/4",
+    "image": "../images/projects/Alleringersleben_9-scaled.webp",
+    "modules": 4582,
+    "capacity": 1499.75,
+    "annual": 1537243.75,
+    "year": 2020,
+    "subtitle": "Energie der Zukunft in Alleringersleben",
+    "description": "Unsere Freilandanlage in Alleringersleben ist ein Meilenstein in der erneuerbaren Energiegewinnung. Mit fortschrittlicher Photovoltaik-Technik erzeugen wir umweltfreundlichen Strom, der nachhaltig und effizient ist – Energie der Zukunft, heute.",
+    "street": "Am Schacht",
+    "housenumber": "1",
+    "postcode": "39343",
+    "city": "Ingersleben",
+    "geo": {
+        "lat": 52.12849,
+        "lng": 11.148036
+    }
+    },
+    {
+    "name": "Dachanlage Erxleben",
+    "size": "lg:w-1/3 xl:w-2/4",
+    "image": "../images/projects/Erxleben_2.webp",
+    "modules": 2631,
+    "capacity": 749.835,
+    "annual": 700345.89,
+    "year": 2019,
+    "subtitle": "Solarenergie auf dem Bauernhof in Erxleben",
+    "description": "Entdecken Sie die Dachsolaranlage auf unserem Bauernhof in Erxleben: Eine innovative Photovoltaik-Lösung, die umweltfreundliche Energie erzeugt und die Landwirtschaft nachhaltig unterstützt. Grüne Energie, effizient genutzt.",
+    "street": "Möckern",
+    "housenumber": "30",
+    "postcode": "39606",
+    "city": "Erxleben",
+    "geo": {
+        "lat": 52.268553,
+        "lng": 11.393553
+    }
+    },
+    {
+    "name": "Freilandanlage Oschersleben",
+    "size": "lg:w-2/3 xl:w-1/4",
+    "image": "../images/projects/Oschersleben_4.webp",
+    "modules": 5625,
+    "capacity": 1743.75,
+    "annual": 1830937.5,
+    "year": 2017,
+    "subtitle": "Große Photovoltaikanlage im Zentrum von Oschersleben",
+    "description": "Die Freilandanlage in Oschersleben revolutioniert die Energiegewinnung mit hochmoderner Photovoltaik-Technologie. Effizient, umweltfreundlich und zukunftsorientiert – für eine nachhaltige Energiezukunft.",
+    "street": "Deponie Hornhäuser Str.",
+    "postcode": "39387",
+    "city": "Oschersleben OT Bode",
+    "geo": {
+        "lat": 52.048394,
+        "lng": 11.285294
+    }
+    },
+    {
+    "name": "DORF MECKLENBURG",
+    "street": "Kletziner Strasse",
+    "housenumber": "1",
+    "postcode": "23972",
+    "city": "Dorf Mecklenburg",
+    "geo": {
+        "lat": 53.949903,
+        "lng": 11.471532
+    }
+    },
+    {
+    "name": "LUBESSE",
+    "street": "Schweriner Str.",
+    "housenumber": "1",
+    "postcode": "19077",
+    "city": "Lübesse",
+    "geo": {
+        "lat": 53.494528,
+        "lng": 11.372962
+    }
+    },
+    {
+    "name": "FRIEDLAND",
+    "street": "Pleetzer Weg",
+    "housenumber": "8a",
+    "postcode": "17098",
+    "city": "Friedland",
+    "geo": {
+        "lat": 53.668375,
+        "lng": 13.124052
+    }
+    },
+    {
+    "name": "FRIEDLAND FL",
+    "street": "Pleetzer Weg",
+    "postcode": "17098",
+    "city": "Friedland",
+    "geo": {
+        "lat": 53.668375,
+        "lng": 13.124052
+    }
+    },
+    {
+    "name": "ANGERMÜNDE",
+    "street": "Südring",
+    "housenumber": "11",
+    "postcode": "16278",
+    "city": "Angermünde",
+    "geo": {
+        "lat": 53.033777,
+        "lng": 14.009245
+    }
+    },
+    {
+    "name": "GADEBUSCH",
+    "street": "Wakenstädt",
+    "housenumber": "51",
+    "postcode": "19205",
+    "city": "Gadebusch",
+    "geo": {
+        "lat": 53.831982,
+        "lng": 11.179366
+    }
+    },
+    {
+    "name": "GADEBUSCH",
+    "street": "Rosa Luxemburg Str.",
+    "housenumber": "41",
+    "postcode": "19205",
+    "city": "Gadebusch",
+    "geo": {
+        "lat": 53.833142,
+        "lng": 11.17443
+    }
+    },
+    {
+    "name": "ANKLAM",
+    "street": "Pasewalker Allee",
+    "housenumber": "23",
+    "postcode": "17389",
+    "city": "Anklam",
+    "geo": {
+        "lat": 53.850361,
+        "lng": 13.688532
+    }
+    },
+    {
+    "name": "BARNIN",
+    "street": "Crivitzer Str.",
+    "housenumber": "14a",
+    "postcode": "19089",
+    "city": "Barnin",
+    "geo": {
+        "lat": 53.766055,
+        "lng": 11.337502
+    }
+    },
+    {
+    "name": "BARUTH",
+    "street": "An der Düne",
+    "housenumber": "15",
+    "postcode": "15837",
+    "city": "Baruth",
+    "geo": {
+        "lat": 52.014791,
+        "lng": 13.52109
+    }
+    },
+    {
+    "name": "Dachanlage Rambow",
+    "size": "lg:w-1/3 xl:w-1/4",
+    "image": "../images/projects/Rambow_1.webp",
+    "modules": 701,
+    "capacity": 199.785,
+    "annual": 190195.32,
+    "year": 2017,
+    "subtitle": "Effiziente Energiegewinnung in Rambow",
+    "description": "Die Photovoltaik-Dachanlage auf einem Bauernhof in Rambow kombiniert Landwirtschaft mit grüner Energie. Durch modernste Technologie erzeugt sie effizient und umweltfreundlich Strom – ein Schritt in eine nachhaltigere Zukunft.",
+    "street": "Rambower Hauptstraße",
+    "housenumber": "41",
+    "postcode": "19339",
+    "city": "Plattenburg",
+    "geo": {
+        "lat": 53.082556,
+        "lng": 11.966854
+    }
+    },
+    {
+    "name": "Dachanlage Werben",
+    "size": "lg:w-1/3 xl:w-1/4",
+    "image": "../images/projects/Werben_7.webp",
+    "modules": 1122,
+    "capacity": 319.77,
+    "annual": 297066.33,
+    "year": 2016,
+    "subtitle": "Kraftwerke der Zukunft auf einem Landwirtschaftsbetrieb in Werben",
+    "description": "In Werben verwandeln wir mit unserer Dachanlage auf einem großen Landwirtschaftsbetrieb mehrere Dächer in Kraftwerke der Zukunft. Durch die Nutzung fortschrittlicher Photovoltaik-Technik erzeugen wir nachhaltig und effizient Energie – ein Leuchtturmprojekt in der grünen Landwirtschaft.",
+    "street": "Akazienweg",
+    "housenumber": "1",
+    "postcode": "39615",
+    "city": "Werben OT Berge",
+    "geo": {
+        "lat": 53.101996,
+        "lng": 11.998898
+    }
+    },
+    {
+    "name": "Dachanlage Schloss Grube",
+    "size": "lg:w-1/3 xl:w-2/4",
+    "image": "../images/projects/SchlossGrube_1-scaled.jpg",
+    "modules": 2630,
+    "capacity": 749.84,
+    "annual": 698101.04,
+    "year": 2017,
+    "subtitle": "Zukunftsweisende Solartechnologie in Schloss Grube",
+    "description": "Die Photovoltaik-Dachanlage auf einem alten Stall bei Schloss Grube beeindruckt mit 2630 modulesn. Sie besteht aus zukunftsweisender Solartechnologie, um nachhaltig und effizient Energie zu erzeugen – ein Beispiel für gelungene Energieinnovation.",
+    "street": "Alter Viesäcker Weg",
+    "postcode": "19336",
+    "city": "Bad Wilsnack OT Grube",
+    "geo": {
+        "lat": 52.994768,
+        "lng": 11.998007
+    }
+    },
+    {
+    "name": "BREDOW",
+    "street": "Nauener Landweg",
+    "housenumber": "1a",
+    "postcode": "14656",
+    "city": "Brieselang Bredow",
+    "geo": {
+        "lat": 52.57213,
+        "lng": 13.034845
+    }
+    },
+    {
+    "name": "NEURUPPIN",
+    "street": "Nymurk-Ring",
+    "housenumber": "2",
+    "postcode": "16816",
+    "city": "Neuruppin",
+    "geo": {
+        "lat": 52.923788,
+        "lng": 12.804333
+    }
+    },
+    {
+    "name": "NEURUPPIN",
+    "street": "Zur Mesche",
+    "housenumber": "18",
+    "postcode": "16816",
+    "city": "Neuruppin",
+    "geo": {
+        "lat": 52.932265,
+        "lng": 12.785547
+    }
+    }
+  ]
+  

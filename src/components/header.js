@@ -6,20 +6,39 @@ import AOS from "aos"
 import Logo from "../images/turn-key-sola-paderborn.svg"
 
 const Header = () => {
-    const [isOpen, setIsOpen] = useState(false)
-    const activatorRef = useRef()
-    const listRef = useRef()
+    const [isOpen, setIsOpen] = useState(false);
+    const [dropdownVisible, setDropdownVisible] = useState(false);
+    const [hideTimeout, setHideTimeout] = useState(null);
+    const activatorRef = useRef();
+    const listRef = useRef();
+    const dropdownRef = useRef();
 
     const handleClick = () => {
-        setIsOpen(!isOpen)
-    }
+        setIsOpen(!isOpen);
+    };
 
     const handleClickOutside = (event) => {
         if (listRef.current.contains(event.target) || activatorRef.current.contains(event.target)) {
-            return
+            return;
         }
-        setIsOpen(false)
-    }
+        setIsOpen(false);
+        setDropdownVisible(false); // Close dropdown when clicking outside
+    };
+
+    const handleMouseEnter = () => {
+        if (hideTimeout) {
+            clearTimeout(hideTimeout);
+            setHideTimeout(null);
+        }
+        setDropdownVisible(true);
+    };
+
+    const handleMouseLeave = () => {
+        const timeout = setTimeout(() => {
+            setDropdownVisible(false);
+        }, 1500); // 5 seconds delay
+        setHideTimeout(timeout);
+    };
 
     const data = useStaticQuery(graphql`
     {
@@ -29,6 +48,14 @@ const Header = () => {
               id
               slug
               title
+              subLinks {
+                slug
+                title
+                subLinks {
+                    slug
+                    title
+                }
+              }
             }
           }
         }
@@ -80,9 +107,64 @@ const Header = () => {
                 <nav id="desktop" ref={listRef} className={'w-full flex-grow hidden md:flex md:items-center md:w-auto md:block pt-6 md:pt-0'}>
                     <ul className="list-reset md:flex justify-end flex-1 items-center">
                         {data.allLinksJson.edges.map(({ node }, index) => (
-                            <li className="mr-3">
-                                <a className="inline-block text-white no-underline hover:text-grey-lighter hover:text-underline py-2 px-4 uppercase font-bold" href={node.slug}>{node.title}</a> 
-                            </li>
+                            <>
+                                {node.subLinks ? (
+                                    <li
+                                        className="mr-3 relative"
+                                        onMouseEnter={handleMouseEnter}
+                                        onMouseLeave={handleMouseLeave}
+                                    >
+                                        <a
+                                            className="inline-block text-white no-underline hover:text-grey-lighter hover:text-underline py-2 px-4 uppercase font-bold"
+                                            href={node.slug}
+                                        >
+                                            {node.title}
+                                        </a>
+                                        <ul
+                                            ref={dropdownRef}
+                                            className={`dropdown absolute left-0 mt-2 p-2 ${dropdownVisible ? 'block' : 'hidden'}`}
+                                        >
+                                            <div className="wrap">
+                                                {node.subLinks.map((subLink, subIndex) => (
+                                                    <li
+                                                        key={subIndex}
+                                                        className={`py-2 px-4 ${subLink.subLinks ? '' : ''}`}
+                                                    >
+                                                        {subLink.subLinks ? (
+                                                            <>
+                                                                <span className="whitespace-nowrap font-bold">{subLink.title}</span>
+                                                                <ul>
+                                                                    {subLink.subLinks.map((sub2Link, sub2Index) => (
+                                                                        <li key={sub2Index} className="py-1">
+                                                                            <a href={sub2Link.slug}>{sub2Link.title}</a>
+                                                                        </li>
+                                                                    ))}
+                                                                </ul>
+                                                            </>
+                                                        ) : (
+                                                            <>
+                                                                <a href={subLink.slug}>{subLink.title}</a>
+                                                            </>
+                                                        )}
+                                                    </li>
+                                                ))}
+                                            </div>
+                                        </ul>
+                                    </li>
+                                ) : (
+                                    <li
+                                        className="mr-3 relative"
+                                        onMouseLeave={handleMouseLeave}
+                                    >
+                                        <a
+                                            className="inline-block text-white no-underline hover:text-grey-lighter hover:text-underline py-2 px-4 uppercase font-bold"
+                                            href={node.slug}
+                                        >
+                                            {node.title}
+                                        </a>
+                                    </li>
+                                )}
+                            </>
                         ))}
                     </ul>
                 </nav>

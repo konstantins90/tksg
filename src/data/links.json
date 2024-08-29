@@ -4,8 +4,72 @@
         "slug": "/"
     },
     {
+        "title": "Team",
+        "slug": "/team"
+    },
+    {
         "title": "Leistungen",
-        "slug": "/leistungen"
+        "slug": "/leistungen",
+        "subLinks": [
+            {
+              "title": "Planung & Genehmigung",
+              "slug": "/planung-genehmigung",
+              "subLinks": [
+                {
+                  "title": "Standortanalyse",
+                  "slug": "/standortanalyse"
+                },
+                {
+                  "title": "Machbarkeitsstudie",
+                  "slug": "/machbarkeitsstudie"
+                },
+                {
+                  "title": "Umweltprüfung",
+                  "slug": "/umweltpruefung"
+                },
+                {
+                  "title": "Baugenehmigung",
+                  "slug": "/baugenehmigung"
+                }
+              ]
+            },
+            {
+              "title": "Errichtung & Installation",
+              "slug": "/errichtung-installation",
+              "subLinks": [
+                {
+                  "title": "Anlagenerrichtung",
+                  "slug": "/anlagenerrichtung"
+                },
+                {
+                  "title": "Dachsanierung",
+                  "slug": "/dachsanierung"
+                }
+              ]
+            },
+            {
+              "title": "Betrieb & Optimierung",
+              "slug": "/betrieb-optimierung",
+              "subLinks": [
+                {
+                  "title": "Anlagenbetrieb",
+                  "slug": "/anlagenbetrieb"
+                },
+                {
+                  "title": "Eigenverbrauch",
+                  "slug": "/eigenverbrauch"
+                },
+                {
+                  "title": "Projektentwicklung",
+                  "slug": "/projektentwicklung"
+                },
+                {
+                  "title": "Contracting",
+                  "slug": "/contracting"
+                }
+              ]
+            }
+          ]
     },
     {
         "title": "Referenzen",
