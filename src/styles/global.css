@@ -479,6 +479,7 @@ nav .dropdown {
   background: rgba(255, 255, 255, 0.85);
   left: 50%;
   transform: translateX(-50%);
+  z-index: 10;
 }
 
 nav .dropdown a:hover {
