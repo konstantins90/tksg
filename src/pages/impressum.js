@@ -22,7 +22,7 @@ export default function Impressum({ data }) {
                             Zum Strothebach 22<br/>
                             33175 Bad Lippspringe<br/><br/>
 
-                            Telefon: +49 5254 9386539<br/>
+                            Telefon: +49 5254 94785 64<br/>
                             E-Mail: info@turnkey-solar.de<br/><br/>
 
                             Amtsgericht Paderborn HRB 16386<br/>

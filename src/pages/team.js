@@ -62,8 +62,9 @@ export default function Projektentwicklung({ data }) {
                             <div className="font-bold text-lg">Gabriela Mainusch</div>
                             <div className="italic text-gray-400">Assistenz der Geschäftsführung</div>
                             <div className="mt-2">
-                                <a href="tel:+49 5254 938 65 39">+49 5254 938 65 39</a>
+                                <a href="tel:+491738655073">T: +49 173 8655073</a>
                             </div>
+                            
                         </div>
                     </div>
                     <div className="person">
@@ -84,7 +85,7 @@ export default function Projektentwicklung({ data }) {
                             <div className="font-bold text-lg">Kirsten Blume</div>
                             <div className="italic text-gray-400">Assistenz der Geschäftsführung</div>
                             <div className="mt-2">
-                                <a href="tel:+49 5254 938 65 39">+49 5254 938 65 39</a>
+                                <a href="tel:+491734859764">T: +49 173 4859764</a>
                             </div>
                         </div>
                     </div>
@@ -107,6 +108,9 @@ export default function Projektentwicklung({ data }) {
                         <div className="name text-center py-5">
                             <div className="font-bold text-lg">Waldemar Neufeld</div>
                             <div className="italic text-gray-400">Projektleiter</div>
+                            <div className="mt-2">
+                                <a href="tel:+491727598613">T: +49 172 7598613</a>
+                            </div>
                         </div>
                     </div>
                     <div className="person">
@@ -126,6 +130,9 @@ export default function Projektentwicklung({ data }) {
                         <div className="name text-center py-5">
                             <div className="font-bold text-lg">Ivan Tihon</div>
                             <div className="italic text-gray-400">Projektleiter</div>
+                            <div className="mt-2">
+                                <a href="tel:+491724545547">T: +49 172 4545547</a>
+                            </div>
                         </div>
                     </div>
                     <div className="person">
@@ -145,6 +152,9 @@ export default function Projektentwicklung({ data }) {
                         <div className="name text-center py-5">
                             <div className="font-bold text-lg">Stephan Henke</div>
                             <div className="italic text-gray-400">Monitoring</div>
+                            <div className="mt-2">
+                                <a href="tel:+491734859752">T: +49 173 4859752</a>
+                            </div>
                         </div>
                     </div>
                     <div className="person">
@@ -164,6 +174,9 @@ export default function Projektentwicklung({ data }) {
                         <div className="name text-center py-5">
                             <div className="font-bold text-lg">Petro Fotiuk</div>
                             <div className="italic text-gray-400">Wartung</div>
+                            <div className="mt-2">
+                                <a href="tel:+4952549478560">T: +49 5254 94785 60</a>
+                            </div>
                         </div>
                     </div>
             </div>

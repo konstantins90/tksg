@@ -19,7 +19,7 @@ export default function Home({ data }) {
         <div id="banner" class="-mt-24 relative w-full min-h-screen py-12 px-12">
             <div class="relative z-10 text-center py-24 xl:py-48">
                 <h1 class="text-white text-center text-3xl md:text-4xl lg:text-5xl lg:text-6xl font-display font-bold mb-12">Turn Key Solar GmbH</h1>
-                <h2 class="inline-block text-white font-light text-xl md:text-xl lg:text-2xl lg:text-3xl">Ihr Experte für Photovoltaik-Anlagen<br/>in Paderborn</h2>
+                <h2 class="inline-block text-white font-light text-xl md:text-xl lg:text-2xl lg:text-3xl">Ihr Experte für Photovoltaik-Anlagen<br/>im Kreis Paderborn</h2>
             </div>
             <div class="container">
                 <Counter/>
