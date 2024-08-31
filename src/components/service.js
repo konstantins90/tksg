@@ -6,7 +6,7 @@ export default function Service({ data }) {
   return (
     <div id="service" className="container flex flex-col lg:flex-row gap-4 lg:gap-8" data-aos="fade-up">
         <div className="w-full lg:w-1/3 flex flex-col gap-4 lg:gap-8">
-            <Link to="/dachanlagen" className="teaser bg-blue text-white p-8 relative h-[19rem]">
+            <Link to="/leistungen/#dachanlagen" className="teaser bg-blue text-white p-8 relative h-[19rem]">
                 <div className="absolute z-10 bottom-8">
                     <h3 className="text-xl mb-4 font-bold">
                         Dachanlagen
@@ -38,7 +38,7 @@ export default function Service({ data }) {
             </Link>
         </div>
         <div className="w-full lg:w-1/3 flex flex-col gap-4 lg:gap-8">
-            <Link to="/fachsanierung" className="bg-blue text-white p-8 h-[10rem]">
+            <Link to="/dachsanierung" className="bg-blue text-white p-8 h-[10rem]">
                 <h3 className="text-xl mb-4 font-bold">
                     Dachsanierung
                 </h3>
@@ -46,7 +46,7 @@ export default function Service({ data }) {
                     Sichere Entfernung und fachgerechte Entsorgung von asbesthaltigem Material
                 </p>
             </Link>
-            <Link to="/freilandanlagen" className="teaser bg-blue text-white p-8 relative h-[20rem]">
+            <Link to="/leistungen/#freilandanlagen" className="teaser bg-blue text-white p-8 relative h-[20rem]">
                 <div className="absolute z-10 bottom-8">
                     <h3 className="text-xl mb-4 font-bold">
                         Freiflächenanlagen

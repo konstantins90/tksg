@@ -119,14 +119,14 @@ export default function Home({ data }) {
 
         <div className="bg bg-white pb-40" data-aos="fade-up">
             <div className="container lg:max-w-[80%] mb-14">
-                <h2 className="text-4xl lg:text-9xl font-bold mb-20">Leistungen für <span className="text-orange text-6xl lg:text-9xl xl:text-14xl">Dachanlagen</span></h2>
+                <h2 id="dachanlagen" className="text-4xl lg:text-9xl font-bold mb-20">Leistungen für <span className="text-orange text-6xl lg:text-9xl xl:text-14xl">Dachanlagen</span></h2>
                 <TabsDachanlagen />
             </div>
         </div>
 
         <div className="bg bg-white pb-40" data-aos="fade-up">
             <div className="container lg:max-w-[80%] mb-14">
-                <h2 className="text-4xl lg:text-9xl font-bold mb-20">Leistungen für <span className="text-orange text-5xl lg:text-9xl xl:text-14xl">Freilandanlagen</span></h2>
+                <h2 id="freilandanlagen" className="text-4xl lg:text-9xl font-bold mb-20">Leistungen für <span className="text-orange text-5xl lg:text-9xl xl:text-14xl">Freilandanlagen</span></h2>
                 <TabsLandanlagen />
             </div>
         </div>
@@ -149,7 +149,7 @@ export default function Home({ data }) {
                         Unsere Partner sind führende Unternehmen in der Branche, die uns mit ihrer Expertise und innovativen Technologien unterstützen. Durch diese starken Partnerschaften können wir Ihnen erstklassige Lösungen und Dienstleistungen für Ihre Projekte bieten. Vertrauen Sie auf die Stärke unseres Netzwerks und profitieren Sie von unseren gemeinsamen Synergien.
                     </div>
                     <div className="flex gap-10 items-center justify-center pt-20">
-                        <div>
+                        <Link target="_blank" to="http://ssr-elektrotechnik.de/">
                             <StaticImage
                                 src="../images/partner/SSR-Elektrotechnik-Logo.png"
                                 alt="Anlagen"
@@ -160,7 +160,7 @@ export default function Home({ data }) {
                                 imgStyle={{ 'object-position': 'right center' }}
                                 objectFit="cover"
                             />
-                        </div>
+                        </Link>
                         <div>
                             <StaticImage
                                 src="../images/partner/SUAG-Logo.png"
