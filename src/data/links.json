@@ -4,10 +4,6 @@
         "slug": "/"
     },
     {
-        "title": "Team",
-        "slug": "/team"
-    },
-    {
         "title": "Leistungen",
         "slug": "/leistungen",
         "subLinks": [

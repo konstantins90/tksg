@@ -19,7 +19,7 @@ export default function Projektentwicklung({ data }) {
                 <div className="container lg:max-w-[60%] pt-40 pb-20 text-center">
                     <h1 className="text-center inline-block mb-12 text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-display font-bold pb-4 border-b-2 border-orange">Baugenehmigung</h1>
                     <div className="text-lg lg:text-2xl text-center font-light leading-normal">
-                        Optimieren Sie die Effizienz Ihrer Photovoltaik-Anlage mit einer detaillierten Standortanalyse von Turn Key Solar. Nutzen Sie unsere Expertise, um optimale Standorte zu identifizieren und die Leistung Ihrer Anlage zu maximieren.
+                        Wir begleiten Sie Schritt für Schritt auf dem Weg zur erfolgreichen Baugenehmigung. Von der sorgfältigen Planung und Antragstellung bis hin zur Genehmigung durch die zuständige Behörde – wir sorgen für einen reibungslosen Ablauf und stehen Ihnen mit Fachkompetenz zur Seite.
                     </div>
                 </div>
             </div>

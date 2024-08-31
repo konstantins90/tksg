@@ -28,7 +28,7 @@ export default function Projektentwicklung({ data }) {
                 <div className="flex flex-col lg:flex-row flex-nowrap">
                     <div className="basis-full lg:basis-5/12" data-aos="fade-right">
                         <h3 className="text-3xl lg:text-5xl font-bold mb-5 lg:mb-20 pr-10 text-gray-600">Technische Betriebsführung</h3>
-                        <div className="block bg-gray-100 p-10 xlpr-[40%] lg:-mr-[35%]">
+                        <div className="block bg-gray-100 p-10 xl:pr-[40%] lg:-mr-[35%]">
                             <p className="mb-10">Unsere umfassende technische Betriebsführung sorgt für den optimalen Betrieb Ihrer Anlage. Wir integrieren Ihre Anlage in unser Monitoring-Programm, führen notwendige Schalthandlungen durch und reagieren schnell bei Störfällen.</p>
 
                             <p className="font-bold text-lg">Unsere Leistungen umfassen:</p>
