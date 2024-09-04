@@ -471,8 +471,8 @@ ul > li {
     }
 }
 
-.leaflet-popup-content p {
-  margin: 0;
+.leaflet-container .leaflet-popup-content p {
+  margin: 0 !important;
 }
 
 nav .dropdown {
@@ -492,14 +492,14 @@ nav .dropdown .wrap {
   display: flex;
 }
 
-.leaflet-popup-content-wrapper, .leaflet-popup-tip {
-  background: rgba(255, 255, 255, 0.8);
+.leaflet-container .leaflet-popup-content-wrapper, .leaflet-popup-tip {
+  background: rgba(255, 255, 255, 0.8) !important;
   color: #333;
   box-shadow: none;
   border-radius: 0;
   border: none;
 }
 
-.leaflet-popup-tip-container {
+.leaflet-container .leaflet-popup-tip-container {
   margin-top: 0;
 }
