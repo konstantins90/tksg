@@ -55,7 +55,7 @@ export default function Home({ data }) {
                 <div className="container lg:max-w-[60%] py-40 text-center">
                     <h1 className="text-center inline-block mb-12 text-3xl md:text-4xl lg:text-6xl font-display font-bold pb-4 border-b-2 border-orange">Leistungen</h1>
                     <div className="text-lg lg:text-2xl text-center font-light leading-normal">
-                        Turn Key Solar ist Ihr Spezialist für Photovoltaik für die Projektentwicklung, die Anlagenerrichtung und den Anlagenbetrieb. Wir bieten einen ganzheitlichen Service Ihres Photovoltaikprojektes.
+                        Turn Key Solar GmbH ist Ihr Spezialist für Photovoltaik für die Projektentwicklung, die Anlagenerrichtung und den Anlagenbetrieb. Wir bieten einen ganzheitlichen Service Ihres Photovoltaikprojektes.
                     </div>
                 </div>
             </div>
@@ -75,7 +75,7 @@ export default function Home({ data }) {
                     </div>
                     <div class="basis-full lg:basis-1/2">
                         <h2 className="text-3xl font-bold mb-4">Von der Planung bis zum Betrieb</h2>
-                        <p className="mb-10">Turn Key Solar ist Ihr Spezialist für Photovoltaik für die Projektentwicklung, die Anlagenerrichtung und den Anlagenbetrieb. Wir bieten einen ganzheitlichen Service Ihres Photovoltaikprojektes.</p>
+                        <p className="mb-10">Turn Key Solar GmbH ist Ihr Spezialist für Photovoltaik für die Projektentwicklung, die Anlagenerrichtung und den Anlagenbetrieb. Wir bieten einen ganzheitlichen Service Ihres Photovoltaikprojektes.</p>
 
                         <Link to="/projektentwicklung" className="item flex flex-row gap-5 mb-10 cursor-pointer">
                             <div className="flex-none">
@@ -203,6 +203,6 @@ export default function Home({ data }) {
 export const Head = () => (
     <SEO
         title = "Leistungen: Photovoltaik-Projektentwicklung, Errichtung & Betrieb | Turn Key Solar GmbH"
-        description = "Turn Key Solar bietet umfassende Leistungen für Ihre Photovoltaikprojekte in Paderborn. Von der Projektentwicklung über die Anlagenerrichtung bis zum Anlagenbetrieb – wir bieten Ihnen einen ganzheitlichen Service. Erfahren Sie mehr über unsere Expertise!"
+        description = "Turn Key Solar GmbH bietet umfassende Leistungen für Ihre Photovoltaikprojekte in Paderborn. Von der Projektentwicklung über die Anlagenerrichtung bis zum Anlagenbetrieb – wir bieten Ihnen einen ganzheitlichen Service. Erfahren Sie mehr über unsere Expertise!"
     />
 )

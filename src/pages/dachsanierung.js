@@ -118,6 +118,6 @@ export default function Projektentwicklung({ data }) {
 export const Head = () => (
     <SEO
         title = "Dachsanierung für Photovoltaikanlagen in Paderborn | Turn Key Solar GmbH"
-        description = "Turn Key Solar bietet professionelle Dachsanierung in Paderborn in Zusammenarbeit mit regionalen Partnern. Qualität, Sicherheit und Effizienz stehen bei uns an erster Stelle. Kontaktieren Sie uns für ein maßgeschneidertes Angebot!"
+        description = "Turn Key Solar GmbH bietet professionelle Dachsanierung in Paderborn in Zusammenarbeit mit regionalen Partnern. Qualität, Sicherheit und Effizienz stehen bei uns an erster Stelle. Kontaktieren Sie uns für ein maßgeschneidertes Angebot!"
     />
 )

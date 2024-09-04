@@ -19,7 +19,7 @@ export default function Projektentwicklung({ data }) {
                 <div className="container lg:max-w-[60%] py-40 text-center">
                     <h1 className="text-center inline-block mb-12 text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-display font-bold pb-4 border-b-2 border-orange">Anlagenbau</h1>
                     <div className="text-lg lg:text-2xl text-center font-light leading-normal">
-                        Turn Key Solar ist Ihr Partner für den Bau und die Errichtung von Photovoltaikanlagen. Von der Planung über die Materialbeschaffung bis zur Montage – wir realisieren Ihr Projekt effizient und zuverlässig.
+                        Turn Key Solar GmbH ist Ihr Partner für den Bau und die Errichtung von Photovoltaikanlagen. Von der Planung über die Materialbeschaffung bis zur Montage – wir realisieren Ihr Projekt effizient und zuverlässig.
                     </div>
                 </div>
             </div>
@@ -152,6 +152,6 @@ export default function Projektentwicklung({ data }) {
 export const Head = () => (
     <SEO
         title = "Anlagenbau für Photovoltaikanlagen in Paderborn | Turn Key Solar GmbH"
-        description = "Turn Key Solar ist Ihr Experte für den Bau und die Errichtung von Photovoltaikanlagen in Paderborn. Von der Planung bis zur Montage bieten wir maßgeschneiderte Lösungen für private und gewerbliche Projekte. Effizient und zuverlässig."
+        description = "Turn Key Solar GmbH ist Ihr Experte für den Bau und die Errichtung von Photovoltaikanlagen in Paderborn. Von der Planung bis zur Montage bieten wir maßgeschneiderte Lösungen für private und gewerbliche Projekte. Effizient und zuverlässig."
     />
 )

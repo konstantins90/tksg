@@ -1,6 +1,15 @@
 import React from 'react';
 import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet'
 import projects from '../data/projects.json';
+import L from 'leaflet';
+
+const customIcon = new L.Icon({
+  iconUrl: '/pin.png',
+  iconSize: [32, 32], // Size of the icon
+  iconAnchor: [12, 55], // Point of the icon which will correspond to marker's location
+  popupAnchor: [0, -55] // Point from which the popup should open relative to the iconAnchor
+});
+
 
 const AddressMap = () => {
   return (
@@ -14,6 +23,7 @@ const AddressMap = () => {
         <Marker
           key={index}
           position={[address.geo.lat, address.geo.lng]}
+          icon={customIcon}
         >
           <Popup>
             <div>

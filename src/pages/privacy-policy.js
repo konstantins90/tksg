@@ -91,7 +91,7 @@ export default function Datenschutz({ data }) {
                     <h3 className="text-xl mt-4">Hinweis zur verantwortlichen Stelle</h3>
                     <p className="mt-4">Die verantwortliche Stelle für die Datenverarbeitung auf
                     dieser Website ist:</p>
-                    <p className="mt-4">Andreas Spreier
+                    <p className="mt-4">Turn Key Solar GmbH
                     Zum Strothebach 22
                     33175 Bad Lippspringe</p>
                     <p className="mt-4">Telefon: +49 5254 9386539

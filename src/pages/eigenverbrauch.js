@@ -19,7 +19,7 @@ export default function Projektentwicklung({ data }) {
                 <div className="container lg:max-w-[60%] py-40 text-center">
                     <h1 className="text-center inline-block mb-12 text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-display font-bold pb-4 border-b-2 border-orange">Eigenverbrauch</h1>
                     <div className="text-lg lg:text-2xl text-center font-light leading-normal">
-                        Optimieren Sie Ihren Stromverbrauch und sparen Sie Kosten mit einer maßgeschneiderten Solaranlage von Turn Key Solar. Überschüssige Energie wird ins Netz eingespeist und bringt Ihnen zusätzliche Einnahmen durch EEG-Vergütungen. Kontaktieren Sie uns für mehr Informationen und ein individuelles Angebot.
+                        Optimieren Sie Ihren Stromverbrauch und sparen Sie Kosten mit einer maßgeschneiderten Solaranlage von Turn Key Solar GmbH. Überschüssige Energie wird ins Netz eingespeist und bringt Ihnen zusätzliche Einnahmen durch EEG-Vergütungen. Kontaktieren Sie uns für mehr Informationen und ein individuelles Angebot.
                     </div>
                 </div>
             </div>
@@ -30,7 +30,7 @@ export default function Projektentwicklung({ data }) {
                         <h3 className="text-3xl lg:text-5xl font-bold mb-5 lg:mb-20 pr-10 text-gray-600">Maximieren Sie Ihre Einsparungen</h3>
                         <div className="block bg-gray-100 p-10 lg:pr-[40%] lg:-mr-[35%]">
                             <p className="mb-10">
-                                Turn Key Solar optimiert Ihre Solaranlage für maximalen Eigenverbrauch. Reduzieren Sie Stromkosten und profitieren Sie von EEG-Vergütungen für überschüssigen Strom.
+                                Turn Key Solar GmbH optimiert Ihre Solaranlage für maximalen Eigenverbrauch. Reduzieren Sie Stromkosten und profitieren Sie von EEG-Vergütungen für überschüssigen Strom.
                             </p>
 
                             <ul>
@@ -117,6 +117,6 @@ export default function Projektentwicklung({ data }) {
 export const Head = () => (
     <SEO
         title = "Eigenverbrauch Optimieren mit Photovoltaik | Turn Key Solar GmbH"
-        description = "Sparen Sie Kosten und maximieren Sie Ihren Eigenverbrauch mit einer maßgeschneiderten Solaranlage von Turn Key Solar in Paderborn. Nutzen Sie EEG-Vergütungen für zusätzliche Einnahmen. Kontaktieren Sie uns für ein individuelles Angebot und weitere Informationen."
+        description = "Sparen Sie Kosten und maximieren Sie Ihren Eigenverbrauch mit einer maßgeschneiderten Solaranlage von Turn Key Solar GmbH in Kreis Paderborn. Nutzen Sie EEG-Vergütungen für zusätzliche Einnahmen. Kontaktieren Sie uns für ein individuelles Angebot und weitere Informationen."
     />
 )

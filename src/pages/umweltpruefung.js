@@ -19,7 +19,7 @@ export default function Projektentwicklung({ data }) {
                 <div className="container lg:max-w-[60%] py-40 text-center">
                     <h1 className="text-center inline-block mb-12 text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-display font-bold pb-4 border-b-2 border-orange">Umweltprüfung </h1>
                     <div className="text-lg lg:text-2xl text-center font-light leading-normal">
-                        Setzen Sie auf umweltverträgliche PV-Anlagen von Turn Key Solar. Wir arbeiten mit regionalen Partnern zusammen, um sicherzustellen, dass Ihre Anlagen nicht nur erneuerbare Energie liefern, sondern auch die Umwelt schützen. Kontaktieren Sie uns für eine nachhaltige Lösung.
+                        Setzen Sie auf umweltverträgliche PV-Anlagen von Turn Key Solar GmbH. Wir arbeiten mit regionalen Partnern zusammen, um sicherzustellen, dass Ihre Anlagen nicht nur erneuerbare Energie liefern, sondern auch die Umwelt schützen. Kontaktieren Sie uns für eine nachhaltige Lösung.
                     </div>
                 </div>
             </div>
@@ -116,6 +116,6 @@ export default function Projektentwicklung({ data }) {
 export const Head = () => (
     <SEO
         title = "Umweltprüfung für Photovoltaikanlagen | Turn Key Solar GmbH"
-        description = "Setzen Sie auf umweltverträgliche Photovoltaikanlagen von Turn Key Solar. Durch unsere Zusammenarbeit mit regionalen Partnern garantieren wir, dass Ihre Anlage erneuerbare Energie liefert und die Umwelt schützt. Kontaktieren Sie uns für nachhaltige Lösungen."
+        description = "Setzen Sie auf umweltverträgliche Photovoltaikanlagen von Turn Key Solar GmbH. Durch unsere Zusammenarbeit mit regionalen Partnern garantieren wir, dass Ihre Anlage erneuerbare Energie liefert und die Umwelt schützt. Kontaktieren Sie uns für nachhaltige Lösungen."
     />
 )

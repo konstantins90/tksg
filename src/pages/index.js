@@ -11,15 +11,18 @@ import Steps from "../components/steps"
 import Map from "../components/map"
 import Kontakt from "../components/kontakt"
 
+import Logo from "../images/turn-key-sola-paderborn.svg"
+
 import { PhoneIcon, ArrowRightCircleIcon } from '@heroicons/react/24/outline'
 
 export default function Home({ data }) {
   return (
     <Layout>
         <div id="banner" class="-mt-24 relative w-full min-h-screen py-12 px-12">
-            <div class="relative z-10 text-center py-24 xl:py-48">
-                <h1 class="text-white text-center text-3xl md:text-4xl lg:text-5xl lg:text-6xl font-display font-bold mb-12">Turn Key Solar GmbH</h1>
-                <h2 class="inline-block text-white font-light text-xl md:text-xl lg:text-2xl lg:text-3xl">Ihr Experte für Photovoltaik-Anlagen<br/>im Kreis Paderborn</h2>
+            <div class="relative z-10 text-center py-24 xl:pt-48 xl:pb-30">
+                {/* <h1 class="text-white text-center text-3xl md:text-4xl lg:text-5xl lg:text-6xl font-display font-bold mb-12">Turn Key Solar GmbH</h1> */}
+                <Logo id="home-logo" className="w-1/2 xl:max-w-[800px] mx-auto mb-20" />
+                <h2 class="inline-block text-white font-light text-xl md:text-xl lg:text-2xl xl:text-3xl">Ihr Experte für Photovoltaik-Anlagen<br/>im Kreis Paderborn</h2>
             </div>
             <div class="container">
                 <Counter/>
@@ -40,7 +43,7 @@ export default function Home({ data }) {
         <div className="bg bg-gray-100 pb-40">
             <div id="about" data-aos="fade-up">
                 <div className="container lg:max-w-[60%] py-40 text-center">
-                    <h3 className="text-center inline-block mb-12 text-3xl md:text-4xl lg:text-5xl lg:text-6xl font-display font-bold pb-4 border-b-2 border-orange">Über Turn Key Solar</h3>
+                    <h3 className="text-center inline-block mb-12 text-3xl md:text-4xl lg:text-5xl lg:text-6xl font-display font-bold pb-4 border-b-2 border-orange">Über Turn Key Solar GmbH</h3>
                     <div className="text-lg lg:text-2xl text-center font-light leading-normal">
                         Wir sind ein führendes Unternehmen im Bereich erneuerbare Energien und spezialisiert auf die Planung, Installation und Wartung von Photovoltaik-Anlagen. Mit unserer langjährigen Erfahrung und unserem Know-how bieten wir maßgeschneiderte Lösungen für private und gewerbliche Kunden in Paderborn und Umgebung.
                     </div>
@@ -69,7 +72,7 @@ export default function Home({ data }) {
                 <div class="w-full h-full absolute inset-0 img-overlay"></div>
                 <div className="container text-center h-full flex flex-col justify-center relative">
                     <div className="text-6xl lg:text-14xl font-bold text-animation">Nachhaltig in die Zukunft</div>
-                    <p className="text-lg lg:text-2xl mt-10 text-white">Profitieren Sie von unserer langjährigen Branchenexpertise. Wir bieten effiziente Solaranlagen für Unternehmen und Privathaushalte.</p>
+                    <p className="text-lg lg:text-2xl mt-10 text-white">Profitieren Sie von unserer langjährigen Branchenexpertise.<br />Wir bieten effiziente Solaranlagen für Unternehmen und Privathaushalte.</p>
                 </div>
             </div>
         </div>

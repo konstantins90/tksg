@@ -19,7 +19,7 @@ export default function Projektentwicklung({ data }) {
                 <div className="container lg:max-w-[60%] py-40 text-center">
                     <h1 className="text-center inline-block mb-12 text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-display font-bold pb-4 border-b-2 border-orange">Projektentwicklung</h1>
                     <div className="text-lg lg:text-2xl text-center font-light leading-normal">
-                        Turn Key Solar unterstützt Sie bei der Projektentwicklung Ihrer Photovoltaikanlage. Von der Standortanalyse über die Planung bis zur Umsetzung – wir begleiten Sie in jeder Phase Ihres Projekts.
+                        Turn Key Solar GmbH unterstützt Sie bei der Projektentwicklung Ihrer Photovoltaikanlage. Von der Standortanalyse über die Planung bis zur Umsetzung – wir begleiten Sie in jeder Phase Ihres Projekts.
                     </div>
                 </div>
             </div>
@@ -183,6 +183,6 @@ export default function Projektentwicklung({ data }) {
 export const Head = () => (
     <SEO
         title = "Projektentwicklung für Photovoltaikanlagen | Turn Key Solar GmbH"
-        description = "Turn Key Solar bietet umfassende Unterstützung bei der Projektentwicklung Ihrer Photovoltaikanlage. Wir begleiten Sie von der Standortanalyse über die Planung bis zur Umsetzung. Vertrauen Sie auf unsere Expertise für eine erfolgreiche Realisierung Ihres Projekts."
+        description = "Turn Key Solar GmbH bietet umfassende Unterstützung bei der Projektentwicklung Ihrer Photovoltaikanlage. Wir begleiten Sie von der Standortanalyse über die Planung bis zur Umsetzung. Vertrauen Sie auf unsere Expertise für eine erfolgreiche Realisierung Ihres Projekts."
     />
 )

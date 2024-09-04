@@ -19,7 +19,7 @@ export default function Projektentwicklung({ data }) {
                 <div className="container lg:max-w-[60%] py-40 text-center">
                     <h1 className="text-center inline-block mb-12 text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-display font-bold pb-4 border-b-2 border-orange">Anlagenbetrieb</h1>
                     <div className="text-lg lg:text-2xl text-center font-light leading-normal">
-                        Turn Key Solar bietet Ihnen einen umfassenden Service für den Betrieb Ihrer Photovoltaikanlage. Von der regelmäßigen Wartung bis zur effizienten Überwachung – wir sorgen für einen reibungslosen Anlagenbetrieb.
+                        Turn Key Solar GmbH bietet Ihnen einen umfassenden Service für den Betrieb Ihrer Photovoltaikanlage. Von der regelmäßigen Wartung bis zur effizienten Überwachung – wir sorgen für einen reibungslosen Anlagenbetrieb.
                     </div>
                 </div>
             </div>
@@ -151,6 +151,6 @@ export default function Projektentwicklung({ data }) {
 export const Head = () => (
     <SEO
         title = "Anlagenbetrieb für Photovoltaikanlagen in Paderborn | Turn Key Solar GmbH"
-        description = "Turn Key Solar bietet umfassenden Service für den Anlagenbetrieb Ihrer Photovoltaikanlage in Paderborn und Umgebung. Effiziente Wartung, zuverlässige Überwachung und maximale Leistung für Ihre Solaranlage."
+        description = "Turn Key Solar GmbH bietet umfassenden Service für den Anlagenbetrieb Ihrer Photovoltaikanlage in Paderborn und Umgebung. Effiziente Wartung, zuverlässige Überwachung und maximale Leistung für Ihre Solaranlage."
     />
   )

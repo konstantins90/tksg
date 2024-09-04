@@ -491,3 +491,15 @@ nav .dropdown a:hover {
 nav .dropdown .wrap {
   display: flex;
 }
+
+.leaflet-popup-content-wrapper, .leaflet-popup-tip {
+  background: rgba(255, 255, 255, 0.8);
+  color: #333;
+  box-shadow: none;
+  border-radius: 0;
+  border: none;
+}
+
+.leaflet-popup-tip-container {
+  margin-top: 0;
+}

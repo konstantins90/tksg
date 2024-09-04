@@ -19,7 +19,7 @@ export default function Projektentwicklung({ data }) {
                 <div className="container lg:max-w-[60%] pt-40 pb-20 text-center">
                     <h1 className="text-center inline-block mb-12 text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-display font-bold pb-4 border-b-2 border-orange">Machbarkeitsstudie</h1>
                     <div className="text-lg lg:text-2xl text-center font-light leading-normal">
-                        Wir bietet Ihnen eine individuelle Machbarkeitsstudie für Ihren Wunschstandort. Dabei werden alle Aspekte wie technische Machbarkeit, rechtlicher Rahmen und Wirtschaftlichkeit transparent für Sie dargestellt. Die Studie enthält eine detaillierte technische Planung sowie eine ausführliche Wirtschaftlichkeitsanalyse. Wenn Sie sich anschließend für eine Photovoltaikanlage der Turnkey Solar GmbH entscheiden, fallen keine Planungskosten bei der Projektumsetzung an. Mit Turn Key Solar setzen Sie auf eine zuverlässige und erfahrene Partner, um in eine nachhaltige Zukunft zu investieren.
+                        Wir bietet Ihnen eine individuelle Machbarkeitsstudie für Ihren Wunschstandort. Dabei werden alle Aspekte wie technische Machbarkeit, rechtlicher Rahmen und Wirtschaftlichkeit transparent für Sie dargestellt. Die Studie enthält eine detaillierte technische Planung sowie eine ausführliche Wirtschaftlichkeitsanalyse. Wenn Sie sich anschließend für eine Photovoltaikanlage der Turnkey Solar GmbH entscheiden, fallen keine Planungskosten bei der Projektumsetzung an. Mit Turn Key Solar GmbH setzen Sie auf eine zuverlässige und erfahrene Partner, um in eine nachhaltige Zukunft zu investieren.
                     </div>
                 </div>
             </div>
@@ -158,6 +158,6 @@ export default function Projektentwicklung({ data }) {
 export const Head = () => (
     <SEO
         title = "Machbarkeitsstudie für Photovoltaikanlagen | Turn Key Solar GmbH"
-        description = "Turn Key Solar bietet individuelle Machbarkeitsstudien für Ihren Wunschstandort. Wir analysieren technische Machbarkeit, rechtlichen Rahmen und Wirtschaftlichkeit detailliert. Bei Projektumsetzung entfallen die Planungskosten. Vertrauen Sie auf unsere Expertise für eine nachhaltige Zukunft."
+        description = "Turn Key Solar GmbH bietet individuelle Machbarkeitsstudien für Ihren Wunschstandort. Wir analysieren technische Machbarkeit, rechtlichen Rahmen und Wirtschaftlichkeit detailliert. Bei Projektumsetzung entfallen die Planungskosten. Vertrauen Sie auf unsere Expertise für eine nachhaltige Zukunft."
     />
 )

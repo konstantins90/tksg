@@ -68,7 +68,7 @@ export default function Projektentwicklung({ data }) {
                                 3
                             </div>
                             <div className="step-title text-xl font-bold">
-                                Überprüfung und Genehmigung
+                                Kommunikation und Nachverfolgung
                             </div>
                         </div>
                         <div className="flex">
@@ -76,7 +76,7 @@ export default function Projektentwicklung({ data }) {
                                 <div className="line"></div>
                             </div>
                             <div className="step-description text-xl pb-10">
-                                Nach der Prüfung der zuständige Behörde überprüft den Antrag auf Konformität und Vollständigkeit, stellt diese die Baugenehmigung aus und die Bauphase kann beginnen.
+                                Wir koordinieren die Kommunikation mit der Behörde, beantworten Rückfragen und halten Sie über den Fortschritt des Genehmigungsverfahrens informiert. So stellen wir sicher, dass der Prozess reibungslos verläuft und Sie stets auf dem neuesten Stand sind.
                             </div>
                         </div>
                     </div>
@@ -140,6 +140,6 @@ export default function Projektentwicklung({ data }) {
 export const Head = () => (
     <SEO
         title = "Baugenehmigung & Standortanalyse für Photovoltaikanlagen | Turn Key Solar GmbH"
-        description = "Turn Key Solar unterstützt Sie bei der Baugenehmigung und Standortanalyse Ihrer Photovoltaikanlage in Paderborn. Optimieren Sie die Effizienz Ihrer Solaranlage mit unserer Expertise und profitieren Sie von maximaler Leistung."
+        description = "Turn Key Solar GmbH unterstützt Sie bei der Baugenehmigung und Standortanalyse Ihrer Photovoltaikanlage in Paderborn. Optimieren Sie die Effizienz Ihrer Solaranlage mit unserer Expertise und profitieren Sie von maximaler Leistung."
     />
 )

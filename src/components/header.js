@@ -13,6 +13,8 @@ const Header = () => {
     const listRef = useRef();
     const dropdownRef = useRef();
 
+    const currentUrl = typeof window !== 'undefined' ? window.location.pathname : '';
+
     const handleClick = () => {
         setIsOpen(!isOpen);
     };
@@ -82,8 +84,12 @@ const Header = () => {
             <nav id="main-nav" className="w-full flex items-center justify-start flex-wrap py-4 pin-t">
                 <div className="flex items-center flex-no-shrink text-white mr-6">
                     <a className="no-underline flex" href="/">
-                        <span id="logo" className="text-2xl text-3xl font-bold text-black">
-                        <Logo id="svg-logo" />
+                        <span id="logo" className="text-2xl lg:text-3xl font-bold text-white">
+                        {currentUrl == '/' ? (
+                            <>Turn Key Solar GmbH</>
+                        ) : (
+                            <Logo id="svg-logo" />
+                        )}
                         </span>
                     </a>
                 </div>
