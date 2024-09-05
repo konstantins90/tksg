@@ -85,9 +85,7 @@ const Header = () => {
                 <div className="flex items-center flex-no-shrink text-white mr-6">
                     <a className="no-underline flex" href="/">
                         <span id="logo" className="text-2xl lg:text-3xl font-bold text-white">
-                        {currentUrl == '/' ? (
-                            <>Turn Key Solar GmbH</>
-                        ) : (
+                        {currentUrl != '/' && (
                             <Logo id="svg-logo" />
                         )}
                         </span>

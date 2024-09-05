@@ -29,7 +29,7 @@ export default function Counter({ data }) {
                 />
             </div>
             <div className="text-md">
-                kWp produziert
+                kWp installiert
             </div>
         </div>
         {/* <div className="w-full lg:w-1/4 mb-6 lg:mb-0 pb-4 lg:pb-0">
