@@ -4,10 +4,7 @@ import Layout from "../components/layout"
 
 import { StaticImage } from "gatsby-plugin-image"
 import { SEO } from "../components/seo"
-import Kontakt from "../components/kontakt"
 import Banner from "../components/banner"
-
-import { CheckCircleIcon, ArrowTrendingUpIcon, WrenchScrewdriverIcon, RocketLaunchIcon } from '@heroicons/react/24/outline'
 
 export default function Projektentwicklung({ data }) {
   return (
@@ -138,8 +135,8 @@ export default function Projektentwicklung({ data }) {
                     <div className="person">
                         <div className="image overflow-hidden rounded-full max-w-[250px] max-h-[250px]">
                             <StaticImage
-                                src="../images/team-4.jpg"
-                                alt="Photovoltaik Analge gebaut von Turn Key Solar GmbH"
+                                src="../images/team/Turnkey-Solar-Stephan-Henke.jpg"
+                                alt="Stephan Henke von Turn Key Solar GmbH"
                                 placeholder="blurred"
                                 layout="constrained"
                                 width={250}
@@ -160,8 +157,8 @@ export default function Projektentwicklung({ data }) {
                     <div className="person">
                         <div className="image overflow-hidden rounded-full max-w-[250px] max-h-[250px]">
                             <StaticImage
-                                src="../images/team-4.jpg"
-                                alt="Photovoltaik Analge gebaut von Turn Key Solar GmbH"
+                                src="../images/team/Turnkey-Solar-Petro-Fotiuk.jpg"
+                                alt="Petro Fotiuk von Turn Key Solar GmbH"
                                 placeholder="blurred"
                                 layout="constrained"
                                 width={250}
