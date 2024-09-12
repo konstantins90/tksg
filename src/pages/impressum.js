@@ -28,6 +28,10 @@ export default function Impressum({ data }) {
                             Amtsgericht Paderborn HRB 16386<br/>
                             Umsatzsteuernr.: 339/5850/4089
                         </p>
+                        <p className="mt-10">
+                            Design & Programmierung: <a target="_blank" href="https://smetana.be">Konstantin Smetana</a><br />
+                            Fotografie: <a target="_blank" href="https://www.instagram.com/mariia_muss_photo/">Mariia Muss</a>
+                        </p>
                     </div>
                 </div>
             </div>

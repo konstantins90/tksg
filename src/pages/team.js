@@ -21,20 +21,10 @@ export default function Projektentwicklung({ data }) {
                 </div>
             </div>
            <div className="photos">
-            <div className="flex flex-wrap gap-20 justify-center">
+            <div className="flex flex-wrap gap-20 justify-center mb-20">
                     <div className="person">
-                        <div className="image overflow-hidden rounded-full max-w-[250px] max-h-[250px]">
-                            <StaticImage
-                                src="../images/team-6.jpg"
-                                alt="Photovoltaik Analge gebaut von Turn Key Solar GmbH"
-                                placeholder="blurred"
-                                layout="constrained"
-                                width={250}
-                                quality={90}
-                                imgStyle={{ 'object-position': 'right center' }}
-                                objectFit="cover"
-                                class="w-full posistion"
-                            />
+                        <div className="image max-w-[250px] max-h-[250px]">
+                            <div className="text-8xl text-center w-[250px] h-[250px] flex items-center justify-center shadow-inner rounded-full shadow-gray-300">AS</div>
                         </div>
                         <div className="name text-center py-5">
                             <div className="font-bold text-lg">Andreas Speier</div>
@@ -44,7 +34,7 @@ export default function Projektentwicklung({ data }) {
                     <div className="person">
                         <div className="image overflow-hidden rounded-full max-w-[250px] max-h-[250px]">
                             <StaticImage
-                                src="../images/team-6.jpg"
+                                src="../images/team/Turnkey-Solar-Gabriela-Mainusch.jpg"
                                 alt="Photovoltaik Analge gebaut von Turn Key Solar GmbH"
                                 placeholder="blurred"
                                 layout="constrained"
@@ -67,7 +57,7 @@ export default function Projektentwicklung({ data }) {
                     <div className="person">
                         <div className="image overflow-hidden rounded-full max-w-[250px] max-h-[250px]">
                             <StaticImage
-                                src="../images/team-4.jpg"
+                                src="../images/team/Turnkey-Solar-Kirsten-Blume.jpg"
                                 alt="Photovoltaik Analge gebaut von Turn Key Solar GmbH"
                                 placeholder="blurred"
                                 layout="constrained"
@@ -87,95 +77,125 @@ export default function Projektentwicklung({ data }) {
                         </div>
                     </div>
             </div>
+            <div className="flex flex-wrap gap-20 justify-center mb-20">
+                <div className="person">
+                    <div className="image overflow-hidden rounded-full max-w-[250px] max-h-[250px]">
+                        <StaticImage
+                            src="../images/team/Turnkey-Solar-Waldemar-Neufeld.jpg"
+                            alt="Photovoltaik Analge gebaut von Turn Key Solar GmbH"
+                            placeholder="blurred"
+                            layout="constrained"
+                            width={250}
+                            quality={90}
+                            imgStyle={{ 'object-position': 'right center' }}
+                            objectFit="cover"
+                            class="w-full posistion"
+                        />
+                    </div>
+                    <div className="name text-center py-5">
+                        <div className="font-bold text-lg">Waldemar Neufeld</div>
+                        <div className="italic text-gray-400">Projektleiter</div>
+                        <div className="mt-2">
+                            <a href="tel:+491727598613">T: +49 172 7598613</a>
+                        </div>
+                    </div>
+                </div>
+                <div className="person">
+                    <div className="image max-w-[250px] max-h-[250px]">
+                        <div className="text-8xl text-center w-[250px] h-[250px] flex items-center justify-center shadow-inner rounded-full shadow-gray-300">IT</div>
+                    </div>
+                    <div className="name text-center py-5">
+                        <div className="font-bold text-lg">Ivan Tihon</div>
+                        <div className="italic text-gray-400">Projektleiter</div>
+                        <div className="mt-2">
+                            <a href="tel:+491724545547">T: +49 172 4545547</a>
+                        </div>
+                    </div>
+                </div>
+                <div className="person">
+                    <div className="image overflow-hidden rounded-full max-w-[250px] max-h-[250px]">
+                        <StaticImage
+                            src="../images/team/Turnkey-Solar-Petro-Fotiuk.jpg"
+                            alt="Petro Fotiuk von Turn Key Solar GmbH"
+                            placeholder="blurred"
+                            layout="constrained"
+                            width={250}
+                            quality={90}
+                            imgStyle={{ 'object-position': 'right center' }}
+                            objectFit="cover"
+                            class="w-full posistion"
+                        />
+                    </div>
+                    <div className="name text-center py-5">
+                        <div className="font-bold text-lg">Petro Fotiuk</div>
+                        <div className="italic text-gray-400">Wartung</div>
+                        <div className="mt-2">
+                            <a href="tel:+4952549478560">T: +49 5254 94785 60</a>
+                        </div>
+                    </div>
+                </div>
+                <div className="person">
+                    <div className="image overflow-hidden rounded-full max-w-[250px] max-h-[250px]">
+                        <StaticImage
+                            src="../images/team/Turnkey-Solar-Stephan-Henke.jpg"
+                            alt="Stephan Henke von Turn Key Solar GmbH"
+                            placeholder="blurred"
+                            layout="constrained"
+                            width={250}
+                            quality={90}
+                            imgStyle={{ 'object-position': 'right center' }}
+                            objectFit="cover"
+                            class="w-full posistion"
+                        />
+                    </div>
+                    <div className="name text-center py-5">
+                        <div className="font-bold text-lg">Stephan Henke</div>
+                        <div className="italic text-gray-400">Monitoring</div>
+                        <div className="mt-2">
+                            <a href="tel:+491734859752">T: +49 173 4859752</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
             <div className="flex flex-wrap gap-20 justify-center">
-                    <div className="person">
-                        <div className="image overflow-hidden rounded-full max-w-[250px] max-h-[250px]">
-                            <StaticImage
-                                src="../images/team-6.jpg"
-                                alt="Photovoltaik Analge gebaut von Turn Key Solar GmbH"
-                                placeholder="blurred"
-                                layout="constrained"
-                                width={250}
-                                quality={90}
-                                imgStyle={{ 'object-position': 'right center' }}
-                                objectFit="cover"
-                                class="w-full posistion"
-                            />
-                        </div>
-                        <div className="name text-center py-5">
-                            <div className="font-bold text-lg">Waldemar Neufeld</div>
-                            <div className="italic text-gray-400">Projektleiter</div>
-                            <div className="mt-2">
-                                <a href="tel:+491727598613">T: +49 172 7598613</a>
-                            </div>
-                        </div>
+                <div className="person">
+                    <div className="image overflow-hidden rounded-full max-w-[250px] max-h-[250px]">
+                        <StaticImage
+                            src="../images/team/Turnkey-Solar-Sobaka.jpg"
+                            alt="Christina Kruse von SSR Eletrotechnik GmbH"
+                            placeholder="blurred"
+                            layout="constrained"
+                            width={250}
+                            quality={90}
+                            imgStyle={{ 'object-position': 'right center' }}
+                            objectFit="cover"
+                            class="w-full posistion"
+                        />
                     </div>
-                    <div className="person">
-                        <div className="image overflow-hidden rounded-full max-w-[250px] max-h-[250px]">
-                            <StaticImage
-                                src="../images/team-4.jpg"
-                                alt="Photovoltaik Analge gebaut von Turn Key Solar GmbH"
-                                placeholder="blurred"
-                                layout="constrained"
-                                width={250}
-                                quality={90}
-                                imgStyle={{ 'object-position': 'right center' }}
-                                objectFit="cover"
-                                class="w-full posistion"
-                            />
-                        </div>
-                        <div className="name text-center py-5">
-                            <div className="font-bold text-lg">Ivan Tihon</div>
-                            <div className="italic text-gray-400">Projektleiter</div>
-                            <div className="mt-2">
-                                <a href="tel:+491724545547">T: +49 172 4545547</a>
-                            </div>
-                        </div>
+                    <div className="name text-center py-5">
+                        <div className="font-bold text-lg">Hund 1</div>
+                        <div className="italic text-gray-400">Sicherheit Chief</div>
                     </div>
-                    <div className="person">
-                        <div className="image overflow-hidden rounded-full max-w-[250px] max-h-[250px]">
-                            <StaticImage
-                                src="../images/team/Turnkey-Solar-Stephan-Henke.jpg"
-                                alt="Stephan Henke von Turn Key Solar GmbH"
-                                placeholder="blurred"
-                                layout="constrained"
-                                width={250}
-                                quality={90}
-                                imgStyle={{ 'object-position': 'right center' }}
-                                objectFit="cover"
-                                class="w-full posistion"
-                            />
-                        </div>
-                        <div className="name text-center py-5">
-                            <div className="font-bold text-lg">Stephan Henke</div>
-                            <div className="italic text-gray-400">Monitoring</div>
-                            <div className="mt-2">
-                                <a href="tel:+491734859752">T: +49 173 4859752</a>
-                            </div>
-                        </div>
+                </div>
+                <div className="person">
+                    <div className="image overflow-hidden rounded-full max-w-[250px] max-h-[250px]">
+                        <StaticImage
+                            src="../images/team/Turnkey-Solar-Sobaka-Small.jpg"
+                            alt="Christian Costales Castro von SSR Eletrotechnik GmbH"
+                            placeholder="blurred"
+                            layout="constrained"
+                            width={250}
+                            quality={90}
+                            imgStyle={{ 'object-position': 'right center' }}
+                            objectFit="cover"
+                            class="w-full posistion"
+                        />
                     </div>
-                    <div className="person">
-                        <div className="image overflow-hidden rounded-full max-w-[250px] max-h-[250px]">
-                            <StaticImage
-                                src="../images/team/Turnkey-Solar-Petro-Fotiuk.jpg"
-                                alt="Petro Fotiuk von Turn Key Solar GmbH"
-                                placeholder="blurred"
-                                layout="constrained"
-                                width={250}
-                                quality={90}
-                                imgStyle={{ 'object-position': 'right center' }}
-                                objectFit="cover"
-                                class="w-full posistion"
-                            />
-                        </div>
-                        <div className="name text-center py-5">
-                            <div className="font-bold text-lg">Petro Fotiuk</div>
-                            <div className="italic text-gray-400">Wartung</div>
-                            <div className="mt-2">
-                                <a href="tel:+4952549478560">T: +49 5254 94785 60</a>
-                            </div>
-                        </div>
+                    <div className="name text-center py-5">
+                        <div className="font-bold text-lg">Hund 2</div>
+                        <div className="italic text-gray-400">Direktorin für Niedlichkeit</div>
                     </div>
+                </div>
             </div>
            </div>
            <div id="about">
