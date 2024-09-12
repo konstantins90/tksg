@@ -79,19 +79,9 @@ export default function Projektentwicklung({ data }) {
             </div>
             <div className="flex flex-wrap gap-20 justify-center mb-20">
                 <div className="person">
-                    <div className="image overflow-hidden rounded-full max-w-[250px] max-h-[250px]">
-                        <StaticImage
-                            src="../images/team/Turnkey-Solar-Waldemar-Neufeld.jpg"
-                            alt="Photovoltaik Analge gebaut von Turn Key Solar GmbH"
-                            placeholder="blurred"
-                            layout="constrained"
-                            width={250}
-                            quality={90}
-                            imgStyle={{ 'object-position': 'right center' }}
-                            objectFit="cover"
-                            class="w-full posistion"
-                        />
-                    </div>
+                <div className="image max-w-[250px] max-h-[250px]">
+                            <div className="text-8xl text-center w-[250px] h-[250px] flex items-center justify-center shadow-inner rounded-full shadow-gray-300">WN</div>
+                        </div>
                     <div className="name text-center py-5">
                         <div className="font-bold text-lg">Waldemar Neufeld</div>
                         <div className="italic text-gray-400">Projektleiter</div>
