@@ -163,7 +163,7 @@ export default function Projektentwicklung({ data }) {
                         />
                     </div>
                     <div className="name text-center py-5">
-                        <div className="font-bold text-lg">Hund 1</div>
+                        <div className="font-bold text-lg">Paul</div>
                         <div className="italic text-gray-400">Wachhund</div>
                     </div>
                 </div>
@@ -182,7 +182,7 @@ export default function Projektentwicklung({ data }) {
                         />
                     </div>
                     <div className="name text-center py-5">
-                        <div className="font-bold text-lg">Hund 2</div>
+                        <div className="font-bold text-lg">Hinata</div>
                         <div className="italic text-gray-400">Empfangsdame</div>
                     </div>
                 </div>
