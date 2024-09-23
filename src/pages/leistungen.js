@@ -55,7 +55,7 @@ export default function Home({ data }) {
                 <div className="container lg:max-w-[60%] py-40 text-center">
                     <h1 className="text-center inline-block mb-12 text-3xl md:text-4xl lg:text-6xl font-display font-bold pb-4 border-b-2 border-orange">Leistungen</h1>
                     <div className="text-lg lg:text-2xl text-center font-light leading-normal">
-                        Turn Key Solar GmbH ist Ihr Spezialist für Photovoltaik für die Projektentwicklung, die Anlagenerrichtung und den Anlagenbetrieb. Wir bieten einen ganzheitlichen Service Ihres Photovoltaikprojektes.
+                        Turn Key Solar GmbH ist Ihr Spezialist für Photovoltaik in der Projektentwicklung, der Anlagenerrichtung und dem Anlagenbetrieb. Wir bieten einen ganzheitlichen Service für Ihr Photovoltaikprojekt.
                     </div>
                 </div>
             </div>
@@ -109,7 +109,7 @@ export default function Home({ data }) {
                             </div>
                             <div className="flex-1">
                                 <h3 className="text-lg font-bold">Anlagenbetrieb</h3>
-                                <p>Mit unserer langjährige Erfahrung garantieren wir Ihnen eine erklassige kaufmännische und technische Betreuung Ihrer Anlage.</p>
+                                <p>Mit unserer langjährigen Erfahrung garantieren wir Ihnen eine erstklassige kaufmännische und technische Betreuung Ihrer Anlage.</p>
                             </div>
                         </Link>
                     </div>
