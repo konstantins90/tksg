@@ -38,7 +38,7 @@ export default function Projektentwicklung({ data }) {
                     </div>
                     <div className="name text-center py-5">
                         <div className="font-bold text-lg">Andreas Speier</div>
-                        <div className="italic text-gray-400">Geschäftsführende Gesellschafter</div>
+                        <div className="italic text-gray-400">Geschäftsführender Gesellschafter</div>
                     </div>
                 </div>
             </div>
@@ -47,7 +47,7 @@ export default function Projektentwicklung({ data }) {
                         <div className="image overflow-hidden rounded-full max-w-[250px] max-h-[250px]">
                             <StaticImage
                                 src="../images/team/Turnkey-Solar-Gabriela-Mainusch.jpg"
-                                alt="Photovoltaik Analge gebaut von Turn Key Solar GmbH"
+                                alt="Gabriela Mainusch von Turn Key Solar GmbH"
                                 placeholder="blurred"
                                 layout="constrained"
                                 width={250}
@@ -70,7 +70,7 @@ export default function Projektentwicklung({ data }) {
                         <div className="image overflow-hidden rounded-full max-w-[250px] max-h-[250px]">
                             <StaticImage
                                 src="../images/team/Turnkey-Solar-Kirsten-Blume.jpg"
-                                alt="Photovoltaik Analge gebaut von Turn Key Solar GmbH"
+                                alt="Kirsten Blume von Turn Key Solar GmbH"
                                 placeholder="blurred"
                                 layout="constrained"
                                 width={250}
@@ -94,7 +94,7 @@ export default function Projektentwicklung({ data }) {
                     <div className="image overflow-hidden rounded-full max-w-[250px] max-h-[250px]">
                         <StaticImage
                             src="../images/team/Turnkey-Solar-Waldemar-Neufeld.jpg"
-                            alt="Photovoltaik Analge gebaut von Turn Key Solar GmbH"
+                            alt="Waldemar Neufeld von Turn Key Solar GmbH"
                             placeholder="blurred"
                             layout="constrained"
                             width={250}
@@ -175,27 +175,8 @@ export default function Projektentwicklung({ data }) {
                 <div className="person">
                     <div className="image overflow-hidden rounded-full max-w-[250px] max-h-[250px]">
                         <StaticImage
-                            src="../images/team/Turnkey-Solar-Sobaka.jpg"
-                            alt="Christina Kruse von SSR Eletrotechnik GmbH"
-                            placeholder="blurred"
-                            layout="constrained"
-                            width={250}
-                            quality={90}
-                            imgStyle={{ 'object-position': 'right center' }}
-                            objectFit="cover"
-                            class="w-full posistion"
-                        />
-                    </div>
-                    <div className="name text-center py-5">
-                        <div className="font-bold text-lg">Paul</div>
-                        <div className="italic text-gray-400">Wachhund</div>
-                    </div>
-                </div>
-                <div className="person">
-                    <div className="image overflow-hidden rounded-full max-w-[250px] max-h-[250px]">
-                        <StaticImage
                             src="../images/team/Turnkey-Solar-Sobaka-Small.jpg"
-                            alt="Christian Costales Castro von SSR Eletrotechnik GmbH"
+                            alt="Hinata von SSR Eletrotechnik GmbH"
                             placeholder="blurred"
                             layout="constrained"
                             width={250}
