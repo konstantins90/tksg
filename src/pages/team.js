@@ -26,7 +26,7 @@ export default function Projektentwicklung({ data }) {
                     <div className="image overflow-hidden rounded-full max-w-[250px] max-h-[250px]">
                         <StaticImage
                             src="../images/team/Turnkey-Solar-Andreas-Spreier.jpg"
-                            alt="Photovoltaik Analge gebaut von Turn Key Solar GmbH"
+                            alt="Andreas Spreier von Turn Key Solar GmbH"
                             placeholder="blurred"
                             layout="constrained"
                             width={250}

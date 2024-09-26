@@ -45,7 +45,7 @@ export default function Home({ data }) {
                 <div className="container lg:max-w-[60%] py-40 text-center">
                     <h3 className="text-center inline-block mb-12 text-3xl md:text-4xl lg:text-5xl lg:text-6xl font-display font-bold pb-4 border-b-2 border-orange">Über Turn Key Solar GmbH</h3>
                     <div className="text-lg lg:text-2xl text-center font-light leading-normal">
-                        Wir sind ein führendes Unternehmen im Bereich erneuerbare Energien und spezialisiert auf die Planung, Installation und Wartung von Photovoltaik-Anlagen. Mit unserer langjährigen Erfahrung und unserem Know-how bieten wir maßgeschneiderte Lösungen für private und gewerbliche Kunden in Deutschland und EU.
+                        Wir sind ein führendes Unternehmen im Bereich der erneuerbaren Energien und spezialisiert auf die Planung, Installation und Wartung von Photovoltaikanlagen. Mit unserer langjährigen Erfahrung und unserem Know-how bieten wir maßgeschneiderte Lösungen für private und gewerbliche Kunden in Deutschland und der gesamten EU.
                     </div>
                 </div>
             </div>
@@ -58,7 +58,7 @@ export default function Home({ data }) {
                     </div>
                 </div>
                 <div className="text-lg text-center font-light leading-normal">
-                Erneuerbare Energie, maßgeschneidert für Sie: Entdecken Sie unsere vielfältigen Services für Photovoltaik-Anlagen.
+                Erneuerbare Energie, maßgeschneidert für Sie: Entdecken Sie unseren vielfältigen Services für Photovoltaikanlagen.
                 </div>
             </div>
             <Service />
@@ -72,7 +72,7 @@ export default function Home({ data }) {
                 <div class="w-full h-full absolute inset-0 img-overlay"></div>
                 <div className="container text-center h-full flex flex-col justify-center relative">
                     <div className="text-6xl lg:text-14xl font-bold text-animation">Nachhaltig in die Zukunft</div>
-                    <p className="text-lg lg:text-2xl mt-10 text-white">Profitieren Sie von unserer langjährigen Branchenexpertise.<br />Wir bieten effiziente Solaranlagen für Unternehmen und Privathaushalte.</p>
+                    <p className="text-lg lg:text-2xl mt-10 text-white">Profitieren Sie von unserer langjährigen Branchenexpertise.<br />Wir bieten effiziente Solaranlagen für Unternehmen und Privathaushalte an.</p>
                 </div>
             </div>
         </div>
@@ -101,7 +101,7 @@ export default function Home({ data }) {
                         </div>
                     </div>
                     <div className="text-lg lg:text-2xl font-light leading-normal">
-                        Von individueller Beratung bis zur erfolgreichen Inbetriebnahme – wir begleiten Sie auf jedem Schritt. Vertrauen Sie auf unsere Expertise für eine nachhaltige Energiezukunft.
+                        Von der individuellen Beratung bis zur erfolgreichen Inbetriebnahme – wir begleiten Sie bei jedem Schritt. Vertrauen Sie unserem Fachwissen und die lange Erfahrung im Bau von Photovoltaikanlagen für eine nachhaltige Energiezukunft.
                     </div>
 
                     <Steps />
