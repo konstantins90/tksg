@@ -16,7 +16,7 @@ export default function Projektentwicklung({ data }) {
                 <div className="container lg:max-w-[60%] py-40 text-center">
                     <h1 className="text-center inline-block mb-12 text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-display font-bold pb-4 border-b-2 border-orange">Unser Office-Team</h1>
                     <div className="text-lg lg:text-2xl text-center font-light leading-normal">
-                        Unser engagiertes Team von Experten steht Ihnen jederzeit zur Seite. Mit langjähriger Erfahrung und tiefgreifendem Fachwissen in der Planung, Installation und Wartung von Photovoltaikanlagen bieten wir maßgeschneiderte Lösungen für private und gewerbliche Kunden in Deutschland und EU.
+                        Unser engagiertes Team von Experten steht Ihnen jederzeit zur Seite. Mit langjähriger Erfahrung und tiefgreifendem Fachwissen in der Planung, Installation und Wartung von Photovoltaikanlagen bieten wir maßgeschneiderte Lösungen für private und gewerbliche Kunden in Deutschland und gesamten EU.
                     </div>
                 </div>
             </div>
@@ -25,7 +25,7 @@ export default function Projektentwicklung({ data }) {
                 <div className="person">
                     <div className="image overflow-hidden rounded-full max-w-[250px] max-h-[250px]">
                         <StaticImage
-                            src="../images/team/Turnkey-Solar-Andreas-Speier.jpg"
+                            src="../images/team/Turnkey-Solar-Andreas-Spreier.jpg"
                             alt="Photovoltaik Analge gebaut von Turn Key Solar GmbH"
                             placeholder="blurred"
                             layout="constrained"
@@ -37,7 +37,7 @@ export default function Projektentwicklung({ data }) {
                         />
                     </div>
                     <div className="name text-center py-5">
-                        <div className="font-bold text-lg">Andreas Speier</div>
+                        <div className="font-bold text-lg">Andreas Spreier</div>
                         <div className="italic text-gray-400">Geschäftsführender Gesellschafter</div>
                     </div>
                 </div>
