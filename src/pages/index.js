@@ -22,7 +22,7 @@ export default function Home({ data }) {
             <div class="relative z-10 text-center py-24 xl:pt-38 xl:pb-30">
                 {/* <h1 class="text-white text-center text-3xl md:text-4xl lg:text-5xl lg:text-6xl font-display font-bold mb-12">Turn Key Solar GmbH</h1> */}
                 <Logo id="home-logo" className="w-1/2 xl:max-w-[800px] mx-auto mb-20" />
-                <h2 class="inline-block text-white font-light text-xl md:text-xl lg:text-2xl xl:text-3xl">Ihr Experte für Photovoltaik-Anlagen</h2>
+                <h2 class="inline-block text-white font-light text-xl md:text-xl lg:text-2xl xl:text-3xl">Ihr Experte für Photovoltaikanlagen</h2>
             </div>
             <div class="container">
                 <Counter/>
@@ -113,7 +113,7 @@ export default function Home({ data }) {
             <div id="contact" data-aos="fade-up">
                 <div className="container lg:max-w-[60%] py-40 text-center">
                     <h3 className="text-center inline-block mb-12 text-3xl md:text-4xl lg:text-5xl lg:text-6xl font-display font-bold pb-4 border-b-2 border-orange">
-                        Experten für Photovoltaik-Anlagen
+                        Experten für Photovoltaikanlagen
                     </h3>
                     <div className="text-lg lg:text-2xl text-center font-light leading-normal">
                         Erfahren Sie, wie Sie durch unsere Photovoltaik-Angebote Ihre Energiekosten senken können. Haben Sie Fragen oder möchten Sie mehr über unsere Dienstleistungen erfahren? Unser Team steht Ihnen gerne zur Verfügung.

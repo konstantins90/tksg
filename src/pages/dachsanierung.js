@@ -29,7 +29,7 @@ export default function Projektentwicklung({ data }) {
                     <div className="basis-full lg:basis-5/12" data-aos="fade-right">
                         <h3 className="text-3xl lg:text-5xl font-bold mb-5 lg:mb-20 pr-10 text-gray-600">Professionell und Sicher</h3>
                         <div className="block bg-gray-100 p-10 lg:pr-[40%] lg:-mr-[35%]">
-                            <p className="mb-10">Durch unsere Zusammenarbeit mit regionalen Partnerunternehmen garantieren wir Ihnen eine professionelle Dachsanierung gemäß sämtlicher Vorschriften. Wenn Sie Ihr Dach pachten, werden die Sanierungskosten direkt verrechnet und ein etwaiger Überschuss wird Ihnen ausgezahlt. Unsere umfangreiche Erfahrung erstreckt sich auf die folgenden Gebiete</p>
+                            <p className="mb-10">Durch unsere Zusammenarbeit mit regionalen Partnerunternehmen garantieren wir Ihnen eine professionelle Dachsanierung gemäß sämtlicher Vorschriften. Wenn Sie Ihr Dach pachten, werden die Sanierungskosten direkt verrechnet und ein etwaiger Überschuss wird Ihnen ausgezahlt. Unsere umfangreiche Erfahrung erstreckt sich auf die folgenden Bereiche:</p>
 
                             <p className="font-bold text-lg">Unsere Leistungen</p>
 
@@ -38,7 +38,7 @@ export default function Projektentwicklung({ data }) {
                                 <li><CheckCircleIcon className="inline h-5 w-5 text-orange" /> Beschaffung von Materialien und Organisation der Logistik</li>
                                 <li><CheckCircleIcon className="inline h-5 w-5 text-orange" /> Sanierung von Dächern</li>
                                 <li><CheckCircleIcon className="inline h-5 w-5 text-orange" /> Ermittlung der technischen Umsetzbarkeit</li>
-                                <li><CheckCircleIcon className="inline h-5 w-5 text-orange" /> Fachgerechte Entsorgung von Asbest</li>
+                                <li><CheckCircleIcon className="inline h-5 w-5 text-orange" /> Fachgerechte Entsorgung von asbesthaltigen Baustoffen bei Sanierungen</li>
                             </ul>
 
                             <p className="mt-8">Vertrauen Sie auf unsere Expertise für eine sichere und effiziente Dachsanierung. Kontaktieren Sie uns noch heute für ein unverbindliches Angebot.</p>

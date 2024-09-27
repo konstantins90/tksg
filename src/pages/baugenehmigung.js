@@ -40,7 +40,7 @@ export default function Projektentwicklung({ data }) {
                                 <div className="line"></div>
                             </div>
                             <div className="step-description text-xl pb-10">
-                                Wir überprüfen sorgfältig die örtlichen Bauvorschriften, Verordnungen und Planungsbestimmungen, um sicherzustellen, dass Ihr Bauprojekt alle notwendigen Anforderungen erfüllt. Im Nachgang erstellen wir eine umfassende Bauplanung, die alle relevanten Faktoren berücksichtigt. Dabei legen wir großen Wert auf eine detaillierte Dokumentation, die neben Gutachten und Nachweisen auch Datenblätter beinhaltet.
+                            Wir überprüfen sorgfältig die örtlichen Bauvorschriften, Verordnungen und Planungsbestimmungen, um sicherzustellen, dass Ihr Bauprojekt alle notwendigen Anforderungen erfüllt. Im Anschluss erstellen wir eine umfassende Bauplanung, welche alle relevanten Faktoren berücksichtigt. Dabei legen wir großen Wert auf eine detaillierte Dokumentation, die neben Gutachten und Nachweisen auch Datenblätter der technischen Einheiten wie Module und Wechselrichter beinhaltet.
                             </div>
                         </div>
                     </div>
@@ -58,7 +58,7 @@ export default function Projektentwicklung({ data }) {
                                 <div className="line"></div>
                             </div>
                             <div className="step-description text-xl pb-10">
-                                Wir stellen den Antrag auf Erteilung der Baugenehmigung bei der zuständigen Baubehörde und sorgen für eine problemlose und fachgerechte Abwicklung des Genehmigungsverfahrens. Wenn erforderlich, initiieren wir die Modifikation des Flächennutzungsplans.
+                                Wir stellen den Antrag auf Erteilung der Baugenehmigung bei der zuständigen Baubehörde und sorgen für eine problemlose sowie fachgerechte Abwicklung des Genehmigungsverfahrens. Wenn erforderlich, initiieren wir die Modifikation des Flächennutzungsplans.
                             </div>
                         </div>
                     </div>

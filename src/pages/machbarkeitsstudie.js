@@ -58,7 +58,7 @@ export default function Projektentwicklung({ data }) {
                                 <div className="line"></div>
                             </div>
                             <div className="step-description text-xl pb-10">
-                                Eine gründliche Standortanalyse ist entscheidend für den Erfolg Ihrer Photovoltaikanlage. Wir analysieren Sonneneinstrahlung, geografische Gegebenheiten und andere Standortfaktoren, um optimale Ergebnisse zu erzielen.
+                                Eine gründliche Standortanalyse ist entscheidend für den Erfolg Ihrer Photovoltaikanlage. Wir analysieren die Sonneneinstrahlung, geografische Gegebenheiten und andere Standortfaktoren, um optimale Ergebnisse zu erzielen.
                             </div>
                         </div>
                     </div>

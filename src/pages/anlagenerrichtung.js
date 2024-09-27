@@ -29,7 +29,7 @@ export default function Projektentwicklung({ data }) {
                     <div className="basis-full lg:basis-5/12" data-aos="fade-right">
                         <h3 className="text-3xl lg:text-5xl font-bold mb-5 lg:mb-20 pr-10 text-gray-600">Dachsanierung</h3>
                         <div className="block bg-gray-100 p-10 lg:pr-[40%] lg:-mr-[35%]">
-                            <p className="mb-10">Gemeinsam mit unseren regionalen Partnerunternehmen bieten wir eine fachmännische Dachsanierung gemäß den gültigen Vorschriften an. Wenn Sie Ihr Dach pachten, werden die Sanierungskosten verrechnet und der Überschuss wird Ihnen als Barzahlung ausgezahlt. Unsere Expertise umfasst dabei:</p>
+                            <p className="mb-10">Gemeinsam mit unseren regionalen Partnerunternehmen bieten wir eine fachmännische Dachsanierung gemäß den gültigen Vorschriften an. Wenn Sie Ihr Dach pachten, werden die Sanierungskosten verrechnet, und der Überschuss wird Ihnen als Barzahlung ausgezahlt. Unsere Expertise umfasst dabei:</p>
 
                             <p className="font-bold text-lg">Unsere Leistungen:</p>
                             <ul>

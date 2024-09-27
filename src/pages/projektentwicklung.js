@@ -29,7 +29,7 @@ export default function Projektentwicklung({ data }) {
                     <div className="basis-full lg:basis-5/12" data-aos="fade-right">
                         <h3 className="text-3xl lg:text-5xl font-bold mb-5 lg:mb-20 pr-10 text-gray-600">Machbarkeitsstudie</h3>
                         <div className="block bg-gray-100 p-10 lg:pr-[40%] lg:-mr-[35%]">
-                            <p className="mb-10">Für die Gewährleistung einer reibungslosen Projektdurchführung müssen im Vorfeld Risiken durch eine umfassende Machbarkeitsstudie evaluiert werden. Diese Studie ist entscheidend, um alle relevanten Aspekte Ihres Projekts zu analysieren und potenzielle Herausforderungen frühzeitig zu identifizieren.</p>
+                            <p className="mb-10">Für die Gewährleistung einer reibungslosen Projektdurchführung müssen im Vorfeld Risiken, durch eine umfassende Machbarkeitsstudie, evaluiert werden. Diese Studie ist entscheidend, um alle relevanten Aspekte Ihres Projekts zu analysieren und potenzielle Herausforderungen frühzeitig zu identifizieren.</p>
 
                             <p className="font-bold text-lg">Unsere Leistungen</p>
 
@@ -96,7 +96,7 @@ export default function Projektentwicklung({ data }) {
                     <div className="basis-full lg:basis-5/12" data-aos="fade-right">
                         <h3 className="text-3xl lg:text-5xl font-bold mb-5 lg:mb-20 pr-10 text-gray-600">Anlagenplanung</h3>
                         <div className="block bg-gray-100 p-10 lg:pr-[40%] lg:-mr-[35%]">
-                            <p className="mb-10">Um eine effektive Bauphase sicherzustellen, ist es essenziell, im Vorfeld eine detaillierte Planung zu erstellen.</p>
+                            <p className="mb-10">Um eine effektive Bauphase sicherzustellen, ist es essenziell, im Vorfeld, eine detaillierte Planung, zu erstellen.</p>
 
                             <p className="font-bold text-lg">Unser umfassendes Know-how umfasst:</p>
                             <ul>

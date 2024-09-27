@@ -19,7 +19,7 @@ export default function Projektentwicklung({ data }) {
                 <div className="container lg:max-w-[60%] py-40 text-center">
                     <h1 className="text-center inline-block mb-12 text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-display font-bold pb-4 border-b-2 border-orange">Standortanalyse</h1>
                     <div className="text-lg lg:text-2xl text-center font-light leading-normal">
-                        Profitieren Sie von unserer Expertise in der Standortanalyse und sichern Sie sich die besten Standorte für Ihre Photovoltaik-Anlagen. Kontaktieren Sie uns für eine detaillierte Analyse und ein maßgeschneidertes Angebot.
+                        Profitieren Sie von unserer Expertise in der Standortanalyse und sichern Sie sich die besten Standorte für Ihre Photovoltaikanlagen. Kontaktieren Sie uns für eine detaillierte Analyse und ein maßgeschneidertes Angebot.
                     </div>
                 </div>
             </div>
@@ -30,7 +30,7 @@ export default function Projektentwicklung({ data }) {
                         <h3 className="text-3xl lg:text-5xl font-bold mb-5 lg:mb-20 pr-10 text-gray-600">Standortanalyse</h3>
                         <div className="block bg-gray-100 p-10 lg:pr-[40%] lg:-mr-[35%]">
                             <p className="mb-10">
-                                Unser interdisziplinäres Team von GIS-Experten hat langjährige Erfahrung in der Arbeit mit Geoinformationssystemen und liefert fundierte Analysen zur Identifizierung optimaler Standorte für Photovoltaik-Anlagen. Wir nutzen staatlich geprüfte Informationsparameter, um geografische Daten, topografische Informationen sowie Gelände- und Bodenbeschaffenheit zu analysieren und zu bewerten. So gewinnen wir umfassende Einsichten in die Eignung von Standorten für Photovoltaik-Anlagen.
+                                Unser interdisziplinäres Team von GIS-Experten hat langjährige Erfahrung in der Arbeit mit Geoinformationssystemen und liefert fundierte Analysen zur Identifizierung optimaler Standorte für Photovoltaikanlagen. Wir nutzen staatlich geprüfte Informationsparameter, um geografische Daten, topografische Informationen sowie Gelände- und Bodenbeschaffenheit zu analysieren und zu bewerten. So gewinnen wir umfassende Einsichten in die Eignung von Standorten für Photovoltaikanlagen.
                             </p>
 
                             <ul>

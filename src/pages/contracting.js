@@ -19,7 +19,7 @@ export default function Projektentwicklung({ data }) {
                 <div className="container lg:max-w-[60%] py-40 text-center">
                     <h1 className="text-center inline-block mb-12 text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-display font-bold pb-4 border-b-2 border-orange">Contracting</h1>
                     <div className="text-lg lg:text-2xl text-center font-light leading-normal">
-                        Mit unserem Contracting-Angebot realisieren Sie Ihre Dachprojekte ohne finanzielle Belastung. Profitieren Sie von flexiblen Vertragsmodellen und der Expertise unserer erfahrenen Partner. Kontaktieren Sie uns für mehr Informationen und ein individuelles Angebot.
+                    Mit unserem Contracting-Angebot realisieren Sie Ihre Dachprojekte ohne finanzielle Belastung. Profitieren Sie von flexiblen Vertragsmodellen und der Empfehlung unserer erfahrenen Partner. Kontaktieren Sie uns für weitere Informationen und ein individuelles Angebot.
                     </div>
                 </div>
             </div>
@@ -30,7 +30,7 @@ export default function Projektentwicklung({ data }) {
                         <h3 className="text-3xl lg:text-5xl font-bold mb-5 lg:mb-20 pr-10 text-gray-600">Sorgenfreie Projektumsetzung</h3>
                         <div className="block bg-gray-100 p-10 lg:pr-[40%] lg:-mr-[35%]">
                             <p className="mb-10">
-                                Realisieren Sie Ihre Dachprojekte ohne finanzielle Belastung durch unser Contracting-Angebot. Wir bieten flexible Vertragsmodelle und übernehmen die Finanzierung und Umsetzung Ihrer Projekte.
+                                Realisieren Sie Ihre Dachprojekte ohne finanzielle Belastung durch unser Contracting-Angebot. Wir bieten flexible Vertragsmodelle und übernehmen die Finanzierung sowie die Umsetzung Ihrer Projekte.
                             </p>
 
                             <ul>

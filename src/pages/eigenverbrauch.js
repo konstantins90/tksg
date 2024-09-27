@@ -30,7 +30,7 @@ export default function Projektentwicklung({ data }) {
                         <h3 className="text-3xl lg:text-5xl font-bold mb-5 lg:mb-20 pr-10 text-gray-600">Maximieren Sie Ihre Einsparungen</h3>
                         <div className="block bg-gray-100 p-10 lg:pr-[40%] lg:-mr-[35%]">
                             <p className="mb-10">
-                                Turn Key Solar GmbH optimiert Ihre Solaranlage für maximalen Eigenverbrauch. Reduzieren Sie Stromkosten und profitieren Sie von EEG-Vergütungen für überschüssigen Strom.
+                                Die Turn Key Solar GmbH optimiert Ihre Solaranlage für maximalen Eigenverbrauch. Reduzieren Sie Ihre Stromkosten und profitieren Sie von EEG-Vergütungen für überschüssigen Strom.
                             </p>
 
                             <ul>
