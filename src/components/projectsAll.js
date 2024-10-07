@@ -1,5 +1,5 @@
 import { graphql, useStaticQuery } from "gatsby";
-import React, { useState, useEffect, useMemo } from "react";
+import React, { useState, useEffect } from "react";
 import { GatsbyImage, getImage } from "gatsby-plugin-image"
 
 const dataQuery = graphql`
