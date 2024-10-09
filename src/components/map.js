@@ -22,19 +22,21 @@ const AddressMap = () => {
           url='https://cartodb-basemaps-{s}.global.ssl.fastly.net/dark_all/{z}/{x}/{y}.png'
         />
       {projects.map((address, index) => (
-        <Marker
-          key={index}
-          position={[address.geo.lat, address.geo.lng]}
-          icon={customIcon}
-        >
-          <Popup>
-            <div>
-              <h3>{address.name}</h3>
-              <p>{address.street}</p>
-              <p>{address.postcode} {address.city}</p>
-            </div>
-          </Popup>
-        </Marker>
+        address.geo?.lat && address.geo?.lng ? (
+          <Marker
+            key={index}
+            position={[address.geo.lat, address.geo.lng]}
+            icon={customIcon}
+          >
+            <Popup>
+              <div>
+                <h3>{address.name}</h3>
+                <p>{address.street}</p>
+                <p>{address.postcode} {address.city}</p>
+              </div>
+            </Popup>
+          </Marker>
+        ) : null
       ))}
     </MapContainer>
     </>

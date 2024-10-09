@@ -54,7 +54,10 @@
     }
     },
     {
-    "name": "ERBSMÜHLE",
+    "name": "Dachanlage in Großalmerode",
+    "subtitle": "Dachanlage in Großalmerode",
+    "image": "../images/projects/erbsmuehle.jpg",
+    "filter": ["all", "dachanlage"],
     "street": "Bei der Erbsmühle",
     "housenumber": "1",
     "postcode": "37247",
@@ -123,7 +126,10 @@
     }
     },
     {
-    "name": "KATHARIENBERG",
+    "name": "Dachanlage in Diedorf",
+    "subtitle": "Dachanlage in Diedorf",
+    "image": "../images/projects/Diedorf.jpg",
+    "filter": ["all", "dachanlage"],
     "street": "Im Gut",
     "housenumber": "27",
     "postcode": "99988",
@@ -344,7 +350,10 @@
     }
     },
     {
-    "name": "DORF MECKLENBURG",
+    "name": "Dachanlage in Dorf Mecklenburg",
+    "subtitle": "Dachanlage in Dorf Mecklenburg",
+    "image": "../images/projects/Dorf-Mecklenburg.jpg",
+    "filter": ["all", "dachanlage"],
     "street": "Kletziner Strasse",
     "housenumber": "1",
     "postcode": "23972",
@@ -357,7 +366,7 @@
     {
     "name": "Dachanlgen Lübesse",
     "size": "lg:w-2/3 xl:w-1/4",
-    "image": "../images/projects/Lübesse.png",
+    "image": "../images/projects/Lübesse.jpg",
     "filter": ["all", "dachanlge"],
     "subtitle": "6 Photovoltaikanlage in Lübesse",
     "street": "Schweriner Str.",
@@ -372,8 +381,8 @@
     {
     "name": "Photovoltaikanlage in Friedland",
     "size": "lg:w-2/3 xl:w-1/4",
-    "image": "../images/projects/Friedland.png",
-    "filter": ["all", "freilandanlage"],
+    "image": "../images/projects/Friedland.jpg",
+    "filter": ["all", "dachanlge"],
     "subtitle": "Große Photovoltaikanlage in Friedland",
     "street": "Pleetzer Weg",
     "housenumber": "8a",
@@ -387,7 +396,7 @@
     {
     "name": "Freilandanlage in Friedland",
     "size": "lg:w-2/3 xl:w-1/4",
-    "image": "../images/projects/Friedland2.png",
+    "image": "../images/projects/Friedland2.jpg",
     "filter": ["all", "freilandanlage"],
     "subtitle": "Große Freilandanlage in Friedland",
     "street": "Pleetzer Weg",
@@ -412,7 +421,7 @@
     {
     "name": "Dachanlage Gadebusch",
     "size": "lg:w-2/3 xl:w-1/4",
-    "image": "../images/projects/Gadebusch.png",
+    "image": "../images/projects/Gadebusch.jpg",
     "filter": ["all", "dachanlage"],
     "subtitle": "Dachanlage in Gadebusch",
     "street": "Wakenstädt",
@@ -436,7 +445,10 @@
     }
     },
     {
-    "name": "ANKLAM",
+    "name": "Dachanlage in Anklam",
+    "subtitle": "Dachanlage in Anklam",
+    "image": "../images/projects/Anklam.jpg",
+    "filter": ["all", "dachanlage"],
     "street": "Pasewalker Allee",
     "housenumber": "23",
     "postcode": "17389",
@@ -531,7 +543,7 @@
     "name": "Dachanlage Bredow",
     "subtitle": "Photovoltaik-Dachanlage in Bredow",
     "size": "lg:w-1/3 xl:w-2/4",
-    "image": "../images/projects/Bredow.png",
+    "image": "../images/projects/Bredow.jpg",
     "filter": ["all", "dachanlage"],
     "street": "Nauener Landweg",
     "housenumber": "1a",
@@ -546,7 +558,7 @@
     "name": "Dachanlage Neuruppin",
     "subtitle": "Photovoltaik-Dachanlage in Neuruppin",
     "size": "lg:w-1/3 xl:w-1/4",
-    "image": "../images/projects/Neuruppin.png",
+    "image": "../images/projects/Neuruppin.jpg",
     "filter": ["all", "dachanlage"],
     "street": "Nymurk-Ring",
     "housenumber": "2",
@@ -561,7 +573,7 @@
     "name": "Dachanlage Neuruppin 18",
     "subtitle": "Photovoltaik-Dachanlage in Neuruppin",
     "size": "lg:w-1/3 xl:w-1/4",
-    "image": "../images/projects/Neuruppin-zur-Mesche.png",
+    "image": "../images/projects/Neuruppin-zur-Mesche.jpg",
     "filter": ["all", "dachanlage"],
     "street": "Zur Mesche",
     "housenumber": "18",
@@ -571,6 +583,62 @@
         "lat": 52.932265,
         "lng": 12.785547
     }
+    },
+    {
+        "name": "Dachanlage in Bernau",
+        "subtitle": "Dachanlage in Bernau",
+        "image": "../images/projects/Bernau-bei-Berlin.jpg",
+        "filter": ["all", "dachanlage"],
+        "size": "lg:w-1/3 xl:w-1/4"
+    },
+    {
+        "name": "Dachanlage",
+        "subtitle": "Dachanlage",
+        "image": "../images/projects/Framkfurter-Weg.jpg",
+        "filter": ["all", "dachanlage"],
+        "size": "lg:w-1/3 xl:w-1/4"
+    },
+    {
+        "name": "Dachanlage in Friedland",
+        "subtitle": "Dachanlage in Friedland",
+        "image": "../images/projects/Friedland3-Halle.jpg",
+        "filter": ["all", "dachanlage"],
+        "size": "lg:w-1/3 xl:w-1/4"
+    },
+    {
+        "name": "Freilandanlage in Gralmueritz",
+        "subtitle": "Freilandanlage in Gralmueritz",
+        "image": "../images/projects/FriGralmueritz.jpg",
+        "filter": ["all", "freilandanlage"],
+        "size": "lg:w-1/3 xl:w-1/4"
+    },
+    {
+        "name": "Dachanlage",
+        "subtitle": "Dachanlage",
+        "image": "../images/projects/Hartmann.jpg",
+        "filter": ["all", "dachanlage"],
+        "size": "lg:w-1/3 xl:w-1/4"
+    },
+    {
+        "name": "Dachanlage in Hattdorf",
+        "subtitle": "Dachanlage in Hattdorf",
+        "image": "../images/projects/Hattdorf1.jpg",
+        "filter": ["all", "dachanlage"],
+        "size": "lg:w-1/3 xl:w-1/4"
+    },
+    {
+        "name": "Dachanlage in Hattdorf",
+        "subtitle": "Dachanlage in Hattdorf",
+        "image": "../images/projects/Hattdorf2.jpg",
+        "filter": ["all", "dachanlage"],
+        "size": "lg:w-1/3 xl:w-1/4"
+    },
+    {
+        "name": "Dachanlage in Salzkotten",
+        "subtitle": "Dachanlage in Salzkotten",
+        "image": "../images/projects/Headquarter.jpg",
+        "filter": ["all", "dachanlage"],
+        "size": "lg:w-1/3 xl:w-1/4"
     }
-  ]
+]
   

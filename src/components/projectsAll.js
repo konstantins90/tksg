@@ -16,11 +16,6 @@ query AllProjects {
             name
             subtitle
             size
-            modules
-            capacity
-            annual
-            year
-            description
             filter
             image {
                 absolutePath

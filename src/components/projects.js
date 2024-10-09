@@ -8,6 +8,8 @@ query Projects {
         limit: 13,
         filter: {
             subtitle: {ne: null}
+            name: {ne: null}
+            size: {ne: null}
             image: {
                 absolutePath:{ne: null}
             }
@@ -17,13 +19,7 @@ query Projects {
             name
             subtitle
             size
-            modules
-            capacity
-            annual
-            year
-            description
             image {
-                absolutePath
                 absolutePath
                 childImageSharp {
                     gatsbyImageData(
