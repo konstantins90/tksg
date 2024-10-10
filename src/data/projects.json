@@ -365,7 +365,7 @@
     },
     {
     "name": "Dachanlgen Lübesse",
-    "size": "lg:w-2/3 xl:w-1/4",
+    "size": "lg:w-1/3 xl:w-1/4",
     "image": "../images/projects/Lübesse.jpg",
     "filter": ["all", "dachanlge"],
     "subtitle": "6 Photovoltaikanlage in Lübesse",
@@ -380,7 +380,7 @@
     },
     {
     "name": "Photovoltaikanlage in Friedland",
-    "size": "lg:w-2/3 xl:w-1/4",
+    "size": "lg:w-1/3 xl:w-1/4",
     "image": "../images/projects/Friedland.jpg",
     "filter": ["all", "dachanlge"],
     "subtitle": "Große Photovoltaikanlage in Friedland",
@@ -395,7 +395,7 @@
     },
     {
     "name": "Freilandanlage in Friedland",
-    "size": "lg:w-2/3 xl:w-1/4",
+    "size": "lg:w-1/3 xl:w-1/4",
     "image": "../images/projects/Friedland2.jpg",
     "filter": ["all", "freilandanlage"],
     "subtitle": "Große Freilandanlage in Friedland",

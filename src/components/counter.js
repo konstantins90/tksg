@@ -7,7 +7,7 @@ export default function Counter({ data }) {
         <div className="w-full lg:w-1/4 mb-6 lg:mb-0 pb-4 lg:pb-0 border-b lg:border-0 border-orange">
             <div className="text-6xl font-bold pb-2 lg:pb-10 mb-0 lg:mb-6 lg:border-b border-orange">
                 <CountUp
-                    end={251}
+                    end={558}
                     separator=" "
                     delay={1}
                     decimals={0}
@@ -21,7 +21,7 @@ export default function Counter({ data }) {
         <div className="w-full lg:w-1/4 mb-6 lg:mb-0 pb-4 lg:pb-0 border-b lg:border-0 border-orange">
             <div className="text-6xl font-bold pb-2 lg:pb-10 mb-0 lg:mb-6 lg:border-b border-orange">
                 <CountUp
-                    end={95682}
+                    end={103785}
                     separator=" "
                     delay={1}
                     decimals={0}

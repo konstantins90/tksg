@@ -43,51 +43,75 @@ export default function Projektentwicklung({ data }) {
                 </div>
             </div>
             <div className="flex flex-wrap gap-20 justify-center mb-20">
-                    <div className="person">
-                        <div className="image overflow-hidden rounded-full max-w-[250px] max-h-[250px]">
-                            <StaticImage
-                                src="../images/team/Turnkey-Solar-Gabriela-Mainusch.jpg"
-                                alt="Gabriela Mainusch von Turn Key Solar GmbH"
-                                placeholder="blurred"
-                                layout="constrained"
-                                width={250}
-                                quality={90}
-                                imgStyle={{ 'object-position': 'right center' }}
-                                objectFit="cover"
-                                class="w-full posistion"
-                            />
+                <div className="person">
+                    <div className="image overflow-hidden rounded-full max-w-[250px] max-h-[250px]">
+                        <StaticImage
+                            src="../images/team/Turnkey-Solar-Gabriela-Mainusch.jpg"
+                            alt="Gabriela Mainusch von Turn Key Solar GmbH"
+                            placeholder="blurred"
+                            layout="constrained"
+                            width={250}
+                            quality={90}
+                            imgStyle={{ 'object-position': 'right center' }}
+                            objectFit="cover"
+                            class="w-full posistion"
+                        />
+                    </div>
+                    <div className="name text-center py-5">
+                        <div className="font-bold text-lg">Gabriela Mainusch</div>
+                        <div className="italic text-gray-400">Assistenz der Geschäftsführung</div>
+                        <div className="mt-2">
+                            <a href="tel:+491738655073">T: +49 173 8655073</a>
                         </div>
-                        <div className="name text-center py-5">
-                            <div className="font-bold text-lg">Gabriela Mainusch</div>
-                            <div className="italic text-gray-400">Assistenz der Geschäftsführung</div>
-                            <div className="mt-2">
-                                <a href="tel:+491738655073">T: +49 173 8655073</a>
-                            </div>
-                            
+                        
+                    </div>
+                </div>
+                <div className="person">
+                    <div className="image overflow-hidden rounded-full max-w-[250px] max-h-[250px]">
+                        <StaticImage
+                            src="../images/team/Turnkey-Solar-Kirsten-Blume.jpg"
+                            alt="Kirsten Blume von Turn Key Solar GmbH"
+                            placeholder="blurred"
+                            layout="constrained"
+                            width={250}
+                            quality={90}
+                            imgStyle={{ 'object-position': 'right center' }}
+                            objectFit="cover"
+                            class="w-full posistion"
+                        />
+                    </div>
+                    <div className="name text-center py-5">
+                        <div className="font-bold text-lg">Kirsten Blume</div>
+                        <div className="italic text-gray-400">Assistenz der Geschäftsführung</div>
+                        <div className="mt-2">
+                            <a href="tel:+491734859764">T: +49 173 4859764</a>
                         </div>
                     </div>
-                    <div className="person">
-                        <div className="image overflow-hidden rounded-full max-w-[250px] max-h-[250px]">
-                            <StaticImage
-                                src="../images/team/Turnkey-Solar-Kirsten-Blume.jpg"
-                                alt="Kirsten Blume von Turn Key Solar GmbH"
-                                placeholder="blurred"
-                                layout="constrained"
-                                width={250}
-                                quality={90}
-                                imgStyle={{ 'object-position': 'right center' }}
-                                objectFit="cover"
-                                class="w-full posistion"
-                            />
-                        </div>
-                        <div className="name text-center py-5">
-                            <div className="font-bold text-lg">Kirsten Blume</div>
-                            <div className="italic text-gray-400">Assistenz der Geschäftsführung</div>
-                            <div className="mt-2">
-                                <a href="tel:+491734859764">T: +49 173 4859764</a>
-                            </div>
+                </div>
+            </div>
+            <div className="flex flex-wrap gap-20 justify-center mb-20">
+                <div className="person">
+                    <div className="image overflow-hidden rounded-full max-w-[250px] max-h-[250px]">
+                        <StaticImage
+                            src="../images/team/Turnkey-Solar-Stephan-Henke.jpg"
+                            alt="Stephan Henke von Turn Key Solar GmbH"
+                            placeholder="blurred"
+                            layout="constrained"
+                            width={250}
+                            quality={90}
+                            imgStyle={{ 'object-position': 'right center' }}
+                            objectFit="cover"
+                            class="w-full posistion"
+                        />
+                    </div>
+                    <div className="name text-center py-5">
+                        <div className="font-bold text-lg">Stephan Henke</div>
+                        <div className="italic text-gray-400">Leiter Monitoring</div>
+                        <div className="mt-2">
+                            <a href="tel:+4952549478564">T: +49 5254 94785 64</a>
                         </div>
                     </div>
+                </div>
             </div>
             <div className="flex flex-wrap gap-20 justify-center mb-20">
                 <div className="person">
@@ -108,7 +132,7 @@ export default function Projektentwicklung({ data }) {
                         <div className="font-bold text-lg">Waldemar Neufeld</div>
                         <div className="italic text-gray-400">Projektleiter</div>
                         <div className="mt-2">
-                            <a href="tel:+491727598613">T: +49 172 7598613</a>
+                            <a href="tel:+4952549478564">T: +49 5254 94785 64</a>
                         </div>
                     </div>
                 </div>
@@ -120,15 +144,15 @@ export default function Projektentwicklung({ data }) {
                         <div className="font-bold text-lg">Ivan Tihon</div>
                         <div className="italic text-gray-400">Projektleiter</div>
                         <div className="mt-2">
-                            <a href="tel:+491724545547">T: +49 172 4545547</a>
+                            <a href="tel:+4952549478564">T: +49 5254 94785 64</a>
                         </div>
                     </div>
                 </div>
                 <div className="person">
                     <div className="image overflow-hidden rounded-full max-w-[250px] max-h-[250px]">
                         <StaticImage
-                            src="../images/team/Turnkey-Solar-Stephan-Henke.jpg"
-                            alt="Stephan Henke von Turn Key Solar GmbH"
+                            src="../images/team/Turnkey-Solar-Daniel-Marks.jpg"
+                            alt="Daniel Marks von Turn Key Solar GmbH"
                             placeholder="blurred"
                             layout="constrained"
                             width={250}
@@ -139,10 +163,10 @@ export default function Projektentwicklung({ data }) {
                         />
                     </div>
                     <div className="name text-center py-5">
-                        <div className="font-bold text-lg">Stephan Henke</div>
-                        <div className="italic text-gray-400">Leiter Monitoring</div>
+                        <div className="font-bold text-lg">Daniel Marks</div>
+                        <div className="italic text-gray-400">Zimmermann / Leiter Dach</div>
                         <div className="mt-2">
-                            <a href="tel:+491734859752">T: +49 173 4859752</a>
+                            <a href="tel:+4952549478564">T: +49 5254 94785 64</a>
                         </div>
                     </div>
                 </div>
@@ -164,26 +188,10 @@ export default function Projektentwicklung({ data }) {
                     </div>
                     <div className="name text-center py-5">
                         <div className="font-bold text-lg">Petro Fotiuk</div>
-                        <div className="italic text-gray-400">Wartung</div>
-                    </div>
-                </div>
-                <div className="person">
-                    <div className="image overflow-hidden rounded-full max-w-[250px] max-h-[250px]">
-                        <StaticImage
-                            src="../images/team/Turnkey-Solar-Daniel-Marks.jpg"
-                            alt="Daniel Marks von Turn Key Solar GmbH"
-                            placeholder="blurred"
-                            layout="constrained"
-                            width={250}
-                            quality={90}
-                            imgStyle={{ 'object-position': 'right center' }}
-                            objectFit="cover"
-                            class="w-full posistion"
-                        />
-                    </div>
-                    <div className="name text-center py-5">
-                        <div className="font-bold text-lg">Daniel Marks</div>
-                        <div className="italic text-gray-400">Zimmermann</div>
+                        <div className="italic text-gray-400">Leiter Wartung</div>
+                        <div className="mt-2">
+                            <a href="tel:+4952549478564">T: +49 5254 94785 64</a>
+                        </div>
                     </div>
                 </div>
                 <div className="person">
@@ -203,6 +211,9 @@ export default function Projektentwicklung({ data }) {
                     <div className="name text-center py-5">
                         <div className="font-bold text-lg">Angeliki Foukas</div>
                         <div className="italic text-gray-400">Duale Stundentin</div>
+                        <div className="mt-2">
+                            <a href="tel:+4952549478564">T: +49 5254 94785 64</a>
+                        </div>
                     </div>
                 </div>
             </div>
