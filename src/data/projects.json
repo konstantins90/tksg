@@ -43,7 +43,10 @@
     }
     },
     {
-    "name": "BONNEBERG",
+    "name": "Dachanlage in Bad Oeynhausen",
+    "subtitle": "Dachanlage in Bad Oeynhausen",
+    "image": "../images/projects/am-Banneberg.jpg",
+    "filter": ["all", "dachanlage"],
     "street": "Am Bonneberg",
     "housenumber": "30a",
     "postcode": "32545",
@@ -138,6 +141,69 @@
         "lat": 51.162927,
         "lng": 10.981112
     }
+    },
+    {
+        "name": "Dachanlage in Leuenberg",
+        "subtitle": "Dachanlage in Leuenberg",
+        "image": "../images/projects/Leuenberg.jpg",
+        "filter": ["all", "dachanlage"],
+        "size": "lg:w-1/3 xl:w-1/4"
+    },
+    {
+        "name": "Dachanlage",
+        "subtitle": "Dachanlage",
+        "image": "../images/projects/PV1.jpg",
+        "filter": ["all", "dachanlage"],
+        "size": "lg:w-1/3 xl:w-1/4"
+    },
+    {
+        "name": "Dachanlage",
+        "subtitle": "Dachanlage",
+        "image": "../images/projects/PV17.jpg",
+        "filter": ["all", "dachanlage"],
+        "size": "lg:w-1/3 xl:w-1/4"
+    },
+    {
+        "name": "Dachanlage Rudolf Rafflenbeul",
+        "subtitle": "Dachanlage",
+        "image": "../images/projects/rafflenbeul.jpg",
+        "filter": ["all", "dachanlage"],
+        "size": "lg:w-1/3 xl:w-1/4"
+    },
+    {
+        "name": "Dachanlage in Leuenberg",
+        "subtitle": "Dachanlage in Leuenberg",
+        "image": "../images/projects/Leuenberg2.jpg",
+        "filter": ["all", "dachanlage"],
+        "size": "lg:w-1/3 xl:w-1/4"
+    },
+    {
+        "name": "Dachanlage",
+        "subtitle": "Dachanlage",
+        "image": "../images/projects/pv100.jpg",
+        "filter": ["all", "dachanlage"],
+        "size": "lg:w-1/3 xl:w-1/4"
+    },
+    {
+        "name": "Dachanlage",
+        "subtitle": "Dachanlage",
+        "image": "../images/projects/pv101.jpg",
+        "filter": ["all", "dachanlage"],
+        "size": "lg:w-1/3 xl:w-1/4"
+    },
+    {
+        "name": "Dachanlage",
+        "subtitle": "Dachanlage",
+        "image": "../images/projects/pv102.jpg",
+        "filter": ["all", "dachanlage"],
+        "size": "lg:w-1/3 xl:w-1/4"
+    },
+    {
+        "name": "Dachanlage",
+        "subtitle": "Dachanlage",
+        "image": "../images/projects/pv103.jpg",
+        "filter": ["all", "dachanlage"],
+        "size": "lg:w-1/3 xl:w-1/4"
     },
     {
     "name": "Dachanlage Krevese",
@@ -570,19 +636,28 @@
     }
     },
     {
-    "name": "Dachanlage Neuruppin 18",
-    "subtitle": "Photovoltaik-Dachanlage in Neuruppin",
-    "size": "lg:w-1/3 xl:w-1/4",
-    "image": "../images/projects/Neuruppin-zur-Mesche.jpg",
-    "filter": ["all", "dachanlage"],
-    "street": "Zur Mesche",
-    "housenumber": "18",
-    "postcode": "16816",
-    "city": "Neuruppin",
-    "geo": {
-        "lat": 52.932265,
-        "lng": 12.785547
-    }
+        "name": "Dachanlage Neuruppin 18",
+        "subtitle": "Photovoltaik-Dachanlage in Neuruppin",
+        "size": "lg:w-1/3 xl:w-1/4",
+        "image": "../images/projects/Neuruppin-zur-Mesche.jpg",
+        "filter": ["all", "dachanlage"],
+        "street": "Zur Mesche",
+        "housenumber": "18",
+        "postcode": "16816",
+        "city": "Neuruppin",
+        "geo": {
+            "lat": 52.932265,
+            "lng": 12.785547
+        }
+    },
+    {
+        "name": "Dachanlage Neuruppin",
+        "subtitle": "Photovoltaik-Dachanlage in Neuruppin",
+        "size": "lg:w-1/3 xl:w-1/4",
+        "image": "../images/projects/Neuruppin2.jpg",
+        "filter": ["all", "dachanlage"],
+        "postcode": "16816",
+        "city": "Neuruppin"
     },
     {
         "name": "Dachanlage in Bernau",
@@ -608,7 +683,7 @@
     {
         "name": "Freilandanlage in Gralmueritz",
         "subtitle": "Freilandanlage in Gralmueritz",
-        "image": "../images/projects/FriGralmueritz.jpg",
+        "image": "../images/projects/Gralmueritz.jpg",
         "filter": ["all", "freilandanlage"],
         "size": "lg:w-1/3 xl:w-1/4"
     },
