@@ -151,21 +151,21 @@
     },
     {
         "name": "Dachanlage",
-        "subtitle": "Dachanlage",
+        "subtitle": "Energieversorgung der Zukunft",
         "image": "../images/projects/PV1.jpg",
         "filter": ["all", "dachanlage"],
         "size": "lg:w-1/3 xl:w-1/4"
     },
     {
         "name": "Dachanlage",
-        "subtitle": "Dachanlage",
+        "subtitle": "Solarenergie in Bestform",
         "image": "../images/projects/PV17.jpg",
         "filter": ["all", "dachanlage"],
         "size": "lg:w-1/3 xl:w-1/4"
     },
     {
-        "name": "Dachanlage Rudolf Rafflenbeul",
-        "subtitle": "Dachanlage",
+        "name": "Dachanlage in Graal Müritz",
+        "subtitle": "Modernste Photovoltaik-Technologie",
         "image": "../images/projects/rafflenbeul.jpg",
         "filter": ["all", "dachanlage"],
         "size": "lg:w-1/3 xl:w-1/4"
@@ -179,28 +179,28 @@
     },
     {
         "name": "Dachanlage",
-        "subtitle": "Dachanlage",
+        "subtitle": "Energieeffiziente Solaranlage",
         "image": "../images/projects/pv100.jpg",
         "filter": ["all", "dachanlage"],
         "size": "lg:w-1/3 xl:w-1/4"
     },
     {
         "name": "Dachanlage",
-        "subtitle": "Dachanlage",
+        "subtitle": "Saubere Energie für morgen",
         "image": "../images/projects/pv101.jpg",
         "filter": ["all", "dachanlage"],
         "size": "lg:w-1/3 xl:w-1/4"
     },
     {
         "name": "Dachanlage",
-        "subtitle": "Dachanlage",
+        "subtitle": "Hochleistungssolarzellen im Einsatz",
         "image": "../images/projects/pv102.jpg",
         "filter": ["all", "dachanlage"],
         "size": "lg:w-1/3 xl:w-1/4"
     },
     {
         "name": "Dachanlage",
-        "subtitle": "Dachanlage",
+        "subtitle": "Grüne Energie für nachhaltige Gebäude",
         "image": "../images/projects/pv103.jpg",
         "filter": ["all", "dachanlage"],
         "size": "lg:w-1/3 xl:w-1/4"
@@ -430,10 +430,10 @@
     }
     },
     {
-    "name": "Dachanlgen Lübesse",
+    "name": "Dachanlagen Lübesse",
     "size": "lg:w-1/3 xl:w-1/4",
     "image": "../images/projects/Lübesse.jpg",
-    "filter": ["all", "dachanlge"],
+    "filter": ["all", "dachanlage"],
     "subtitle": "6 Photovoltaikanlage in Lübesse",
     "street": "Schweriner Str.",
     "housenumber": "1",
@@ -448,7 +448,7 @@
     "name": "Photovoltaikanlage in Friedland",
     "size": "lg:w-1/3 xl:w-1/4",
     "image": "../images/projects/Friedland.jpg",
-    "filter": ["all", "dachanlge"],
+    "filter": ["all", "dachanlage"],
     "subtitle": "Große Photovoltaikanlage in Friedland",
     "street": "Pleetzer Weg",
     "housenumber": "8a",
@@ -667,8 +667,8 @@
         "size": "lg:w-1/3 xl:w-1/4"
     },
     {
-        "name": "Dachanlage",
-        "subtitle": "Dachanlage",
+        "name": "Dachanlage in Paderborn",
+        "subtitle": "Sonnenkraft effektiv genutzt",
         "image": "../images/projects/Framkfurter-Weg.jpg",
         "filter": ["all", "dachanlage"],
         "size": "lg:w-1/3 xl:w-1/4"
@@ -688,8 +688,8 @@
         "size": "lg:w-1/3 xl:w-1/4"
     },
     {
-        "name": "Dachanlage",
-        "subtitle": "Dachanlage",
+        "name": "Dachanlage in Lichtenau",
+        "subtitle": "Nachhaltige Stromversorgung durch Solaranlagen",
         "image": "../images/projects/Hartmann.jpg",
         "filter": ["all", "dachanlage"],
         "size": "lg:w-1/3 xl:w-1/4"
@@ -714,6 +714,266 @@
         "image": "../images/projects/Headquarter.jpg",
         "filter": ["all", "dachanlage"],
         "size": "lg:w-1/3 xl:w-1/4"
+    },
+    {
+        "name": "Dachanlage in Halsbrücke",
+        "subtitle": "Erneuerbare Energieprojekt",
+        "image": "../images/projects/Halsbruecke.JPG",
+        "street": null,
+        "city": "Halsbrücke",
+        "dpd": true,
+        "filter": ["all", "dachanlage"],
+        "geo": {
+            "lat": 50.95693447222222,
+            "lng": 13.337484111111111
+        }
+    },
+    {
+        "name": "Dachanlage in Bielefeld",
+        "subtitle": "Nachhaltige Energielösung",
+        "image": "../images/projects/Kita-Bielefeld.JPG",
+        "street": null,
+        "city": "Bielefeld",
+        "dpd": true,
+        "filter": ["all", "dachanlage"],
+        "geo": {
+            "lat": 51.504329444444444,
+            "lng": 6.748226916666667
+        }
+    },
+    {
+        "name": "Dachanlage in Duisburg",
+        "subtitle": "Die Kraft der Sonne nutzen",
+        "image": "../images/projects/Kita-Duisburg.JPG",
+        "street": null,
+        "city": "Duisburg",
+        "dpd": true,
+        "filter": ["all", "dachanlage"],
+        "geo": {
+            "lat": 51.468079,
+            "lng": 6.793004388888889
+        }
+    },
+    {
+        "name": "Dachanlage in Wuppertal",
+        "subtitle": "Die Kraft der Sonne nutzen",
+        "image": "../images/projects/Kita-Wuppertal.JPG",
+        "street": null,
+        "city": "Wuppertal",
+        "dpd": true,
+        "filter": ["all", "dachanlage"],
+        "geo": {
+            "lat": 51.22097525,
+            "lng": 7.07201275
+        }
+    },
+    {
+        "name": "Dachanlage in Langenwetzendorf",
+        "subtitle": "Effiziente Solaranlage",
+        "image": "../images/projects/Langenwetzendorf-Vogtlandwerke.JPG",
+        "street": null,
+        "city": "Langenwetzendorf",
+        "dpd": true,
+        "filter": ["all", "dachanlage"],
+        "geo": {
+            "lat": 50.65560183333333,
+            "lng": 12.107873916666666
+        }
+    },
+    {
+        "name": "Dachanlage in Lüdenscheid",
+        "subtitle": "Innovative Solartechnologie",
+        "image": "../images/projects/Luedenscheid-Netto.JPG",
+        "street": null,
+        "city": "Lüdenscheid",
+        "dpd": true,
+        "filter": ["all", "dachanlage"],
+        "geo": {
+            "lat": 51.22842491666667,
+            "lng": 7.63963125
+        }
+    },
+    {
+        "name": "Dachanlage in Meinerzhagen",
+        "subtitle": "Erneuerbare Energieprojekt",
+        "image": "../images/projects/Meinerzhagen-Tebit.JPG",
+        "street": null,
+        "city": "Meinerzhagen",
+        "dpd": true,
+        "filter": ["all", "dachanlage"],
+        "geo": {
+            "lat": 51.09843447222222,
+            "lng": 7.670996138888889
+        }
+    },
+    {
+        "name": "Dachanlage in Meinerzhagen",
+        "subtitle": "Erneuerbare Energieprojekt",
+        "image": "../images/projects/Meinerzhagen-Tebit-2.JPG",
+        "street": null,
+        "city": "Meinerzhagen",
+        "dpd": true,
+        "filter": ["all", "dachanlage"],
+        "geo": {
+            "lat": 51.09892013888889,
+            "lng": 7.67009175
+        }
+    },
+    {
+        "name": "Dachanlage in Gelsenkirchen",
+        "subtitle": "Innovative Solartechnologie",
+        "image": "../images/projects/Gelsenkirchen-Roller.JPG",
+        "street": null,
+        "city": "Gelsenkirchen",
+        "dpd": true,
+        "filter": ["all", "dachanlage"],
+        "geo": {
+            "lat": 51.550125305555554,
+            "lng": 7.081986861111111
+        }
+    },
+    {
+        "name": "Dachanlage in Hagen",
+        "subtitle": "Effiziente Solaranlage",
+        "image": "../images/projects/Hagen-Rudolf-Rafflenbeul.JPG",
+        "street": null,
+        "city": "Hagen",
+        "dpd": true,
+        "filter": ["all", "dachanlage"],
+        "geo": {
+            "lat": 51.349888222222226,
+            "lng": 7.4881311111111115
+        }
+    },
+    {
+        "name": "Dachanlage in Schloss Holte-Stukenbrock",
+        "subtitle": "Umweltfreundliche Energiequelle",
+        "image": "../images/projects/Schloss-Holte-Stukenbrock-Goerlitzerstr.JPG",
+        "street": "Görlitzer Straße",
+        "city": "Schloss Holte-Stukenbrock",
+        "dpd": true,
+        "filter": ["all", "dachanlage"],
+        "geo": {
+            "lat": 51.897614583333336,
+            "lng": 8.62826413888889
+        }
+    },
+    {
+        "name": "Dachanlage in Schwalmtal",
+        "subtitle": "Effiziente Solaranlage",
+        "image": "../images/projects/Schwalmtal-Bongartz.JPG",
+        "street": "Bongartzstraße",
+        "city": "Schwalmtal",
+        "dpd": true,
+        "filter": ["all", "dachanlage"],
+        "geo": {
+            "lat": 51.21960883333333,
+            "lng": 6.272989333333333
+        }
+    },
+    {
+        "name": "Dachanlage in Soest",
+        "subtitle": "Die Kraft der Sonne nutzen",
+        "image": "../images/projects/Soest-Magna.JPG",
+        "street": null,
+        "city": "Soest",
+        "dpd": true,
+        "filter": ["all", "dachanlage"],
+        "geo": {
+            "lat": 51.55366836111111,
+            "lng": 8.147536944444443
+        }
+    },
+    {
+        "name": "Dachanlage in Waldböckelheim",
+        "subtitle": "Fortschrittliche Dach-Solarmodule",
+        "image": "../images/projects/Waldboeckelheim-Sempaflex.JPG",
+        "street": "Sempaflex-Straße",
+        "city": "Waldböckelheim",
+        "dpd": true,
+        "filter": ["all", "dachanlage"],
+        "geo": {
+            "lat": 49.81278122222222,
+            "lng": 7.704973555555556
+        }
+    },
+    {
+        "name": "Dachanlage in Weidenberg",
+        "subtitle": "Fortschrittliche Dach-Solarmodule",
+        "image": "../images/projects/Weidenberg-Zapf.JPG",
+        "street": "Zapfstraße",
+        "city": "Weidenberg",
+        "dpd": true,
+        "filter": ["all", "dachanlage"],
+        "geo": {
+            "lat": 49.94589380555555,
+            "lng": 11.710061083333333
+        }
+    },
+    {
+        "name": "Dachanlage in Weidenberg",
+        "subtitle": "Solarenergie für eine nachhaltige Zukunft",
+        "image": "../images/projects/Weidenberg-Zapf-2.JPG",
+        "street": "Zapfstraße",
+        "city": "Weidenberg",
+        "dpd": true,
+        "filter": ["all", "dachanlage"],
+        "geo": {
+            "lat": 49.94709647222222,
+            "lng": 11.709906416666666
+        }
+    },
+    {
+        "name": "Dachanlage in Moers",
+        "subtitle": "Umweltfreundliche Energiequelle",
+        "image": "../images/projects/Moers-Oetzers.JPG",
+        "street": "Oetzer Straße",
+        "city": "Moers",
+        "dpd": true,
+        "filter": ["all", "dachanlage"],
+        "geo": {
+            "lat": 51.46316727777778,
+            "lng": 6.6109575
+        }
+    },
+    {
+        "name": "Dachanlage in Paderborn",
+        "subtitle": "Die Kraft der Sonne nutzen",
+        "image": "../images/projects/Paderborn-Bielefelder-strasse.JPG",
+        "street": "Bielefelder Straße",
+        "city": "Paderborn",
+        "dpd": true,
+        "filter": ["all", "dachanlage"],
+        "geo": {
+            "lat": 51.74999594444444,
+            "lng": 8.716751666666667
+        }
+    },
+    {
+        "name": "Dachanlage in Paderborn",
+        "subtitle": "Solarenergie für eine nachhaltige Zukunft",
+        "image": "../images/projects/Paderborn-Gruene-Weg.JPG",
+        "street": "Grüner Weg",
+        "city": "Paderborn",
+        "dpd": true,
+        "filter": ["all", "dachanlage"],
+        "geo": {
+            "lat": 51.706324083333335,
+            "lng": 8.729228666666668
+        }
+    },
+    {
+        "name": "Dachanlage in Rüthen",
+        "subtitle": "Effiziente Solaranlage",
+        "image": "../images/projects/Ruethen-Schwalmtal-Eckenstrasse-2.JPG",
+        "street": "Eckenstraße 2",
+        "city": "Rüthen",
+        "dpd": true,
+        "filter": ["all", "dachanlage"],
+        "geo": {
+            "lat": 51.57017997222223,
+            "lng": 8.404482083333333
+        }
     }
 ]
   
