@@ -119,7 +119,7 @@ const Projects = () => {
                     return (
                         project.filtered === true ? (
                             <div key={index} className={`w-full ${project.size} p-2 lg:p-4`} data-aos="fade-up">
-                                <div class="teaser bg-blue text-white lg:p-8 relative lg:h-[20rem]">
+                                <div class="teaser bg-blue text-white relative lg:h-[20rem]">
                                     <div className="absolute z-10 bottom-4 left-4">
                                         <h3 className="text-xl mb-1 font-bold">
                                             {project.name
