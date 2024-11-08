@@ -129,6 +129,7 @@ const Projects = () => {
                                                 .replace("Dachanlage", "")
                                                 .replace("Freilandanlagen in", "")
                                                 .replace("Freilandanlage in", "")
+                                                .replace("Freilandanlage", "")
                                                 .trim()
                                             }
                                         </h3>
