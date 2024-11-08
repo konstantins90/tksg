@@ -164,9 +164,9 @@
         "size": "lg:w-1/3 xl:w-1/4"
     },
     {
-        "name": "Dachanlage in Graal Müritz",
+        "name": "Dachanlage in Rafflenbeul",
         "subtitle": "Modernste Photovoltaik-Technologie",
-        "image": "../images/projects/Dachanlage-Graal-Mueritz.jpg",
+        "image": "../images/projects/Rafflenbeul.jpg",
         "filter": ["all", "dachanlage"],
         "size": "lg:w-1/3 xl:w-1/4"
     },
@@ -445,7 +445,7 @@
     }
     },
     {
-    "name": "Photovoltaikanlage in Friedland",
+    "name": "Dachanlage in Friedland",
     "size": "lg:w-1/3 xl:w-1/4",
     "image": "../images/projects/Friedland.jpg",
     "filter": ["all", "dachanlage"],

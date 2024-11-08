@@ -122,11 +122,19 @@ const Projects = () => {
                                 <div class="teaser bg-blue text-white p-8 relative h-[20rem]">
                                     <div className="absolute z-10 bottom-4 left-4">
                                         <h3 className="text-xl mb-1 font-bold">
-                                            {project.name}
+                                            {project.name
+                                                .replace("Dachanlagen in", "")
+                                                .replace("Dachanlage in", "")
+                                                .replace("Dachanlagen", "")
+                                                .replace("Dachanlage", "")
+                                                .replace("Freilandanlagen in", "")
+                                                .replace("Freilandanlage in", "")
+                                                .trim()
+                                            }
                                         </h3>
-                                        <p className="text-sm">
+                                        {/* <p className="text-sm">
                                             { project.subtitle }
-                                        </p>
+                                        </p> */}
                                     </div>
                                     <Image image={project.image} name={project.name} />
                                     <div class="w-full h-full absolute inset-0 img-overlay"></div>
