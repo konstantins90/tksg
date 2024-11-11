@@ -48,7 +48,7 @@ const Image = ({ image, name }) => (
     />
   );
 
-const Projects = () => {
+const ProjectsAll = () => {
     const sourceData = useStaticQuery(dataQuery)
     const projectsNodes = sourceData.allProjectsJson.nodes
 
@@ -143,4 +143,4 @@ const Projects = () => {
         </>
     )
 }
-export default Projects
+export default ProjectsAll

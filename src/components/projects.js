@@ -3,10 +3,13 @@ import React, { useState, useEffect } from "react";
 import { GatsbyImage, getImage } from "gatsby-plugin-image"
 
 const dataQuery = graphql`
-query AllProjects {
+query Projects {
     allProjectsJson(
+        limit: 13,
         filter: {
+            subtitle: {ne: null}
             name: {ne: null}
+            size: {ne: null}
             image: {
                 absolutePath:{ne: null}
             }
@@ -14,9 +17,9 @@ query AllProjects {
     {
         nodes {
             name
-            filter
+            subtitle
+            size
             image {
-                absolutePath
                 absolutePath
                 childImageSharp {
                     gatsbyImageData(
