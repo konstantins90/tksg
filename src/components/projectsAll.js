@@ -102,11 +102,6 @@ const Projects = () => {
         return newProjects;
     };
 
-    const _onClick = (e) => {
-        e.preventDefault()
-        return false
-    }
-
     return (
         <>
             <div className="flex gap-4 flex-wrap flex-row px-4 lg:px-8">

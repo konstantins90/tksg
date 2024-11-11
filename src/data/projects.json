@@ -43,7 +43,7 @@
     }
     },
     {
-    "name": "Dachanlage in Bad Oeynhausen",
+    "name": "Bad Oeynhausen",
     "subtitle": "Dachanlage in Bad Oeynhausen",
     "image": "../images/projects/am-Banneberg.jpg",
     "filter": ["all", "dachanlage"],
@@ -57,7 +57,7 @@
     }
     },
     {
-    "name": "Dachanlage in Großalmerode",
+    "name": "Großalmerode",
     "subtitle": "Dachanlage in Großalmerode",
     "image": "../images/projects/erbsmuehle.jpg",
     "filter": ["all", "dachanlage"],
@@ -129,7 +129,7 @@
     }
     },
     {
-    "name": "Dachanlage in Diedorf",
+    "name": "Diedorf",
     "subtitle": "Dachanlage in Diedorf",
     "image": "../images/projects/Diedorf.jpg",
     "filter": ["all", "dachanlage"],
@@ -143,70 +143,91 @@
     }
     },
     {
-        "name": "Dachanlage in Leuenberg",
+        "name": "Leuenberg",
         "subtitle": "Dachanlage in Leuenberg",
         "image": "../images/projects/Leuenberg.jpg",
         "filter": ["all", "dachanlage"],
-        "size": "lg:w-1/3 xl:w-1/4"
+        "size": "lg:w-1/3 xl:w-1/4",
+        "geo": {
+            "lat": 52.703291269,
+            "lng": 13.885506113
+        }
     },
     {
-        "name": "Dachanlage",
-        "subtitle": "Energieversorgung der Zukunft",
-        "image": "../images/projects/PV1.jpg",
-        "filter": ["all", "dachanlage"],
-        "size": "lg:w-1/3 xl:w-1/4"
-    },
-    {
-        "name": "Dachanlage",
+        "name": "Bestform",
         "subtitle": "Solarenergie in Bestform",
         "image": "../images/projects/PV17.jpg",
         "filter": ["all", "dachanlage"],
-        "size": "lg:w-1/3 xl:w-1/4"
+        "size": "lg:w-1/3 xl:w-1/4",
+        "geo": {
+            "lat": 50.684883,
+            "lng": 7.159921
+        }
     },
     {
-        "name": "Dachanlage in Rafflenbeul",
+        "name": "Hagen",
         "subtitle": "Modernste Photovoltaik-Technologie",
-        "image": "../images/projects/Rafflenbeul.jpg",
+        "image": "../images/projects/Hagen.jpg",
         "filter": ["all", "dachanlage"],
-        "size": "lg:w-1/3 xl:w-1/4"
+        "size": "lg:w-1/3 xl:w-1/4",
+        "geo": {
+            "lat": 51.360170999,
+            "lng": 7.467405999
+        }
     },
     {
-        "name": "Dachanlage in Leuenberg",
+        "name": "Leuenberg",
         "subtitle": "Dachanlage in Leuenberg",
         "image": "../images/projects/Leuenberg2.jpg",
         "filter": ["all", "dachanlage"],
         "size": "lg:w-1/3 xl:w-1/4"
     },
     {
-        "name": "Dachanlage",
+        "name": "Baruth",
         "subtitle": "Energieeffiziente Solaranlage",
-        "image": "../images/projects/pv100.jpg",
+        "image": "../images/projects/baruth.jpg",
         "filter": ["all", "dachanlage"],
-        "size": "lg:w-1/3 xl:w-1/4"
+        "size": "lg:w-1/3 xl:w-1/4",
+        "geo": {
+            "lat": 52.049326999,
+            "lng": 13.504113
+        }
     },
     {
-        "name": "Dachanlage",
+        "name": "Berlin",
         "subtitle": "Saubere Energie für morgen",
-        "image": "../images/projects/pv101.jpg",
+        "image": "../images/projects/berlin.jpg",
         "filter": ["all", "dachanlage"],
-        "size": "lg:w-1/3 xl:w-1/4"
+        "size": "lg:w-1/3 xl:w-1/4",
+        "geo": {
+            "lat": 52.517669999,
+            "lng": 13.405537999
+        }
     },
     {
-        "name": "Dachanlage",
+        "name": "Oldenburg",
         "subtitle": "Hochleistungssolarzellen im Einsatz",
-        "image": "../images/projects/pv102.jpg",
+        "image": "../images/projects/oldenburg.jpg",
         "filter": ["all", "dachanlage"],
-        "size": "lg:w-1/3 xl:w-1/4"
+        "size": "lg:w-1/3 xl:w-1/4",
+        "geo": {
+            "lat": 53.140024999,
+            "lng": 8.212993
+        }
     },
     {
-        "name": "Dachanlage",
+        "name": "Gadebusch",
         "subtitle": "Grüne Energie für nachhaltige Gebäude",
-        "image": "../images/projects/pv103.jpg",
+        "image": "../images/projects/gadebusch.jpg",
         "filter": ["all", "dachanlage"],
-        "size": "lg:w-1/3 xl:w-1/4"
+        "size": "lg:w-1/3 xl:w-1/4",
+        "geo": {
+            "lat": 53.701800999,
+            "lng": 11.118521999
+        }
     },
     {
-    "name": "Dachanlage Krevese",
+    "name": "Krevese",
     "size": "lg:w-1/3 xl:w-1/4",
     "image": "../images/projects/Krevese_4.webp",
     "filter": ["all", "dachanlage"],
@@ -226,7 +247,7 @@
     }
     },
     {
-    "name": "Dachanlage Drüsedau",
+    "name": "Drüsedau",
     "size": "lg:w-1/3 xl:w-1/4",
     "image": "../images/projects/Druesedau29_7.webp",
     "filter": ["all", "dachanlage"],
@@ -246,7 +267,7 @@
     }
     },
     {
-    "name": "Dachanlage Krumke",
+    "name": "Krumke",
     "size": "lg:w-1/3 xl:w-2/4",
     "image": "../images/projects/Krumke_6.webp",
     "filter": ["all", "dachanlage"],
@@ -266,7 +287,7 @@
     }
     },
     {
-    "name": "Dachanlage Kossebau",
+    "name": "Kossebau",
     "size": "lg:w-1/3 xl:w-1/4",
     "image": "../images/projects/Kossebau7_5.webp",
     "filter": ["all", "dachanlage"],
@@ -287,7 +308,7 @@
     },
   
     {
-    "name": "Dachanlage Lückstedt",
+    "name": "Lückstedt",
     "size": "lg:w-1/3 xl:w-1/4",
     "image": "../images/projects/Kossebau77_4.webp",
     "filter": ["all", "dachanlage"],
@@ -307,7 +328,7 @@
     }
     },
     {
-    "name": "Dachanlage Lückstedt",
+    "name": "Lückstedt",
     "size": "lg:w-1/3 xl:w-1/4",
     "image": "../images/projects/Kossebau94_2.webp",
     "filter": ["all", "dachanlage"],
@@ -377,7 +398,7 @@
     }
     },
     {
-    "name": "Dachanlage Erxleben",
+    "name": "Erxleben",
     "size": "lg:w-1/3 xl:w-2/4",
     "image": "../images/projects/Erxleben_2.webp",
     "filter": ["all", "dachanlage"],
@@ -416,7 +437,7 @@
     }
     },
     {
-    "name": "Dachanlage in Dorf Mecklenburg",
+    "name": "Dorf Mecklenburg",
     "subtitle": "Dachanlage in Dorf Mecklenburg",
     "image": "../images/projects/Dorf-Mecklenburg.jpg",
     "filter": ["all", "dachanlage"],
@@ -430,7 +451,7 @@
     }
     },
     {
-    "name": "Dachanlagen Lübesse",
+    "name": "Lübesse",
     "size": "lg:w-1/3 xl:w-1/4",
     "image": "../images/projects/Lübesse.jpg",
     "filter": ["all", "dachanlage"],
@@ -445,7 +466,7 @@
     }
     },
     {
-    "name": "Dachanlage in Friedland",
+    "name": "Friedland",
     "size": "lg:w-1/3 xl:w-1/4",
     "image": "../images/projects/Friedland.jpg",
     "filter": ["all", "dachanlage"],
@@ -485,7 +506,7 @@
     }
     },
     {
-    "name": "Dachanlage Gadebusch",
+    "name": "Gadebusch",
     "size": "lg:w-2/3 xl:w-1/4",
     "image": "../images/projects/Gadebusch.jpg",
     "filter": ["all", "dachanlage"],
@@ -511,14 +532,13 @@
     }
     },
     {
-    "name": "Dachanlage in Anklam",
-    "subtitle": "Dachanlage in Anklam",
+    "name": "Waren (Müritz)",
     "image": "../images/projects/Anklam.jpg",
     "filter": ["all", "dachanlage"],
     "street": "Pasewalker Allee",
     "housenumber": "23",
     "postcode": "17389",
-    "city": "Anklam",
+    "city": "Waren (Müritz)",
     "geo": {
         "lat": 53.850361,
         "lng": 13.688532
@@ -547,7 +567,7 @@
     }
     },
     {
-    "name": "Dachanlage Rambow",
+    "name": "Rambow",
     "size": "lg:w-1/3 xl:w-1/4",
     "image": "../images/projects/Rambow_1.webp",
     "filter": ["all", "dachanlage"],
@@ -567,7 +587,7 @@
     }
     },
     {
-    "name": "Dachanlage Werben",
+    "name": "Werben",
     "size": "lg:w-1/3 xl:w-1/4",
     "image": "../images/projects/Werben_7.webp",
     "filter": ["all", "dachanlage"],
@@ -587,7 +607,7 @@
     }
     },
     {
-    "name": "Dachanlage Schloss Grube",
+    "name": "Schloss Grube",
     "size": "lg:w-1/3 xl:w-2/4",
     "image": "../images/projects/SchlossGrube_1-scaled.jpg",
     "filter": ["all", "dachanlage"],
@@ -606,7 +626,7 @@
     }
     },
     {
-    "name": "Dachanlage Bredow",
+    "name": "Bredow",
     "subtitle": "Photovoltaik-Dachanlage in Bredow",
     "size": "lg:w-1/3 xl:w-2/4",
     "image": "../images/projects/Bredow.jpg",
@@ -621,7 +641,7 @@
     }
     },
     {
-    "name": "Dachanlage Neuruppin",
+    "name": "Neuruppin",
     "subtitle": "Photovoltaik-Dachanlage in Neuruppin",
     "size": "lg:w-1/3 xl:w-1/4",
     "image": "../images/projects/Neuruppin.jpg",
@@ -636,7 +656,7 @@
     }
     },
     {
-        "name": "Dachanlage Neuruppin 18",
+        "name": "Neuruppin",
         "subtitle": "Photovoltaik-Dachanlage in Neuruppin",
         "size": "lg:w-1/3 xl:w-1/4",
         "image": "../images/projects/Neuruppin-zur-Mesche.jpg",
@@ -651,72 +671,108 @@
         }
     },
     {
-        "name": "Dachanlage Neuruppin",
+        "name": "Neuruppin",
         "subtitle": "Photovoltaik-Dachanlage in Neuruppin",
         "size": "lg:w-1/3 xl:w-1/4",
         "image": "../images/projects/Neuruppin2.jpg",
         "filter": ["all", "dachanlage"],
         "postcode": "16816",
-        "city": "Neuruppin"
+        "city": "Neuruppin",
+        "geo": {
+            "lat": 52.923364999,
+            "lng": 12.806498
+        }
     },
     {
-        "name": "Dachanlage in Bernau",
+        "name": "Bernau",
         "subtitle": "Dachanlage in Bernau",
         "image": "../images/projects/Bernau-bei-Berlin.jpg",
         "filter": ["all", "dachanlage"],
-        "size": "lg:w-1/3 xl:w-1/4"
+        "size": "lg:w-1/3 xl:w-1/4",
+        "geo": {
+            "lat": 52.67982,
+            "lng": 13.58708
+        }
     },
     {
-        "name": "Dachanlage in Paderborn",
+        "name": "Paderborn",
         "subtitle": "Sonnenkraft effektiv genutzt",
         "image": "../images/projects/Framkfurter-Weg.jpg",
         "filter": ["all", "dachanlage"],
-        "size": "lg:w-1/3 xl:w-1/4"
+        "size": "lg:w-1/3 xl:w-1/4",
+        "geo": {
+            "lat": 51.719600999,
+            "lng": 8.757301
+        }
     },
     {
-        "name": "Dachanlage in Friedland",
+        "name": "Friedland",
         "subtitle": "Dachanlage in Friedland",
         "image": "../images/projects/Friedland3-Halle.jpg",
         "filter": ["all", "dachanlage"],
-        "size": "lg:w-1/3 xl:w-1/4"
+        "size": "lg:w-1/3 xl:w-1/4",
+        "geo": {
+            "lat": 51.419790999,
+            "lng": 9.913521
+        }
     },
     {
         "name": "Freilandanlage in Graal Müritz",
         "subtitle": "Freilandanlage in Graal Müritz",
         "image": "../images/projects/Gralmueritz.jpg",
         "filter": ["all", "freilandanlage"],
-        "size": "lg:w-1/3 xl:w-1/4"
+        "size": "lg:w-1/3 xl:w-1/4",
+        "geo": {
+            "lat": 54.250883999,
+            "lng": 12.23808
+        }
     },
     {
-        "name": "Dachanlage in Lichtenau",
+        "name": "Lichtenau",
         "subtitle": "Nachhaltige Stromversorgung durch Solaranlagen",
         "image": "../images/projects/Hartmann.jpg",
         "filter": ["all", "dachanlage"],
-        "size": "lg:w-1/3 xl:w-1/4"
+        "size": "lg:w-1/3 xl:w-1/4",
+        "geo": {
+            "lat": 51.616846999,
+            "lng": 8.895788
+        }
     },
     {
-        "name": "Dachanlage in Hattdorf",
+        "name": "Hattdorf",
         "subtitle": "Dachanlage in Hattdorf",
         "image": "../images/projects/Hattdorf1.jpg",
         "filter": ["all", "dachanlage"],
-        "size": "lg:w-1/3 xl:w-1/4"
+        "size": "lg:w-1/3 xl:w-1/4",
+        "geo": {
+            "lat": 52.359740753,
+            "lng": 10.746299679
+        }
     },
     {
-        "name": "Dachanlage in Hattdorf",
+        "name": "Hattdorf",
         "subtitle": "Dachanlage in Hattdorf",
         "image": "../images/projects/Hattdorf2.jpg",
         "filter": ["all", "dachanlage"],
-        "size": "lg:w-1/3 xl:w-1/4"
+        "size": "lg:w-1/3 xl:w-1/4",
+        "geo": {
+            "lat": 52.359740753,
+            "lng": 10.746299679
+        }
     },
     {
-        "name": "Dachanlage in Salzkotten",
+        "name": "Salzkotten",
         "subtitle": "Dachanlage in Salzkotten",
         "image": "../images/projects/Headquarter.jpg",
         "filter": ["all", "dachanlage"],
-        "size": "lg:w-1/3 xl:w-1/4"
+        "size": "lg:w-1/3 xl:w-1/4",
+        "geo": {
+            "lat": 51.671700999,
+            "lng": 8.604953999
+        }
     },
     {
-        "name": "Dachanlage in Halsbrücke",
+        "name": "Halsbrücke",
         "subtitle": "Erneuerbare Energieprojekt",
         "image": "../images/projects/Halsbruecke.JPG",
         "street": null,
@@ -729,7 +785,7 @@
         }
     },
     {
-        "name": "Dachanlage in Bielefeld",
+        "name": "Bielefeld",
         "subtitle": "Nachhaltige Energielösung",
         "image": "../images/projects/Kita-Bielefeld.JPG",
         "street": null,
@@ -742,7 +798,7 @@
         }
     },
     {
-        "name": "Dachanlage in Duisburg",
+        "name": "Duisburg",
         "subtitle": "Die Kraft der Sonne nutzen",
         "image": "../images/projects/Kita-Duisburg.JPG",
         "street": null,
@@ -755,7 +811,7 @@
         }
     },
     {
-        "name": "Dachanlage in Wuppertal",
+        "name": "Wuppertal",
         "subtitle": "Die Kraft der Sonne nutzen",
         "image": "../images/projects/Kita-Wuppertal.JPG",
         "street": null,
@@ -768,7 +824,7 @@
         }
     },
     {
-        "name": "Dachanlage in Langenwetzendorf",
+        "name": "Langenwetzendorf",
         "subtitle": "Effiziente Solaranlage",
         "image": "../images/projects/Langenwetzendorf-Vogtlandwerke.JPG",
         "street": null,
@@ -781,7 +837,7 @@
         }
     },
     {
-        "name": "Dachanlage in Lüdenscheid",
+        "name": "Lüdenscheid",
         "subtitle": "Innovative Solartechnologie",
         "image": "../images/projects/Luedenscheid-Netto.JPG",
         "street": null,
@@ -794,7 +850,7 @@
         }
     },
     {
-        "name": "Dachanlage in Meinerzhagen",
+        "name": "Meinerzhagen",
         "subtitle": "Erneuerbare Energieprojekt",
         "image": "../images/projects/Meinerzhagen-Tebit.JPG",
         "street": null,
@@ -807,7 +863,7 @@
         }
     },
     {
-        "name": "Dachanlage in Meinerzhagen",
+        "name": "Meinerzhagen",
         "subtitle": "Erneuerbare Energieprojekt",
         "image": "../images/projects/Meinerzhagen-Tebit-2.JPG",
         "street": null,
@@ -820,7 +876,7 @@
         }
     },
     {
-        "name": "Dachanlage in Gelsenkirchen",
+        "name": "Gelsenkirchen",
         "subtitle": "Innovative Solartechnologie",
         "image": "../images/projects/Dachanlage-Gelsenkirchen.jpg",
         "street": null,
@@ -833,7 +889,7 @@
         }
     },
     {
-        "name": "Dachanlage in Hagen",
+        "name": "Hagen",
         "subtitle": "Effiziente Solaranlage",
         "image": "../images/projects/Hagen-Rudolf-Rafflenbeul.JPG",
         "street": null,
@@ -846,7 +902,7 @@
         }
     },
     {
-        "name": "Dachanlage in Schloss Holte-Stukenbrock",
+        "name": "Schloss Holte-Stukenbrock",
         "subtitle": "Umweltfreundliche Energiequelle",
         "image": "../images/projects/Schloss-Holte-Stukenbrock-Goerlitzerstr.JPG",
         "street": "Görlitzer Straße",
@@ -859,7 +915,7 @@
         }
     },
     {
-        "name": "Dachanlage in Schwalmtal",
+        "name": "Schwalmtal",
         "subtitle": "Effiziente Solaranlage",
         "image": "../images/projects/Schwalmtal-Bongartz.JPG",
         "street": "Bongartzstraße",
@@ -872,7 +928,7 @@
         }
     },
     {
-        "name": "Dachanlage in Soest",
+        "name": "Soest",
         "subtitle": "Die Kraft der Sonne nutzen",
         "image": "../images/projects/Soest-Magna.JPG",
         "street": null,
@@ -885,7 +941,7 @@
         }
     },
     {
-        "name": "Dachanlage in Waldböckelheim",
+        "name": "Waldböckelheim",
         "subtitle": "Fortschrittliche Dach-Solarmodule",
         "image": "../images/projects/Waldboeckelheim-Sempaflex.JPG",
         "street": "Sempaflex-Straße",
@@ -898,7 +954,7 @@
         }
     },
     {
-        "name": "Dachanlage in Weidenberg",
+        "name": "Weidenberg",
         "subtitle": "Fortschrittliche Dach-Solarmodule",
         "image": "../images/projects/Weidenberg-Zapf.JPG",
         "street": "Zapfstraße",
@@ -911,7 +967,7 @@
         }
     },
     {
-        "name": "Dachanlage in Weidenberg",
+        "name": "Weidenberg",
         "subtitle": "Solarenergie für eine nachhaltige Zukunft",
         "image": "../images/projects/Weidenberg-Zapf-2.JPG",
         "street": "Zapfstraße",
@@ -924,7 +980,7 @@
         }
     },
     {
-        "name": "Dachanlage in Moers",
+        "name": "Moers",
         "subtitle": "Umweltfreundliche Energiequelle",
         "image": "../images/projects/Moers-Oetzers.JPG",
         "street": "Oetzer Straße",
@@ -937,7 +993,7 @@
         }
     },
     {
-        "name": "Dachanlage in Paderborn",
+        "name": "Paderborn",
         "subtitle": "Die Kraft der Sonne nutzen",
         "image": "../images/projects/Paderborn-Bielefelder-strasse.JPG",
         "street": "Bielefelder Straße",
@@ -950,7 +1006,7 @@
         }
     },
     {
-        "name": "Dachanlage in Paderborn",
+        "name": "Paderborn",
         "subtitle": "Solarenergie für eine nachhaltige Zukunft",
         "image": "../images/projects/Paderborn-Gruene-Weg.JPG",
         "street": "Grüner Weg",
@@ -963,7 +1019,7 @@
         }
     },
     {
-        "name": "Dachanlage in Rüthen",
+        "name": "Rüthen",
         "subtitle": "Effiziente Solaranlage",
         "image": "../images/projects/Ruethen-Schwalmtal-Eckenstrasse-2.JPG",
         "street": "Eckenstraße 2",
@@ -973,6 +1029,83 @@
         "geo": {
             "lat": 51.57017997222223,
             "lng": 8.404482083333333
+        }
+    },
+    {
+        "name": "Amklam",
+        "image": "../images/projects/Amklam.JPG",
+        "city": "Amklam",
+        "dpd": true,
+        "filter": ["all", "dachanlage"],
+        "geo": {
+            "lat": 53.855296999,
+            "lng": 13.693003001
+        }
+    },
+    {
+        "name": "Bremen",
+        "image": "../images/projects/Bremen.JPG",
+        "city": "Bremen",
+        "dpd": true,
+        "filter": ["all", "dachanlage"],
+        "geo": {
+            "lat": 53.075605999,
+            "lng": 8.809338
+        }
+    },
+    {
+        "name": "Bülow",
+        "image": "../images/projects/Buelow.JPG",
+        "city": "Bülow",
+        "dpd": true,
+        "filter": ["all", "dachanlage"],
+        "geo": {
+            "lat": 53.590589999,
+            "lng": 11.769151
+        }
+    },
+    {
+        "name": "Eystrup",
+        "image": "../images/projects/Eystrup.JPG",
+        "city": "Eystrup",
+        "dpd": true,
+        "filter": ["all", "dachanlage"],
+        "geo": {
+            "lat": 52.779254999,
+            "lng": 9.212755
+        }
+    },
+    {
+        "name": "Waren Müritz",
+        "image": "../images/projects/Waren-Mueritz.JPG",
+        "city": "Waren Müritz",
+        "dpd": true,
+        "filter": ["all", "dachanlage"],
+        "geo": {
+            "lat": 53.513208999,
+            "lng": 12.686242
+        }
+    },
+    {
+        "name": "Wilnsdorf",
+        "image": "../images/projects/wilnsdorf.JPG",
+        "city": "Wilnsdorf",
+        "dpd": true,
+        "filter": ["all", "dachanlage"],
+        "geo": {
+            "lat": 50.815391999,
+            "lng": 8.103838
+        }
+    },
+    {
+        "name": "Wilnsdorf",
+        "image": "../images/projects/wilnsdorf2.JPG",
+        "city": "Wilnsdorf",
+        "dpd": true,
+        "filter": ["all", "dachanlage"],
+        "geo": {
+            "lat": 50.815391999,
+            "lng": 8.103838
         }
     }
 ]
