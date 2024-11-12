@@ -6,7 +6,6 @@ const dataQuery = graphql`
 query AllProjects {
     allProjectsJson(
         filter: {
-            subtitle: {ne: null}
             image: {
                 absolutePath:{ne: null}
             }

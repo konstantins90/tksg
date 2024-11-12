@@ -154,8 +154,8 @@
         }
     },
     {
-        "name": "Bestform",
-        "subtitle": "Solarenergie in Bestform",
+        "name": "Leuenberg",
+        "subtitle": "Solarenergie in Leuenberg",
         "image": "../images/projects/PV17.jpg",
         "filter": ["all", "dachanlage"],
         "size": "lg:w-1/3 xl:w-1/4",
@@ -1107,6 +1107,190 @@
             "lat": 50.815391999,
             "lng": 8.103838
         }
+    },
+    {
+        "name": "Berlin",
+        "image": "../images/projects/Berlin.JPG",
+        "city": "Berlin",
+        "dpd": true,
+        "filter": ["all", "dachanlage"],
+        "geo": { "lat": 52.5200, "lng": 13.4050 }
+    },
+    {
+        "name": "Fehrbellin",
+        "image": "../images/projects/Fehrbellin.JPG",
+        "city": "Fehrbellin",
+        "dpd": true,
+        "filter": ["all", "dachanlage"],
+        "geo": { "lat": 52.8000, "lng": 12.7667 }
+    },
+    {
+        "name": "Krevese",
+        "image": "../images/projects/Krevese.JPG",
+        "city": "Krevese",
+        "dpd": true,
+        "filter": ["all", "dachanlage"],
+        "geo": { "lat": 52.8000, "lng": 11.7500 }
+    },
+    {
+        "name": "Schlicksdorf",
+        "image": "../images/projects/Schlicksdorf.JPG",
+        "city": "Schlicksdorf",
+        "dpd": true,
+        "filter": ["all", "dachanlage"],
+        "geo": { "lat": 51.5000, "lng": 10.5000 }
+    },
+    {
+        "name": "Berlin",
+        "image": "../images/projects/Berlin2.JPG",
+        "city": "Berlin",
+        "dpd": true,
+        "filter": ["all", "dachanlage"],
+        "geo": { "lat": 52.5200, "lng": 13.4050 }
+    },
+    {
+        "name": "Oschersleben",
+        "image": "../images/projects/Oschersleben.JPG",
+        "city": "Oschersleben",
+        "dpd": true,
+        "filter": ["all", "dachanlage"],
+        "geo": { "lat": 52.0333, "lng": 11.2333 }
+    },
+    {
+        "name": "Goettingen",
+        "image": "../images/projects/Goettingen.JPG",
+        "city": "Goettingen",
+        "dpd": true,
+        "filter": ["all", "dachanlage"],
+        "geo": { "lat": 51.5333, "lng": 9.9333 }
+    },
+    {
+        "name": "Flessau",
+        "image": "../images/projects/Flessau.JPG",
+        "city": "Flessau",
+        "dpd": true,
+        "filter": ["all", "dachanlage"],
+        "geo": { "lat": 52.8000, "lng": 11.7500 }
+    },
+    {
+        "name": "Einbeck",
+        "image": "../images/projects/Einbeck.JPG",
+        "city": "Einbeck",
+        "dpd": true,
+        "filter": ["all", "dachanlage"],
+        "geo": { "lat": 51.8167, "lng": 9.8667 }
+    },
+    {
+        "name": "Fermke",
+        "image": "../images/projects/Fermke.JPG",
+        "city": "Fermke",
+        "dpd": true,
+        "filter": ["all", "dachanlage"],
+        "geo": { "lat": 51.7000, "lng": 8.6000 }
+    },
+    {
+        "name": "Salzkotten",
+        "image": "../images/projects/Salzkotten.JPG",
+        "city": "Salzkotten",
+        "dpd": true,
+        "filter": ["all", "dachanlage"],
+        "geo": { "lat": 51.6717, "lng": 8.6000 }
+    },
+    {
+        "name": "Bad Lippspringe",
+        "image": "../images/projects/Bad-Lippspringe-2.JPG",
+        "city": "Bad Lippspringe",
+        "dpd": true,
+        "filter": ["all", "dachanlage"],
+        "geo": { "lat": 51.7833, "lng": 8.8167 }
+    },
+    {
+        "name": "Hattorf am Harz",
+        "image": "../images/projects/Hattorf-am-Harz.JPG",
+        "city": "Hattorf am Harz",
+        "dpd": true,
+        "filter": ["all", "dachanlage"],
+        "geo": { "lat": 51.6500, "lng": 10.2500 }
+    },
+    {
+        "name": "Hoerden am Harz",
+        "image": "../images/projects/Hoerden-am-Harz.JPG",
+        "city": "Hoerden am Harz",
+        "dpd": true,
+        "filter": ["all", "dachanlage"],
+        "geo": { "lat": 51.6500, "lng": 10.2500 }
+    },
+    {
+        "name": "Paderborn",
+        "image": "../images/projects/Paderborn.JPG",
+        "city": "Paderborn",
+        "dpd": true,
+        "filter": ["all", "dachanlage"],
+        "geo": { "lat": 51.7189, "lng": 8.7575 }
+    },
+    {
+        "name": "Bad Lippspringe",
+        "image": "../images/projects/Bad-Lippspringe-4.JPG",
+        "city": "Bad Lippspringe",
+        "dpd": true,
+        "filter": ["all", "dachanlage"],
+        "geo": { "lat": 51.7833, "lng": 8.8167 }
+    },
+    {
+        "name": "Bad Lippspringe",
+        "image": "../images/projects/Bad-Lippspringe-6.JPG",
+        "city": "Bad Lippspringe",
+        "dpd": true,
+        "filter": ["all", "dachanlage"],
+        "geo": { "lat": 51.7833, "lng": 8.8167 }
+    },
+    {
+        "name": "Katharinenberg",
+        "image": "../images/projects/Katharinenberg.JPG",
+        "city": "Katharinenberg",
+        "dpd": true,
+        "filter": ["all", "dachanlage"],
+        "geo": { "lat": 51.2000, "lng": 10.0000 }
+    },
+    {
+        "name": "Bad Oeynhausen",
+        "image": "../images/projects/Bad-Oeynhausen.JPG",
+        "city": "Bad Oeynhausen",
+        "dpd": true,
+        "filter": ["all", "dachanlage"],
+        "geo": { "lat": 52.2000, "lng": 8.8000 }
+    },
+    {
+        "name": "Hattorf am Harz",
+        "image": "../images/projects/Hattorf-am-Harz-2.JPG",
+        "city": "Hattorf am Harz",
+        "dpd": true,
+        "filter": ["all", "dachanlage"],
+        "geo": { "lat": 51.6500, "lng": 10.2500 }
+    },
+    {
+        "name": "Bad Lippspringe",
+        "image": "../images/projects/Bad-Lippspringe-5.JPG",
+        "city": "Bad Lippspringe",
+        "dpd": true,
+        "filter": ["all", "dachanlage"],
+        "geo": { "lat": 51.7833, "lng": 8.8167 }
+    },
+    {
+        "name": "Bad Lippspringe",
+        "image": "../images/projects/Bad-Lippspringe.JPG",
+        "city": "Bad Lippspringe",
+        "dpd": true,
+        "filter": ["all", "dachanlage"],
+        "geo": { "lat": 51.7833, "lng": 8.8167 }
+    },
+    {
+        "name": "Lichtenau",
+        "image": "../images/projects/Lichtenau.JPG",
+        "city": "Lichtenau",
+        "dpd": true,
+        "filter": ["all", "dachanlage"],
+        "geo": { "lat": 51.6167, "lng": 8.8833 }
     }
 ]
   
