@@ -1205,6 +1205,14 @@
         "geo": { "lat": 51.7833, "lng": 8.8167 }
     },
     {
+        "name": "Bad Lippspringe",
+        "image": "../images/projects/Bad-Lippspringe-3.JPG",
+        "city": "Bad Lippspringe",
+        "dpd": true,
+        "filter": ["all", "dachanlage"],
+        "geo": { "lat": 51.7833, "lng": 8.8167 }
+    },
+    {
         "name": "Hattorf am Harz",
         "image": "../images/projects/Hattorf-am-Harz.JPG",
         "city": "Hattorf am Harz",
