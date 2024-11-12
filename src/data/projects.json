@@ -1153,7 +1153,7 @@
         "image": "../images/projects/Oschersleben.JPG",
         "city": "Oschersleben",
         "dpd": true,
-        "filter": ["all", "dachanlage"],
+        "filter": ["all", "freilandanlage"],
         "geo": { "lat": 52.0333, "lng": 11.2333 }
     },
     {
@@ -1185,7 +1185,7 @@
         "image": "../images/projects/Fermke.JPG",
         "city": "Fermke",
         "dpd": true,
-        "filter": ["all", "dachanlage"],
+        "filter": ["all", "freilandanlage"],
         "geo": { "lat": 51.7000, "lng": 8.6000 }
     },
     {
