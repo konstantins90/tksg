@@ -761,17 +761,6 @@
         }
     },
     {
-        "name": "Salzkotten",
-        "subtitle": "Dachanlage in Salzkotten",
-        "image": "../images/projects/Headquarter.jpg",
-        "filter": ["all", "dachanlage"],
-        "size": "lg:w-1/3 xl:w-1/4",
-        "geo": {
-            "lat": 51.671700999,
-            "lng": 8.604953999
-        }
-    },
-    {
         "name": "Halsbrücke",
         "subtitle": "Erneuerbare Energieprojekt",
         "image": "../images/projects/Halsbruecke.JPG",
@@ -1283,22 +1272,6 @@
         "dpd": true,
         "filter": ["all", "dachanlage"],
         "geo": { "lat": 51.7833, "lng": 8.8167 }
-    },
-    {
-        "name": "Bad Lippspringe",
-        "image": "../images/projects/Bad-Lippspringe.JPG",
-        "city": "Bad Lippspringe",
-        "dpd": true,
-        "filter": ["all", "dachanlage"],
-        "geo": { "lat": 51.7833, "lng": 8.8167 }
-    },
-    {
-        "name": "Lichtenau",
-        "image": "../images/projects/Lichtenau.JPG",
-        "city": "Lichtenau",
-        "dpd": true,
-        "filter": ["all", "dachanlage"],
-        "geo": { "lat": 51.6167, "lng": 8.8833 }
     }
 ]
   
