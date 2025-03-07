@@ -19,8 +19,8 @@ export default function Impressum({ data }) {
                         <p className="mt-4 text-gray-500">
                             Turn Key Solar GmbH<br/>
                             Geschäftsführung: Andreas Spreier<br/>
-                            Zum Strothebach 22<br/>
-                            33175 Bad Lippspringe<br/><br/>
+                            Anton-Bartscher-Straße 7<br />
+                            33154 Salzkotten<br/><br/>
 
                             Telefon: +49 5254 94785 64<br/>
                             E-Mail: info@turnkey-solar.de<br/><br/>

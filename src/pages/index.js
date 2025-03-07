@@ -121,7 +121,7 @@ export default function Home({ data }) {
                     <div className="mt-10">
                             <p className="text-lg font-light leading-normal">Besuchen Sie uns vor Ort</p>
                             <p className="text-xl">Turn Key Solar GmbH</p>
-                            <p className="text-xl">Zum Strothebach 22 • 33175 Bad Lippspringe</p>
+                            <p className="text-xl">Anton-Bartscher-Straße 7 • 33154 Salzkotten</p>
                     </div>
                     <a href="tel:+4952549386539" className="call-to-action bg-animation mt-10 relative inline-flex items-center justify-center p-0.5 mb-2 me-2 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group">
                         <span className="relative px-5 py-2.5 transition-all ease-in duration-75 bg-white rounded-md group-hover:bg-opacity-0 group-hover:text-white">

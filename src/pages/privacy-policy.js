@@ -92,8 +92,8 @@ export default function Datenschutz({ data }) {
                     <p className="mt-4">Die verantwortliche Stelle für die Datenverarbeitung auf
                     dieser Website ist:</p>
                     <p className="mt-4">Turn Key Solar GmbH
-                    Zum Strothebach 22
-                    33175 Bad Lippspringe</p>
+                    Anton-Bartscher-Straße 7<br />
+                    33154 Salzkotten</p>
                     <p className="mt-4">Telefon: +49 5254 9386539
                     E-Mail: info@turnkey-solar.de</p>
                     <p className="mt-4">Verantwortliche Stelle ist die natürliche oder juristische Person, die allein oder gemeinsam mit anderen
