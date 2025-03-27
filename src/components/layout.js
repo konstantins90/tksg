@@ -47,6 +47,10 @@ const Layout = ({ children }) => {
         {
             "link": "/umweltpruefung",
             "name": "Umweltprüfung"
+        },
+        {
+            "link": "/vds-3145-fm-global",
+            "name": "VdS 3145 & FM Global"
         }
     ]
     return (
