@@ -399,5 +399,6 @@ export default function Datenschutz({ data }) {
 export const Head = () => (
     <SEO
         title = "Datenschutzerklärung | Turn Key Solar GmbH - Photovoltaik Paderborn"
+        description = "Erfahren Sie, wie wir Ihre Daten schützen und verarbeiten."
     />
 )

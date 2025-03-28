@@ -240,7 +240,7 @@ export default function Projektentwicklung({ data }) {
 
 export const Head = () => (
     <SEO
-        title = "Anlagenbetrieb für Photovoltaikanlagen in Paderborn | Turn Key Solar GmbH"
-        description = "Turn Key Solar GmbH bietet umfassenden Service für den Anlagenbetrieb Ihrer Photovoltaikanlage in Paderborn und Umgebung. Effiziente Wartung, zuverlässige Überwachung und maximale Leistung für Ihre Solaranlage."
+        title = "Lernen Sie unser Expertenteam kennen | Turn Key Solar GmbH"
+        description = "Entdecken Sie das engagierte Team von Turnkey Solar. Unsere Experten stehen Ihnen mit umfassendem Wissen und Erfahrung im Bereich Solarenergie zur Seite."
     />
   )

@@ -43,5 +43,6 @@ export default function Impressum({ data }) {
 export const Head = () => (
     <SEO
         title = "Impressum | Turn Key Solar GmbH - Photovoltaik-Experte in Paderborn"
+        description= "Alle rechtlichen Informationen und Kontaktdaten auf einen Blick"
     />
 )
