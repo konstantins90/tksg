@@ -6,6 +6,7 @@ import { StaticImage } from "gatsby-plugin-image"
 import { SEO } from "../components/seo"
 import Kontakt from "../components/kontakt2"
 import Banner from "../components/banner"
+import LogoFm from "../images/FM_Versicherung_mit-Turn-Key-Solar-gmbh-logo.svg"
 
 import { CheckCircleIcon, ArrowTrendingUpIcon, WrenchScrewdriverIcon, RocketLaunchIcon } from '@heroicons/react/24/outline'
 
@@ -32,7 +33,7 @@ export default function Sicherheit({ data }) {
             <div className="container">
                 <div className="flex flex-col lg:flex-row flex-nowrap">
                     <div className="basis-full lg:basis-5/12" data-aos="fade-right">
-                        <h3 className="text-3xl lg:text-5xl font-bold mb-5 lg:mb-20 pr-10 text-gray-600">VdS 3145</h3>
+                        <h3 className="text-3xl lg:text-5xl font-bold mb-5 lg:mb-10 pr-10 text-gray-600">Normen VdS 3145</h3>
                         <div className="block bg-gray-100 p-10 lg:pr-[40%] lg:-mr-[35%]">
                             <p className="mb-4 font-bold text-lg">Was ist die VdS&nbsp;3145?</p>
                             <ul>
@@ -82,8 +83,9 @@ export default function Sicherheit({ data }) {
                             class="w-full object-cover"
                         />
                     </div>
-                    <div className="basis-full lg:basis-5/12" data-aos="fade-left">
-                        <h3 className="text-3xl lg:text-5xl font-bold mb-5 lg:mb-20 lg:pl-10 text-gray-600">Maßnahmen</h3>
+                    <div className="basis-full lg:basis-5/12 relative" data-aos="fade-left">
+                        <LogoFm class="lg:pl-10 svg-logo w-[150px]" />
+                        <h3 className="text-3xl lg:text-5xl font-bold mb-5 lg:mb-10 lg:pl-10 text-gray-600">FM Global Versicherung</h3>
                         <div className="block bg-gray-100 p-10 lg:-ml-[35%]">
                             <p className="mb-4 font-bold text-lg">Welche Maßnahmen setzen wir um?</p>
 
@@ -102,7 +104,8 @@ export default function Sicherheit({ data }) {
             <div className="container mt-20">
                 <div className="flex flex-col lg:flex-row flex-nowrap">
                     <div className="basis-full lg:basis-5/12" data-aos="fade-right">
-                        <h3 className="text-3xl lg:text-5xl font-bold mb-5 lg:mb-20 pr-10 text-gray-600">Turn Key Solar GmbH</h3>
+                        <h4 className="text-3xl lg:text-5xl font-bold mb-5 pr-10 text-gray-600">Ihr Vorteil mit uns?</h4>
+                        <h3 className="text-xl lg:text-2xl font-bold mb-5 lg:mb-10 pr-10 text-gray-600">Turn Key Solar + VdS 3145 + FM Global</h3>
                         <div className="block bg-gray-100 p-10 lg:pr-[40%] lg:-mr-[35%]">
                             <p className="mb-4 font-bold text-lg">Ihr Vorteil mit der Turn Key Solar GmbH</p>
 
