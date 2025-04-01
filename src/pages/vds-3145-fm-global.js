@@ -15,14 +15,14 @@ export default function Sicherheit({ data }) {
     <Layout>
         <Banner />
 
-        <div className="bg bg-white overflow-hidden" data-aos="fade-up">
+        <div className="bg bg-white overflow-hidden pb-20" data-aos="fade-up">
             <div id="about">
                 <div className="container lg:max-w-[60%] py-40 text-center">
                     <h1 className="text-center inline-block mb-12 text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-display font-bold pb-4 border-b-2 border-orange">
-                        VdS 3145 für PV-Anlagen
+                        PV Anlagen nach Versicherungsnormen gemäß vds 3145
                     </h1>
                     <div className="text-lg lg:text-2xl text-center font-light leading-normal">
-                        <h2 className="mb-4 font-bold">Normen & Versicherungsschutz erklärt</h2>
+                        {/* <h2 className="mb-4 font-bold">Normen & Versicherungsschutz erklärt</h2> */}
                         <div className="mb-4">
                             Bei der <strong>Turn Key Solar GmbH</strong> stehen Sicherheit, Qualität und Langlebigkeit an erster Stelle. Deshalb planen und installieren wir unsere Photovoltaikanlagen nicht nur nach den <strong>Vorgaben der VdS 3145</strong>, sondern sorgen auch dafür, dass sie <u>versicherungskonform</u> gebaut werden. Für Industriekunden – wie z. B. in der <u>Automobilbranche</u> – realisieren wir zudem Anlagen nach den strengen Anforderungen von <strong>FM Global</strong>.
                         </div>
@@ -134,7 +134,7 @@ export default function Sicherheit({ data }) {
             </div>
         </div>
 
-        <Kontakt />
+        {/* <Kontakt /> */}
 
         <div className="hidden">
             <div className="w-1/4 w-2/4"></div>
