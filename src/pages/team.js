@@ -151,6 +151,30 @@ export default function Projektentwicklung({ data }) {
                 <div className="person">
                     <div className="image overflow-hidden rounded-full max-w-[250px] max-h-[250px]">
                         <StaticImage
+                            src="../images/team/Turnkey-Solar-Wilfried-Nkoulou.jpeg"
+                            alt="Wilfried Nkoulou von Turn Key Solar GmbH"
+                            placeholder="blurred"
+                            layout="constrained"
+                            width={250}
+                            quality={90}
+                            imgStyle={{ 'object-position': 'right center' }}
+                            objectFit="cover"
+                            class="w-full posistion"
+                        />
+                    </div>
+                    <div className="name text-center py-5">
+                        <div className="font-bold text-lg">Wilfried Nkoulou </div>
+                        <div className="italic text-gray-400">Projektleiter</div>
+                        <div className="mt-2">
+                            <a href="tel:+4952549478564">T: +49 5254 94785 64</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div className="flex flex-wrap gap-20 justify-center mb-20">
+                <div className="person">
+                    <div className="image overflow-hidden rounded-full max-w-[250px] max-h-[250px]">
+                        <StaticImage
                             src="../images/team/Turnkey-Solar-Daniel-Marks.jpg"
                             alt="Daniel Marks von Turn Key Solar GmbH"
                             placeholder="blurred"
@@ -170,8 +194,6 @@ export default function Projektentwicklung({ data }) {
                         </div>
                     </div>
                 </div>
-            </div>
-            <div className="flex flex-wrap gap-20 justify-center mb-20">
                 <div className="person">
                     <div className="image overflow-hidden rounded-full max-w-[250px] max-h-[250px]">
                         <StaticImage
@@ -188,28 +210,6 @@ export default function Projektentwicklung({ data }) {
                     </div>
                     <div className="name text-center py-5">
                         <div className="font-bold text-lg">Petro Fotiuk</div>
-                        <div className="italic text-gray-400">Leiter Wartung</div>
-                        <div className="mt-2">
-                            <a href="tel:+4952549478564">T: +49 5254 94785 64</a>
-                        </div>
-                    </div>
-                </div>
-                <div className="person">
-                    <div className="image overflow-hidden rounded-full max-w-[250px] max-h-[250px]">
-                        <StaticImage
-                            src="../images/team/Turnkey-Solar-Wilfried-Nkoulou.jpeg"
-                            alt="Wilfried Nkoulou von Turn Key Solar GmbH"
-                            placeholder="blurred"
-                            layout="constrained"
-                            width={250}
-                            quality={90}
-                            imgStyle={{ 'object-position': 'right center' }}
-                            objectFit="cover"
-                            class="w-full posistion"
-                        />
-                    </div>
-                    <div className="name text-center py-5">
-                        <div className="font-bold text-lg">Wilfried Nkoulou </div>
                         <div className="italic text-gray-400">Leiter Wartung</div>
                         <div className="mt-2">
                             <a href="tel:+4952549478564">T: +49 5254 94785 64</a>
